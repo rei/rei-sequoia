@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<h4 class="heading-hero">$1</h4>]]></content>
+  <tabTrigger>heading-hero-h4</tabTrigger>
+  <description>h4</description>
+  <scope>text.html</scope>
+</snippet>

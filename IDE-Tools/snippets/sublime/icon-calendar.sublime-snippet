@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-calendar" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-calendar</tabTrigger>
+  <description>Calendar</description>
+  <scope>text.html</scope>
+</snippet>

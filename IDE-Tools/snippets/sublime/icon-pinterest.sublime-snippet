@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-social-pinterest" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-pinterest</tabTrigger>
+  <description>Pinterest</description>
+  <scope>text.html</scope>
+</snippet>

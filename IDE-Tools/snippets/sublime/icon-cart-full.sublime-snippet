@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-cart" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-cart-full</tabTrigger>
+  <description>Cart-Full</description>
+  <scope>text.html</scope>
+</snippet>

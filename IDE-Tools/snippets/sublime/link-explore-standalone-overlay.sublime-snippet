@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<a class="link_stag-explore-overlay" href="$1">
+  $2<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+</a>]]></content>
+  <tabTrigger>link-explore-standalone-overlay</tabTrigger>
+  <description>Standalone-Overlay</description>
+  <scope>text.html</scope>
+</snippet>

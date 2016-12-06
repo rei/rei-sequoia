@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-chat" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-chat</tabTrigger>
+  <description>Chat</description>
+  <scope>text.html</scope>
+</snippet>

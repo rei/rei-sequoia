@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<button type="button" class="btn btn-explore btn-primary ${1:btn-sm} ${2:btn-xs} ${3:btn-block} ${4:btn-fixed}">
+    $5<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+</button>]]></content>
+  <tabTrigger>button-explore-primary</tabTrigger>
+  <description>Primary</description>
+  <scope>text.html</scope>
+</snippet>

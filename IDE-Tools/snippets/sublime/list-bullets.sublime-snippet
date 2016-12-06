@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ul class="list-decoration">
+  <li>$1</li>
+</ul>]]></content>
+  <tabTrigger>list-bullets</tabTrigger>
+  <description>Bullets</description>
+  <scope>text.html</scope>
+</snippet>

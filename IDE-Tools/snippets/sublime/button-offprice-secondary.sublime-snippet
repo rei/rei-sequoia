@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<button type="button" class="btn btn-off-price btn-default ${1:btn-sm} ${2:btn-xs} ${3:btn-block} ${4:btn-fixed}">$5</button>]]></content>
+  <tabTrigger>button-offprice-secondary</tabTrigger>
+  <description>Secondary</description>
+  <scope>text.html</scope>
+</snippet>

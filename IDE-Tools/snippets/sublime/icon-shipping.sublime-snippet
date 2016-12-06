@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-shipping" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-shipping</tabTrigger>
+  <description>Shipping</description>
+  <scope>text.html</scope>
+</snippet>

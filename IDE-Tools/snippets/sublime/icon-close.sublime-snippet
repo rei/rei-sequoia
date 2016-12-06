@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-close" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-close</tabTrigger>
+  <description>Close</description>
+  <scope>text.html</scope>
+</snippet>

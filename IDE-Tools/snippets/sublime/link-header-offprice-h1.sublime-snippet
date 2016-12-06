@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[<h1>
+  <a href="$1" class="link_header-off-price text-icon-right-arrow">
+    $2<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+  </a>
+</h1>]]></content>
+  <tabTrigger>link-header-offprice-h1</tabTrigger>
+  <description>h1</description>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<div class="shape-mountain"></div>]]></content>
+  <tabTrigger>image-mountain</tabTrigger>
+  <description>Mountain</description>
+  <scope>text.html</scope>
+</snippet>

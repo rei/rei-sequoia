@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<img src="$1" class="img-circle" alt="$2">]]></content>
+  <tabTrigger>image-circle</tabTrigger>
+  <description>Circle</description>
+  <scope>text.html</scope>
+</snippet>

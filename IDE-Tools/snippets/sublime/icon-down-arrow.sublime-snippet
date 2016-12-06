@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-down-arrow" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-down-arrow</tabTrigger>
+  <description>Down-Arrow</description>
+  <scope>text.html</scope>
+</snippet>

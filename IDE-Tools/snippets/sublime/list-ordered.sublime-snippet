@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ol class="list-text-ordered">
+  <li>$1</li>
+</ol>]]></content>
+  <tabTrigger>list-ordered</tabTrigger>
+  <description>Ordered</description>
+  <scope>text.html</scope>
+</snippet>

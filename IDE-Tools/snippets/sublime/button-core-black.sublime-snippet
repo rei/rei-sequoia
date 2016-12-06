@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<button type="button" class="btn btn-primary btn-contrast ${1:btn-sm} ${2:btn-xs} ${3:btn-block} ${4:btn-fixed}">$5</button>]]></content>
+  <tabTrigger>button-core-black</tabTrigger>
+  <description>Black</description>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-location" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-locator</tabTrigger>
+  <description>Locator</description>
+  <scope>text.html</scope>
+</snippet>

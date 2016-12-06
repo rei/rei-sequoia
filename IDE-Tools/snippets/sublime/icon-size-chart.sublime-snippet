@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-size-chart" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-size-chart</tabTrigger>
+  <description>Size-Chart</description>
+  <scope>text.html</scope>
+</snippet>

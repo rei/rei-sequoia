@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-devices" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-devices</tabTrigger>
+  <description>Devices</description>
+  <scope>text.html</scope>
+</snippet>

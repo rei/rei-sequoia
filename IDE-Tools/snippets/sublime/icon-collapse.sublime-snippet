@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-collapse" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-collapse</tabTrigger>
+  <description>Collapse</description>
+  <scope>text.html</scope>
+</snippet>

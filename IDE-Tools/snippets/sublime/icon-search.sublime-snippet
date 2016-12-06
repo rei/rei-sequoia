@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-search" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-search</tabTrigger>
+  <description>Search</description>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-backorder" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-backorder</tabTrigger>
+  <description>Backorder</description>
+  <scope>text.html</scope>
+</snippet>

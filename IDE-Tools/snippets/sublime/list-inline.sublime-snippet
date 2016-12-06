@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ol class="list-inline">
+  <li>$1</li>
+</ol>]]></content>
+  <tabTrigger>list-inline</tabTrigger>
+  <description>Inline</description>
+  <scope>text.html</scope>
+</snippet>

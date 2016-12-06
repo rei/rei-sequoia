@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<a class="link-off-price-standalone-overlay" href="$1">$2</a>]]></content>
+  <tabTrigger>link-offprice-standalone-overlay</tabTrigger>
+  <description>Standalone-Overlay</description>
+  <scope>text.html</scope>
+</snippet>

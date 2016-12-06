@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<img src="$1" class="img-responsive" alt="$2">]]></content>
+  <tabTrigger>image-responsive</tabTrigger>
+  <description>Responsive</description>
+  <scope>text.html</scope>
+</snippet>

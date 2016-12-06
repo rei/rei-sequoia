@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<img src="$1" class="img-rounded" alt="$2">]]></content>
+  <tabTrigger>image-rounded</tabTrigger>
+  <description>Rounded</description>
+  <scope>text.html</scope>
+</snippet>

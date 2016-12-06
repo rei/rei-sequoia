@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-social-youtube" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-youtube</tabTrigger>
+  <description>Youtube</description>
+  <scope>text.html</scope>
+</snippet>

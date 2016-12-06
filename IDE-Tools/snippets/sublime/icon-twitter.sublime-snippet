@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<span class="icon icon-rei-social-twitter" aria-hidden="true"></span>]]></content>
+  <tabTrigger>icon-twitter</tabTrigger>
+  <description>Twitter</description>
+  <scope>text.html</scope>
+</snippet>

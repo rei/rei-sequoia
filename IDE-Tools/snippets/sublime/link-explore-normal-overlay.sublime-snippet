@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<a class="link-explore-overlay" href="$1">$2</a>]]></content>
+  <tabTrigger>link-explore-normal-overlay</tabTrigger>
+  <description>Normal-Overlay</description>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<a class="link_navigation" href="$1">$2</a>]]></content>
+  <tabTrigger>link-navigation-normal</tabTrigger>
+  <description>Normal</description>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ol class="list-inline list-inline-md">
+  <li>$1</li>
+</ol>]]></content>
+  <tabTrigger>list-inline-padding</tabTrigger>
+  <description>Inline-Padding</description>
+  <scope>text.html</scope>
+</snippet>

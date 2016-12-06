@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<ul class="list-text">
+  <li>$1</li>
+</ul>]]></content>
+  <tabTrigger>list-unstyled</tabTrigger>
+  <description>Unstyled</description>
+  <scope>text.html</scope>
+</snippet>
