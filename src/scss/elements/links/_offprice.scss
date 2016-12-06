@@ -1,0 +1,70 @@
+//           /$$$$$$   /$$$$$$   /$$$$$$                    /$$
+//          /$$__  $$ /$$__  $$ /$$__  $$                  |__/
+//         | $$  \ $$| $$  \__/| $$  \__//$$$$$$   /$$$$$$  /$$  /$$$$$$$  /$$$$$$
+//         | $$  | $$| $$$$    | $$$$   /$$__  $$ /$$__  $$| $$ /$$_____/ /$$__  $$
+//         | $$  | $$| $$_/    | $$_/  | $$  \ $$| $$  \__/| $$| $$      | $$$$$$$$
+//         | $$  | $$| $$      | $$    | $$  | $$| $$      | $$| $$      | $$_____/
+//         |  $$$$$$/| $$      | $$    | $$$$$$$/| $$      | $$|  $$$$$$$|  $$$$$$$
+//   /$$$$$$\______/ |__/      |__/    | $$____/ |__/      |__/ \_______/ \_______/
+//  |______/                           | $$
+//                                     | $$
+//                                     |__/
+
+/**
+* @section Offprice
+* @sectionof Link
+*/
+
+/**
+* @section Normal
+* @sectionof Link.Offprice
+*
+* @example
+* <a class="link-off-price" href="">Offprice</a>
+*
+* @snippet
+* <a class="link-off-price" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Normal-Overlay
+* @sectionof Link.Offprice
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-off-price-overlay" href="">Offprice Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-off-price-overlay" href="">Offprice Overlay</a>
+*
+* @snippet
+* <a class="link-off-price-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone
+* @sectionof Link.Offprice
+*
+* @example
+* <a class="link-off-price-standalone" href="">Standalone Offprice</a>
+*
+* @snippet
+* <a class="link-off-price-standalone" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Offprice
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
+* </div>
+*
+* @code
+* <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
+*
+* @snippet
+* <a class="link-off-price-standalone-overlay" href="{$href}">{$end}</a>
+*/

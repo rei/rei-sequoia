@@ -1,0 +1,2132 @@
+/**
+* @section Heading
+*/
+/**
+* @section Core
+* @sectionof Heading
+*/
+/**
+* @section h1
+* @sectionof Heading.Core
+*
+* @example
+* <h1 class="header">Core h1</h1>
+*
+* @snippet
+* <h1 class="header">{$end}</h1>
+*/
+/**
+* @section h2
+* @sectionof Heading.Core
+*
+* @example
+* <h2 class="header">Core h2</h2>
+*
+* @snippet
+* <h2 class="header">{$end}</h2>
+*/
+/**
+* @section h3
+* @sectionof Heading.Core
+*
+* @example
+* <h3 class="header">Core h3</h3>
+*
+* @snippet
+* <h3 class="header">{$end}</h3>
+*/
+/**
+* @section h4
+* @sectionof Heading.Core
+*
+* @example
+* <h4 class="header">Core h4</h4>
+*
+* @snippet
+* <h4 class="header">{$end}</h4>
+*/
+/**
+* @section h5
+* @sectionof Heading.Core
+*
+* @example
+* <h5 class="header">Core h5</h5>
+*
+* @snippet
+* <h5 class="header">{$end}</h5>
+*/
+/**
+* @section h6
+* @sectionof Heading.Core
+*
+* @example
+* <h6 class="header">Core h6</h6>
+*
+* @snippet
+* <h6 class="header">{$end}</h6>
+*/
+/**
+* @section Explore
+* @sectionof Heading
+*/
+/**
+* @section h1
+* @sectionof Heading.Explore
+*
+* @example
+* <h1 class="heading-editorial">Explore h1</h1>
+*
+* @snippet
+* <h1 class="heading-editorial">{$end}</h1>
+*/
+/**
+* @section h2
+* @sectionof Heading.Explore
+*
+* @example
+* <h2 class="heading-editorial">Explore h2</h2>
+*
+* @snippet
+* <h2 class="heading-editorial">{$end}</h2>
+*/
+/**
+* @section h3
+* @sectionof Heading.Explore
+*
+* @example
+* <h3 class="heading-editorial">Explore h3</h3>
+*
+* @snippet
+* <h3 class="heading-editorial">{$end}</h3>
+*/
+/**
+* @section h4
+* @sectionof Heading.Explore
+*
+* @example
+* <h4 class="heading-editorial">Explore h4</h4>
+*
+* @snippet
+* <h4 class="heading-editorial">{$end}</h4>
+*/
+/**
+* @section h5
+* @sectionof Heading.Explore
+*
+* @example
+* <h5 class="heading-editorial">Explore h5</h5>
+*
+* @snippet
+* <h5 class="heading-editorial">{$end}</h5>
+*/
+/**
+* @section h6
+* @sectionof Heading.Explore
+*
+* @example
+* <h6 class="heading-editorial">Explore h6</h6>
+*
+* @snippet
+* <h6 class="heading-editorial">{$end}</h6>
+*/
+/**
+* @section Hero
+* @sectionof Heading
+*/
+/**
+* @section h1
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h1 class="heading-hero">Hero h1</h1>
+* </div>
+*
+* @code
+* <h1 class="heading-hero">Hero h1</h1>
+*
+* @snippet
+* <h1 class="heading-hero">{$end}</h1>
+*/
+/**
+* @section h2
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h2 class="heading-hero">Hero h2</h2>
+* </div>
+*
+* @code
+* <h2 class="heading-hero">Hero h2</h2>
+*
+* @snippet
+* <h2 class="heading-hero">{$end}</h2>
+*/
+/**
+* @section h3
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h3 class="heading-hero">Hero h3</h3>
+* </div>
+*
+* @code
+* <h3 class="heading-hero">Hero h3</h3>
+*
+* @snippet
+* <h3 class="heading-hero">{$end}</h3>
+*/
+/**
+* @section h4
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h4 class="heading-hero">Hero h4</h4>
+* </div>
+*
+* @code
+* <h4 class="heading-hero">Hero h4</h4>
+*
+* @snippet
+* <h4 class="heading-hero">{$end}</h4>
+*/
+/**
+* @section h5
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h5 class="heading-hero">Hero h5</h5>
+* </div>
+*
+* @code
+* <h5 class="heading-hero">Hero h5</h5>
+*
+* @snippet
+* <h5 class="heading-hero">{$end}</h5>
+*/
+/**
+* @section h6
+* @sectionof Heading.Hero
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h6 class="heading-hero">Hero h6</h6>
+* </div>
+*
+* @code
+* <h6 class="heading-hero">Hero h6</h6>
+*
+* @snippet
+* <h6 class="heading-hero">{$end}</h6>
+*/
+/**
+* @section Announce
+* @sectionof Heading
+*/
+/**
+* @section h1
+* @sectionof Heading.Announce
+*
+* @example
+* <h1 class="heading-announce">Announce h1</h1>
+*
+* @snippet
+* <h1 class="heading-announce">{$end}</h1>
+*/
+/**
+* @section h2
+* @sectionof Heading.Announce
+*
+* @example
+* <h2 class="heading-announce">Announce h2</h2>
+*
+* @snippet
+* <h2 class="heading-announce">{$end}</h2>
+*/
+/**
+* @section h3
+* @sectionof Heading.Announce
+*
+* @example
+* <h3 class="heading-announce">Announce h3</h3>
+*
+* @snippet
+* <h3 class="heading-announce">{$end}</h3>
+*/
+/**
+* @section h4
+* @sectionof Heading.Announce
+*
+* @example
+* <h4 class="heading-announce">Announce h4</h4>
+*
+* @snippet
+* <h4 class="heading-announce">{$end}</h4>
+*/
+/**
+* @section h5
+* @sectionof Heading.Announce
+*
+* @example
+* <h5 class="heading-announce">Announce h5</h5>
+*
+* @snippet
+* <h5 class="heading-announce">{$end}</h5>
+*/
+/**
+* @section h6
+* @sectionof Heading.Announce
+*
+* @example
+* <h6 class="heading-announce">Announce h6</h6>
+*
+* @snippet
+* <h6 class="heading-announce">{$end}</h6>
+*/
+/**
+* @section Label
+* @sectionof Heading
+*/
+/**
+* @section h1
+* @sectionof Heading.Label
+*
+* @example
+* <h1 class="label-classification">Label h1</h1>
+*
+* @snippet
+* <h1 class="label-classification">{$end}</h1>
+*/
+/**
+* @section h2
+* @sectionof Heading.Label
+*
+* @example
+* <h2 class="label-classification">Label h2</h2>
+*
+* @snippet
+* <h2 class="label-classification">{$end}</h2>
+*/
+/**
+* @section h3
+* @sectionof Heading.Label
+*
+* @example
+* <h3 class="label-classification">Label h3</h3>
+*
+* @snippet
+* <h3 class="label-classification">{$end}</h3>
+*/
+/**
+* @section h4
+* @sectionof Heading.Label
+*
+* @example
+* <h4 class="label-classification">Label h4</h4>
+*
+* @snippet
+* <h4 class="label-classification">{$end}</h4>
+*/
+/**
+* @section h5
+* @sectionof Heading.Label
+*
+* @example
+* <h5 class="label-classification">Label h5</h5>
+*
+* @snippet
+* <h5 class="label-classification">{$end}</h5>
+*/
+/**
+* @section h6
+* @sectionof Heading.Label
+*
+* @example
+* <h6 class="label-classification">Label h6</h6>
+*
+* @snippet
+* <h6 class="label-classification">{$end}</h6>
+*/
+/**
+ * @section Button
+ *
+ * @modifier {btn-sm} sm - Button
+ * @modifier {btn-xs} xs - Button
+ * @modifier {btn-block} block - Button
+ * @modifier {btn-fixed} fixed - Button
+ */
+/**
+ * @section Core
+ * @sectionof Button
+ */
+/**
+ * @section Primary
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-primary">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-primary {$modifiers}">{$end}</button>
+ */
+/**
+ * @section Secondary
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-default">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-default {$modifiers}">{$end}</button>
+ */
+/**
+ * @section Black
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-primary btn-contrast">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-primary btn-contrast {$modifiers}">{$end}</button>
+ */
+/**
+ * @section White
+ * @sectionof Button.Core
+ *
+ * @example
+ * <div class="well overlay-dark-2"><button type="button" class="btn btn-default btn-contrast">Core</button></div>
+ *
+ * @code
+ * <button type="button" class="btn btn-default btn-contrast">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-default btn-contrast {$modifiers}">{$end}</button>
+ */
+/**
+ * Explore
+ * @section
+ * @sectionof Button
+ */
+/**
+ * @section Primary
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-explore btn-primary">
+ *   Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-explore btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+/**
+ * @section Secondary
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-explore btn-default">
+ *   Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-explore btn-default {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+/**
+ * @section Black
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-contrast btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-contrast btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+/**
+ * @section White
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <div class="well overlay-dark-2">
+ * <button type="button" class="btn btn-contrast btn-default">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ * </div>
+ *
+ * @code
+ * <button type="button" class="btn btn-contrast btn-default">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-contrast btn-default {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+/**
+ * @section Outline
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <div class="well overlay-dark-2">
+ * <button type="button" class="btn btn-outline-alternate btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ * </div>
+ *
+ * @code
+ * <button type="button" class="btn btn-outline-alternate btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-outline-alternate btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+/**
+ * @section Offprice
+ * @sectionof Button
+ */
+/**
+ * @section Primary
+ * @sectionof Button.Offprice
+ *
+ * @example
+ * <button type="button" class="btn btn-off-price btn-primary">Offprice</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-off-price btn-primary {$modifiers}">{$end}</button>
+ */
+/**
+ * @section Secondary
+ * @sectionof Button.Offprice
+ *
+ * @example
+ * <button type="button" class="btn btn-off-price btn-default">Offprice</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$end}</button>
+ */
+/**
+* @section Link
+*/
+/**
+* @section Core
+* @sectionof Link
+*/
+/**
+* @section Normal
+* @sectionof Link.Core
+*
+* @example
+* <a class="link-body" href="">Normal</a>
+*
+* @snippet
+* <a class="link-body" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay-Contrast
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-contrast-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-contrast-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link-contrast-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone
+* @sectionof Link.Core
+*
+* @example
+* <a class="link_stag" href="">Standalone</a>
+*
+* @snippet
+* <a class="link_stag" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Text
+* @sectionof Link.Core
+*
+* @example
+* <a href="">Standalone-Text</a>
+*
+* @snippet
+* <a href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Title
+* @sectionof Link.Core
+*
+* @example
+* <a class="link_stag-title" href="">Standalone-Title</a>
+*
+* @snippet
+* <a class="link_stag-title" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-overlay" href="">Standalone-Overlay</a>
+* </div>
+*
+* @code
+* <a class="link_stag-overlay" href="">Standalone-Overlay</a>
+*
+* @snippet
+* <a class="link_stag-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Overlay-Text
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
+* </div>
+*
+* @code
+* <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
+*
+* @snippet
+* <a class="link_stag-overlay-body" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Overlay-Title
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
+* </div>
+*
+* @code
+* <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
+*
+* @snippet
+* <a class="link_stag-title-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Explore
+* @sectionof Link
+*/
+/**
+* @section Normal
+* @sectionof Link.Explore
+*
+* @example
+* <a class="link-explore" href="">Explore</a>
+*
+* @snippet
+* <a class="link-explore" href="{$href}">{$end}</a>
+*/
+/**
+* @section Normal-Overlay
+* @sectionof Link.Explore
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-explore-overlay" href="">Explore Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-explore-overlay" href="">Explore Overlay</a>
+*
+* @snippet
+* <a class="link-explore-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone
+* @sectionof Link.Explore
+*
+* @example
+* <a class="link_stag-explore" href="#">
+*   Explore Standalone<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*
+* @snippet
+* <a class="link_stag-explore" href="{$href}">
+*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*/
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Explore
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-explore-overlay" href="#">
+*     Explore Standalone Overlay<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+*   </a>
+* </div>
+*
+* @code
+* <a class="link_stag-explore-overlay" href="#">
+*   Explore Standalone Overlay<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*
+* @snippet
+* <a class="link_stag-explore-overlay" href="{$href}">
+*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*/
+/**
+* @section Offprice
+* @sectionof Link
+*/
+/**
+* @section Normal
+* @sectionof Link.Offprice
+*
+* @example
+* <a class="link-off-price" href="">Offprice</a>
+*
+* @snippet
+* <a class="link-off-price" href="{$href}">{$end}</a>
+*/
+/**
+* @section Normal-Overlay
+* @sectionof Link.Offprice
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-off-price-overlay" href="">Offprice Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-off-price-overlay" href="">Offprice Overlay</a>
+*
+* @snippet
+* <a class="link-off-price-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone
+* @sectionof Link.Offprice
+*
+* @example
+* <a class="link-off-price-standalone" href="">Standalone Offprice</a>
+*
+* @snippet
+* <a class="link-off-price-standalone" href="{$href}">{$end}</a>
+*/
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Offprice
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
+* </div>
+*
+* @code
+* <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
+*
+* @snippet
+* <a class="link-off-price-standalone-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Header-Core
+* @sectionof Link
+*/
+/**
+* @section h1
+* @sectionof Link.Header-Core
+*
+* @example
+* <h1>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h1>
+*
+* @snippet
+* <h1>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h1>
+*/
+/**
+* @section h2
+* @sectionof Link.Header-Core
+*
+* @example
+* <h2>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h2>
+*
+* @snippet
+* <h2>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h2>
+*/
+/**
+* @section h3
+* @sectionof Link.Header-Core
+*
+* @example
+* <h3>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h3>
+*
+* @snippet
+* <h3>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h3>
+*/
+/**
+* @section h4
+* @sectionof Link.Header-Core
+*
+* @example
+* <h4>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h4>
+*
+* @snippet
+* <h4>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h4>
+*/
+/**
+* @section h5
+* @sectionof Link.Header-Core
+*
+* @example
+* <h5>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h5>
+*
+* @snippet
+* <h5>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h5>
+*/
+/**
+* @section h6
+* @sectionof Link.Header-Core
+*
+* @example
+* <h6>
+*   <a href="#" class="link_header text-icon-right-arrow">
+*     h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h6>
+*
+* @snippet
+* <h6>
+*   <a href="{$href}" class="link_header text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h6>
+*/
+/**
+* @section Header-Explore
+* @sectionof Link
+*/
+/**
+* @section h1
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h1>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h1>
+*
+* @snippet
+* <h1>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h1>
+*/
+/**
+* @section h2
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h2>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h2>
+*
+* @snippet
+* <h2>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h2>
+*/
+/**
+* @section h3
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h3>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h3>
+*
+* @snippet
+* <h3>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h3>
+*/
+/**
+* @section h4
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h4>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h4>
+*
+* @snippet
+* <h4>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h4>
+*/
+/**
+* @section h5
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h5>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h5>
+*
+* @snippet
+* <h5>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h5>
+*/
+/**
+* @section h6
+* @sectionof Link.Header-Explore
+*
+* @example
+* <h6>
+*   <a href="#" class="link_header-explore text-icon-right-arrow">
+*     h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h6>
+*
+* @snippet
+* <h6>
+*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h6>
+*/
+/**
+* @section Header-Offprice
+* @sectionof Link
+*/
+/**
+* @section h1
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h1>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h1>
+*
+* @snippet
+* <h1>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h1>
+*/
+/**
+* @section h2
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h2>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h2>
+*
+* @snippet
+* <h2>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h2>
+*/
+/**
+* @section h3
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h3>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h3>
+*
+* @snippet
+* <h3>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h3>
+*/
+/**
+* @section h4
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h4>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h4>
+*
+* @snippet
+* <h4>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h4>
+*/
+/**
+* @section h5
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h5>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h5>
+*
+* @snippet
+* <h5>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h5>
+*/
+/**
+* @section h6
+* @sectionof Link.Header-Offprice
+*
+* @example
+* <h6>
+*   <a href="#" class="link_header-off-price text-icon-right-arrow">
+*     h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h6>
+*
+* @snippet
+* <h6>
+*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h6>
+*/
+/**
+* @section Header-Overlay
+* @sectionof Link
+*/
+/**
+* @section h1
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h1>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h1>
+* </div>
+*
+* @code
+* <h1>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h1>
+*
+* @snippet
+* <h1>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h1>
+*/
+/**
+* @section h2
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h2>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h2>
+* </div>
+*
+* @code
+* <h2>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h2>
+*
+* @snippet
+* <h2>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h2>
+*/
+/**
+* @section h3
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h3>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h3>
+* </div>
+*
+* @code
+* <h3>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h3>
+*
+* @snippet
+* <h3>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h3>
+*/
+/**
+* @section h4
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h4>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h4>
+* </div>
+*
+* @code
+* <h4>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h4>
+*
+* @snippet
+* <h4>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h4>
+*/
+/**
+* @section h5
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h5>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h5>
+* </div>
+*
+* @code
+* <h5>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h5>
+*
+* @snippet
+* <h5>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h5>
+*/
+/**
+* @section h6
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h6>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h6>
+* </div>
+*
+* @code
+* <h6>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h6>
+*
+* @snippet
+* <h6>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h6>
+*/
+/**
+* @section Navigation
+* @sectionof Link
+*/
+/**
+* @section Normal
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link_navigation" href="">Normal</a>
+*
+* @snippet
+* <a class="link_navigation" href="{$href}">{$end}</a>
+*/
+/**
+* @section Title
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link_navigation-title" href="">Title</a>
+*
+* @snippet
+* <a class="link_navigation-title" href="{$href}">{$end}</a>
+*/
+/**
+* @section Utility
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link-utility" href="">Utility</a>
+*
+* @snippet
+* <a class="link-utility" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_navigation-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link_navigation-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link_navigation-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay-Title
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
+* </div>
+*
+* @code
+* <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
+*
+* @snippet
+* <a class="link_navigation-title-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay-Utility
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-utility-overlay" href="">Overlay-Utility</a>
+* </div>
+*
+* @code
+* <a class="link-utility-overlay" href="">Overlay-Utility</a>
+*
+* @snippet
+* <a class="link-utility-overlay" href="{$href}">{$end}</a>
+*/
+/**
+* @section Overlay-Sub-Navigation
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
+* </div>
+*
+* @code
+* <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
+*
+* @snippet
+* <a class="link-sub-navigation" href="{$href}">{$end}</a>
+*/
+/**
+* @section List
+*/
+/**
+* @section Unstyled
+* @sectionof List
+*
+* @example
+* <ul class="list-text">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ul>
+*
+* @snippet
+* <ul class="list-text">
+*   <li>{$end}</li>
+* </ul>
+*/
+/**
+* @section Bullets
+* @sectionof List
+*
+* @example
+* <ul class="list-decoration">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ul>
+*
+* @snippet
+* <ul class="list-decoration">
+*   <li>{$end}</li>
+* </ul>
+*/
+/**
+* @section Ordered
+* @sectionof List
+*
+* @example
+* <ol class="list-text-ordered">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-text-ordered">
+*   <li>{$end}</li>
+* </ol>
+*/
+/**
+* @section Inline
+* @sectionof List
+*
+* @example
+* <ol class="list-inline">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline">
+*   <li>{$end}</li>
+* </ol>
+*/
+/**
+* @section Inline-Padding
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-md">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-md">
+*   <li>{$end}</li>
+* </ol>
+*/
+/**
+* @section Inline-Padding-Lg
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-lg">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-lg">
+*   <li>{$end}</li>
+* </ol>
+*/
+/**
+* @section Inline-Pipe
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-md list-inline-pipe">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-md list-inline-pipe">
+*   <li>{$end}</li>
+* </ol>
+*/
+/**
+* @section Inline-Feature-Link
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-lg use_link-stag-explore">
+*   <li><a href="">Link 1</a></li>
+*   <li><a href="">Link 2</a></li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-lg use_link-stag-explore">
+*   <li><a href="{$href}">{$end}</a></li>
+* </ol>
+*/
+/**
+* @section Input
+*/
+/**
+* @section Text
+* @sectionof Input
+*
+* @example
+* <form>
+*   <input type="text" class="form-control" placeholder="Text input">
+* </form>
+*
+* @snippet
+* <input type="text" class="form-control" placeholder="{$end}">
+*/
+/**
+* @section Textarea
+* @sectionof Input
+*
+* @example
+* <form>
+*   <textarea class="form-control" rows="3" placeholder="Textarea"></textarea>
+* </form>
+*
+* @snippet
+* <textarea class="form-control" rows="3" placeholder="{$end}"></textarea>
+*/
+/**
+ * @section Checkbox
+ * @sectionof Input
+ *
+ * @example
+ * <div class="checkbox">
+ *    <input type="checkbox" id="checkboxTest" value="">
+ *    <label for="checkboxTest">Checkbox</label>
+ * </div>
+ *
+ * @code
+ * <div class="checkbox">
+ *    <input type="checkbox" value="" id="">
+ *    <label for="">Checkbox</label>
+ * </div>
+ *
+ * @snippet
+ * <div class="checkbox">
+ *    <input type="checkbox" id="{$for}" value="{$val}">
+ *    <label for="{$for}">{$end}</label>
+ * </div>
+ */
+/**
+ * @section Radio
+ * @sectionof Input
+ *
+ * @example
+ * <div class="radio">
+ *    <input type="radio" id="radioTest" value="" name="radioExample">
+ *    <label for="radioTest">Radio</label>
+ * </div>
+ *
+ * @code
+ * <div class="radio">
+ *    <input type="radio" name="" value="" id="">
+ *    <label for="">Radio</label>
+ * </div>
+ *
+ * @snippet
+ * <div class="radio">
+ *    <input type="radio" id="{$for}" value="{$val}" name="{$name}">
+ *    <label for="{$for}">{$end}</label>
+ * </div>
+ */
+/**
+* @section Icon
+*/
+/**
+* @section Menu
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-hamburger-menu" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-hamburger-menu" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-hamburger-menu" aria-hidden="true"></span>
+*/
+/**
+* @section Cart-Empty
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-cart-empty" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-cart-empty" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-cart-empty" aria-hidden="true"></span>
+*/
+/**
+* @section Cart-Full
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-cart" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-cart" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-cart" aria-hidden="true"></span>
+*/
+/**
+* @section Account
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-profile" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-profile" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-profile" aria-hidden="true"></span>
+*/
+/**
+* @section Search
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-search" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-search" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-search" aria-hidden="true"></span>
+*/
+/**
+* @section Locator
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-location" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-location" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-location" aria-hidden="true"></span>
+*/
+/**
+* @section Devices
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-devices" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-devices" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-devices" aria-hidden="true"></span>
+*/
+/**
+* @section Email
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-email" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-email" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-email" aria-hidden="true"></span>
+*/
+/**
+* @section Call
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-call" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-call" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-call" aria-hidden="true"></span>
+*/
+/**
+* @section Chat
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-chat" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-chat" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-chat" aria-hidden="true"></span>
+*/
+/**
+* @section Help
+* @sectionof Icon
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <span class="icon icon-rei-help" aria-hidden="true"></span>
+* </div>
+*
+* @code
+* <span class="icon icon-rei-help" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-help" aria-hidden="true"></span>
+*/
+/**
+* @section Add
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-add" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-add" aria-hidden="true"></span>
+*/
+/**
+* @section Close
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-close" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-close" aria-hidden="true"></span>
+*/
+/**
+* @section Remove
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-close-small" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-close-small" aria-hidden="true"></span>
+*/
+/**
+* @section Up-Arrow
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-up-arrow" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-up-arrow" aria-hidden="true"></span>
+*/
+/**
+* @section Right-Arrow
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*/
+/**
+* @section Down-Arrow
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-down-arrow" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-down-arrow" aria-hidden="true"></span>
+*/
+/**
+* @section Left-Arrow
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-left-arrow" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-left-arrow" aria-hidden="true"></span>
+*/
+/**
+* @section Expand
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-expand" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-expand" aria-hidden="true"></span>
+*/
+/**
+* @section Collapse
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-collapse" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-collapse" aria-hidden="true"></span>
+*/
+/**
+* @section Tree-Arrow
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+*/
+/**
+* @section Inline-Search
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-inline-search" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-inline-search" aria-hidden="true"></span>
+*/
+/**
+* @section Zoom
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-zoom" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-zoom" aria-hidden="true"></span>
+*/
+/**
+* @section Check
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-check" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-check" aria-hidden="true"></span>
+*/
+/**
+* @section External-Link
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-external-link" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-external-link" aria-hidden="true"></span>
+*/
+/**
+* @section Play-Small
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-play-small" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-play-small" aria-hidden="true"></span>
+*/
+/**
+* @section Play-Large
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-play-large" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-play-large" aria-hidden="true"></span>
+*/
+/**
+* @section Size-Chart
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-size-chart" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-size-chart" aria-hidden="true"></span>
+*/
+/**
+* @section Locate
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-target" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-target" aria-hidden="true"></span>
+*/
+/**
+* @section Print
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-print" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-print" aria-hidden="true"></span>
+*/
+/**
+* @section Shipping
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-shipping" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-shipping" aria-hidden="true"></span>
+*/
+/**
+* @section Calendar
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-calendar" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-calendar" aria-hidden="true"></span>
+*/
+/**
+* @section Error
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-error" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-error" aria-hidden="true"></span>
+*/
+/**
+* @section Warning
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-warning" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-warning" aria-hidden="true"></span>
+*/
+/**
+* @section Info
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-info" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-info" aria-hidden="true"></span>
+*/
+/**
+* @section Success
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-success" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-success" aria-hidden="true"></span>
+*/
+/**
+* @section Backorder
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-backorder" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-backorder" aria-hidden="true"></span>
+*/
+/**
+* @section Star-100
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-star-100" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-star-100" aria-hidden="true"></span>
+*/
+/**
+* @section Star-75
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-star-75" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-star-75" aria-hidden="true"></span>
+*/
+/**
+* @section Star-50
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-star-50" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-star-50" aria-hidden="true"></span>
+*/
+/**
+* @section Star-25
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-star-25" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-star-25" aria-hidden="true"></span>
+*/
+/**
+* @section Share
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-share" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-share" aria-hidden="true"></span>
+*/
+/**
+* @section Facebook
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-facebook" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-facebook" aria-hidden="true"></span>
+*/
+/**
+* @section Twitter
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-twitter" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-twitter" aria-hidden="true"></span>
+*/
+/**
+* @section Pinterest
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-pinterest" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-pinterest" aria-hidden="true"></span>
+*/
+/**
+* @section Youtube
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-youtube" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-youtube" aria-hidden="true"></span>
+*/
+/**
+* @section Instagram
+* @sectionof Icon
+*
+* @example
+* <span class="icon icon-rei-social-instagram" aria-hidden="true"></span>
+*
+* @snippet
+* <span class="icon icon-rei-social-instagram" aria-hidden="true"></span>
+*/
+/**
+* @section Image
+*/
+/**
+* @section Responsive
+* @sectionof Image
+*
+* @example
+* <img src="http://placehold.it/350x150" class="img-responsive" alt="Placeholder Image">
+*
+* @snippet
+* <img src="{$src}" class="img-responsive" alt="{$alt}">
+*/
+/**
+* @section Rounded
+* @sectionof Image
+*
+* @example
+* <img src="http://placehold.it/150x150" class="img-rounded" alt="Placeholder Image">
+*
+* @snippet
+* <img src="{$src}" class="img-rounded" alt="{$alt}">
+*/
+/**
+* @section Circle
+* @sectionof Image
+*
+* @example
+* <img src="http://placehold.it/150x150" class="img-circle" alt="Placeholder Image">
+*
+* @snippet
+* <img src="{$src}" class="img-circle" alt="{$alt}">
+*/
+/**
+* @section Thumbnail
+* @sectionof Image
+*
+* @example
+* <img src="http://placehold.it/150x150" class="img-thumbnail" alt="Placeholder Image">
+*
+* @snippet
+* <img src="{$src}" class="img-thumbnail" alt="{$alt}">
+*/
+/**
+* @section Mountain
+* @sectionof Image
+*
+* @example
+* <div class="shape-mountain"></div>
+*
+* @snippet
+* <div class="shape-mountain"></div>
+*/

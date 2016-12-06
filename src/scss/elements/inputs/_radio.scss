@@ -1,0 +1,32 @@
+//   /$$$$$$$                  /$$ /$$
+//  | $$__  $$                | $$|__/
+//  | $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$
+//  | $$$$$$$/ |____  $$ /$$__  $$| $$ /$$__  $$
+//  | $$__  $$  /$$$$$$$| $$  | $$| $$| $$  \ $$
+//  | $$  \ $$ /$$__  $$| $$  | $$| $$| $$  | $$
+//  | $$  | $$|  $$$$$$$|  $$$$$$$| $$|  $$$$$$/
+//  |__/  |__/ \_______/ \_______/|__/ \______/
+//
+
+/**
+ * @section Radio
+ * @sectionof Input
+ *
+ * @example
+ * <div class="radio">
+ *    <input type="radio" id="radioTest" value="" name="radioExample">
+ *    <label for="radioTest">Radio</label>
+ * </div>
+ *
+ * @code
+ * <div class="radio">
+ *    <input type="radio" name="" value="" id="">
+ *    <label for="">Radio</label>
+ * </div>
+ *
+ * @snippet
+ * <div class="radio">
+ *    <input type="radio" id="{$for}" value="{$val}" name="{$name}">
+ *    <label for="{$for}">{$end}</label>
+ * </div>
+ */

@@ -1,0 +1,184 @@
+//           /$$   /$$                           /$$                              /$$$$$$                                /$$
+//          | $$  | $$                          | $$                             /$$__  $$                              | $$
+//          | $$  | $$  /$$$$$$   /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$         | $$  \ $$ /$$    /$$ /$$$$$$   /$$$$$$ | $$  /$$$$$$  /$$   /$$
+//          | $$$$$$$$ /$$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$ /$$$$$$| $$  | $$|  $$  /$$//$$__  $$ /$$__  $$| $$ |____  $$| $$  | $$
+//          | $$__  $$| $$$$$$$$  /$$$$$$$| $$  | $$| $$$$$$$$| $$  \__/|______/| $$  | $$ \  $$/$$/| $$$$$$$$| $$  \__/| $$  /$$$$$$$| $$  | $$
+//          | $$  | $$| $$_____/ /$$__  $$| $$  | $$| $$_____/| $$              | $$  | $$  \  $$$/ | $$_____/| $$      | $$ /$$__  $$| $$  | $$
+//          | $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$              |  $$$$$$/   \  $/  |  $$$$$$$| $$      | $$|  $$$$$$$|  $$$$$$$
+//   /$$$$$$|__/  |__/ \_______/ \_______/ \_______/ \_______/|__/               \______/     \_/    \_______/|__/      |__/ \_______/ \____  $$
+//  |______/                                                                                                                           /$$  | $$
+//                                                                                                                                    |  $$$$$$/
+//                                                                                                                                     \______/
+
+/**
+* @section Header-Overlay
+* @sectionof Link
+*/
+
+/**
+* @section h1
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h1>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h1>
+* </div>
+*
+* @code
+* <h1>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h1 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h1>
+*
+* @snippet
+* <h1>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h1>
+*/
+
+/**
+* @section h2
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h2>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h2>
+* </div>
+*
+* @code
+* <h2>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h2 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h2>
+*
+* @snippet
+* <h2>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h2>
+*/
+
+/**
+* @section h3
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h3>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h3>
+* </div>
+*
+* @code
+* <h3>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h3 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h3>
+*
+* @snippet
+* <h3>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h3>
+*/
+
+/**
+* @section h4
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h4>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h4>
+* </div>
+*
+* @code
+* <h4>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h4 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h4>
+*
+* @snippet
+* <h4>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h4>
+*/
+
+/**
+* @section h5
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h5>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h5>
+* </div>
+*
+* @code
+* <h5>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h5 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h5>
+*
+* @snippet
+* <h5>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h5>
+*/
+
+/**
+* @section h6
+* @sectionof Link.Header-Overlay
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <h6>
+*     <a href="#" class="link_header-overlay text-icon-right-arrow">
+*       h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*      </a>
+*   </h6>
+* </div>
+*
+* @code
+* <h6>
+*   <a href="#" class="link_header-overlay text-icon-right-arrow">
+*     h6 Header Link<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*    </a>
+* </h6>
+*
+* @snippet
+* <h6>
+*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
+*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   </a>
+* </h6>
+*/

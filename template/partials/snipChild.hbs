@@ -1,0 +1,19 @@
+<section class="livingcss__section card-block" id="{{id}}">
+  <div class="tile">
+    <div class="tile-block" data-theme="light-20">
+      <h{{depth}} class="sectionTitle">
+        {{name}} {{#if example}}({{id}}){{/if}}
+      </h{{depth}}>
+    </div>
+
+    {{#if children}}
+    {{#children}}
+    {{~> snipChild}}
+    {{/children}}
+
+    {{else}}
+    {{~> snipSection}}
+    {{/if}}
+
+  </div>
+</section>

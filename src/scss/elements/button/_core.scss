@@ -1,0 +1,63 @@
+//           /$$$$$$
+//          /$$__  $$
+//         | $$  \__/  /$$$$$$   /$$$$$$   /$$$$$$
+//         | $$       /$$__  $$ /$$__  $$ /$$__  $$
+//         | $$      | $$  \ $$| $$  \__/| $$$$$$$$
+//         | $$    $$| $$  | $$| $$      | $$_____/
+//         |  $$$$$$/|  $$$$$$/| $$      |  $$$$$$$
+//   /$$$$$$\______/  \______/ |__/       \_______/
+//  |______/
+//
+
+/**
+ * @section Core
+ * @sectionof Button
+ */
+
+
+/**
+ * @section Primary
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-primary">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-primary {$modifiers}">{$end}</button>
+ */
+
+/**
+ * @section Secondary
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-default">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-default {$modifiers}">{$end}</button>
+ */
+
+/**
+ * @section Black
+ * @sectionof Button.Core
+ *
+ * @example
+ * <button type="button" class="btn btn-primary btn-contrast">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-primary btn-contrast {$modifiers}">{$end}</button>
+ */
+
+/**
+ * @section White
+ * @sectionof Button.Core
+ *
+ * @example
+ * <div class="well overlay-dark-2"><button type="button" class="btn btn-default btn-contrast">Core</button></div>
+ *
+ * @code
+ * <button type="button" class="btn btn-default btn-contrast">Core</button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-default btn-contrast {$modifiers}">{$end}</button>
+ */

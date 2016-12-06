@@ -1,0 +1,132 @@
+<script>
+(function(window, document) {
+  /**
+   * Set the active nav link
+   * @param {Element} link - Link to make active.
+   */
+  function setActiveLink(link) {
+    if (link) {
+      // remove previously active link
+      var activeLink = document.querySelector('.livingcss__nav .livingcss__nav-link--active');
+
+      if (activeLink) {
+        activeLink.classList.remove('livingcss__nav-link--active');
+      }
+
+      link.classList.add('livingcss__nav-link--active');
+    }
+  }
+  function setActivesubLink(link) {
+    if (link) {
+      // remove previously active link
+      var subactiveLink = document.querySelector('.livingcss__subnav .livingcss__nav-sublink--active');
+
+      if (subactiveLink) {
+        subactiveLink.classList.remove('livingcss__nav-sublink--active');
+      }
+
+      link.classList.add('livingcss__nav-sublink--active');
+    }
+  }
+
+  // set active link when
+  var nav = document.querySelector('.livingcss__nav');
+  var subnav = document.querySelector('.livingcss__subnav');
+  var sections = document.querySelectorAll('article.livingcss__article');
+  var slength = sections.length;
+  var subsections = document.querySelectorAll('section.livingcss__section');
+  var subslength = subsections.length;
+  var sectionPositions = [];
+  var subsectionPositions = [];
+
+  // set the current link based on the hash
+  var currentLink = document.querySelector('.livingcss__nav-link[href="' + window.location.hash + '"]');
+  setActiveLink(currentLink);
+  var currentsubLink = document.querySelector('.livingcss__nav-sublink[href="' + window.location.hash + '"]');
+  setActivesubLink(currentsubLink);
+
+  // save section positions for scrolling
+  for (var i = 0; i < slength; i++) {
+    var section = sections[i];
+    var pos = section.getBoundingClientRect().top + window.scrollY -
+      parseInt(getComputedStyle(section).marginTop, 10);
+
+      console.log(getComputedStyle(section).padding);
+      console.log(pos);
+    sectionPositions.push(pos);
+
+  }
+  for (var ii = 0; ii < subslength; ii++) {
+    var subsection = subsections[ii];
+    var subpos = subsection.getBoundingClientRect().top + window.scrollY -
+      parseInt(getComputedStyle(subsection).marginTop, 10) -
+      parseInt(getComputedStyle(subsection).marginBottom, 10) -
+      parseInt(getComputedStyle(subsection).paddingTop, 10) -
+      parseInt(getComputedStyle(section).paddingBottom, 10);
+
+      // console.log(subpos);
+    subsectionPositions.push(subpos);
+  }
+
+  // click link
+  nav.addEventListener('click', function(e) {
+    if (e.target.nodeName === 'A') {
+      setActiveLink(e.target);
+    }
+  });
+  subnav.addEventListener('click', function(e) {
+    if (e.target.nodeName === 'A') {
+      setActivesubLink(e.target);
+    }
+  });
+
+  // move active link and affix sidebar
+  window.addEventListener('scroll', function() {
+    var y = window.scrollY;
+
+    // fix the sidebar nav
+    if (nav.getBoundingClientRect().top <= 0 && y > 50) {
+      nav.classList.add('livingcss__nav--fixed');
+    }
+    else {
+      nav.classList.remove('livingcss__nav--fixed');
+    }
+
+    // window is scrolled to the very bottom so set last section as active
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+      var activeSection = document.querySelector('.livingcss__nav .livingcss__nav-link:last-child');
+      setActiveLink(activeSection);
+      var activesubSection = document.querySelector('.livingcss__subnav .livingcss__subnav-link:last-child');
+      setActivesubLink(activesubSection);
+    }
+    // look for which section is being viewed
+    else {
+      for (var i = 0; i < slength; i++) {
+        if (y >= sectionPositions[i] &&
+            (sectionPositions[i+1] ? y < sectionPositions[i+1] : true)) {
+          var id = sections[i].getAttribute('id');
+          var activeSection = document.querySelector('.livingcss__nav .livingcss__nav-link[href="#'+id+'"]');
+          setActiveLink(activeSection);
+        }
+      }
+      //subnav
+      for (var ii = 0; ii < subslength; ii++) {
+        if (y >= subsectionPositions[ii] &&
+            (sectionPositions[ii+1] ? y < subsectionPositions[ii+1] : true)) {
+          var subid = subsections[ii].getAttribute('id');
+          var activesubSection = document.querySelector('.livingcss__subnav .livingcss__nav-sublink[href="#'+subid+'"]');
+          setActivesubLink(activesubSection);
+        }
+      }
+    }
+  });
+
+  // open mobile drawer
+  var menu = document.querySelector('.livingcss__menu');
+  if (menu) {
+    menu.addEventListener('click', function(e) {
+      document.body.classList.toggle('livingcss__main-nav--open')
+    });
+  }
+})(window, document);
+</script>

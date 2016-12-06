@@ -1,0 +1,139 @@
+//           /$$$$$$
+//          /$$__  $$
+//         | $$  \__/  /$$$$$$   /$$$$$$   /$$$$$$
+//         | $$       /$$__  $$ /$$__  $$ /$$__  $$
+//         | $$      | $$  \ $$| $$  \__/| $$$$$$$$
+//         | $$    $$| $$  | $$| $$      | $$_____/
+//         |  $$$$$$/|  $$$$$$/| $$      |  $$$$$$$
+//   /$$$$$$\______/  \______/ |__/       \_______/
+//  |______/
+//
+
+/**
+* @section Core
+* @sectionof Link
+*/
+
+/**
+* @section Normal
+* @sectionof Link.Core
+*
+* @example
+* <a class="link-body" href="">Normal</a>
+*
+* @snippet
+* <a class="link-body" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay-Contrast
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-contrast-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-contrast-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link-contrast-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone
+* @sectionof Link.Core
+*
+* @example
+* <a class="link_stag" href="">Standalone</a>
+*
+* @snippet
+* <a class="link_stag" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Text
+* @sectionof Link.Core
+*
+* @example
+* <a href="">Standalone-Text</a>
+*
+* @snippet
+* <a href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Title
+* @sectionof Link.Core
+*
+* @example
+* <a class="link_stag-title" href="">Standalone-Title</a>
+*
+* @snippet
+* <a class="link_stag-title" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-overlay" href="">Standalone-Overlay</a>
+* </div>
+*
+* @code
+* <a class="link_stag-overlay" href="">Standalone-Overlay</a>
+*
+* @snippet
+* <a class="link_stag-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Overlay-Text
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
+* </div>
+*
+* @code
+* <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
+*
+* @snippet
+* <a class="link_stag-overlay-body" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone-Overlay-Title
+* @sectionof Link.Core
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
+* </div>
+*
+* @code
+* <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
+*
+* @snippet
+* <a class="link_stag-title-overlay" href="{$href}">{$end}</a>
+*/

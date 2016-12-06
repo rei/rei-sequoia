@@ -1,0 +1,37 @@
+//   /$$$$$$                                 /$$
+//  |_  $$_/                                | $$
+//    | $$   /$$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$
+//    | $$  | $$__  $$ /$$__  $$| $$  | $$|_  $$_/
+//    | $$  | $$  \ $$| $$  \ $$| $$  | $$  | $$
+//    | $$  | $$  | $$| $$  | $$| $$  | $$  | $$ /$$
+//   /$$$$$$| $$  | $$| $$$$$$$/|  $$$$$$/  |  $$$$/
+//  |______/|__/  |__/| $$____/  \______/    \___/
+//                    | $$
+//                    | $$
+//                    |__/
+
+/**
+* @section Text
+* @sectionof Input
+*
+* @example
+* <form>
+*   <input type="text" class="form-control" placeholder="Text input">
+* </form>
+*
+* @snippet
+* <input type="text" class="form-control" placeholder="{$end}">
+*/
+
+/**
+* @section Textarea
+* @sectionof Input
+*
+* @example
+* <form>
+*   <textarea class="form-control" rows="3" placeholder="Textarea"></textarea>
+* </form>
+*
+* @snippet
+* <textarea class="form-control" rows="3" placeholder="{$end}"></textarea>
+*/

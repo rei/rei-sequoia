@@ -1,0 +1,113 @@
+//           /$$   /$$                      /$$                       /$$     /$$
+//          | $$$ | $$                     |__/                      | $$    |__/
+//          | $$$$| $$  /$$$$$$  /$$    /$$ /$$  /$$$$$$   /$$$$$$  /$$$$$$   /$$  /$$$$$$  /$$$$$$$
+//          | $$ $$ $$ |____  $$|  $$  /$$/| $$ /$$__  $$ |____  $$|_  $$_/  | $$ /$$__  $$| $$__  $$
+//          | $$  $$$$  /$$$$$$$ \  $$/$$/ | $$| $$  \ $$  /$$$$$$$  | $$    | $$| $$  \ $$| $$  \ $$
+//          | $$\  $$$ /$$__  $$  \  $$$/  | $$| $$  | $$ /$$__  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+//          | $$ \  $$|  $$$$$$$   \  $/   | $$|  $$$$$$$|  $$$$$$$  |  $$$$/| $$|  $$$$$$/| $$  | $$
+//   /$$$$$$|__/  \__/ \_______/    \_/    |__/ \____  $$ \_______/   \___/  |__/ \______/ |__/  |__/
+//  |______/                                    /$$  \ $$
+//                                             |  $$$$$$/
+//                                              \______/
+
+/**
+* @section Navigation
+* @sectionof Link
+*/
+
+/**
+* @section Normal
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link_navigation" href="">Normal</a>
+*
+* @snippet
+* <a class="link_navigation" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Title
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link_navigation-title" href="">Title</a>
+*
+* @snippet
+* <a class="link_navigation-title" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Utility
+* @sectionof Link.Navigation
+*
+* @example
+* <a class="link-utility" href="">Utility</a>
+*
+* @snippet
+* <a class="link-utility" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_navigation-overlay" href="">Overlay</a>
+* </div>
+*
+* @code
+* <a class="link_navigation-overlay" href="">Overlay</a>
+*
+* @snippet
+* <a class="link_navigation-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay-Title
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
+* </div>
+*
+* @code
+* <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
+*
+* @snippet
+* <a class="link_navigation-title-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay-Utility
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-utility-overlay" href="">Overlay-Utility</a>
+* </div>
+*
+* @code
+* <a class="link-utility-overlay" href="">Overlay-Utility</a>
+*
+* @snippet
+* <a class="link-utility-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Overlay-Sub-Navigation
+* @sectionof Link.Navigation
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
+* </div>
+*
+* @code
+* <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
+*
+* @snippet
+* <a class="link-sub-navigation" href="{$href}">{$end}</a>
+*/

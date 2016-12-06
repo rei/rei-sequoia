@@ -1,0 +1,141 @@
+//   /$$       /$$             /$$
+//  | $$      |__/            | $$
+//  | $$       /$$  /$$$$$$$ /$$$$$$
+//  | $$      | $$ /$$_____/|_  $$_/
+//  | $$      | $$|  $$$$$$   | $$
+//  | $$      | $$ \____  $$  | $$ /$$
+//  | $$$$$$$$| $$ /$$$$$$$/  |  $$$$/
+//  |________/|__/|_______/    \___/
+//
+
+/**
+* @section List
+*/
+
+/**
+* @section Unstyled
+* @sectionof List
+*
+* @example
+* <ul class="list-text">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ul>
+*
+* @snippet
+* <ul class="list-text">
+*   <li>{$end}</li>
+* </ul>
+*/
+
+/**
+* @section Bullets
+* @sectionof List
+*
+* @example
+* <ul class="list-decoration">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ul>
+*
+* @snippet
+* <ul class="list-decoration">
+*   <li>{$end}</li>
+* </ul>
+*/
+
+/**
+* @section Ordered
+* @sectionof List
+*
+* @example
+* <ol class="list-text-ordered">
+*   <li>Lorem ipsum dolor sit amet</li>
+*   <li>Facilisis in pretium nisl aliquet</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-text-ordered">
+*   <li>{$end}</li>
+* </ol>
+*/
+
+/**
+* @section Inline
+* @sectionof List
+*
+* @example
+* <ol class="list-inline">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline">
+*   <li>{$end}</li>
+* </ol>
+*/
+
+/**
+* @section Inline-Padding
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-md">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-md">
+*   <li>{$end}</li>
+* </ol>
+*/
+
+/**
+* @section Inline-Padding-Lg
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-lg">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-lg">
+*   <li>{$end}</li>
+* </ol>
+*/
+
+/**
+* @section Inline-Pipe
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-md list-inline-pipe">
+*   <li>Thing 1</li>
+*   <li>Thing 2</li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-md list-inline-pipe">
+*   <li>{$end}</li>
+* </ol>
+*/
+
+/**
+* @section Inline-Feature-Link
+* @sectionof List
+*
+* @example
+* <ol class="list-inline list-inline-lg use_link-stag-explore">
+*   <li><a href="">Link 1</a></li>
+*   <li><a href="">Link 2</a></li>
+* </ol>
+*
+* @snippet
+* <ol class="list-inline list-inline-lg use_link-stag-explore">
+*   <li><a href="{$href}">{$end}</a></li>
+* </ol>
+*/

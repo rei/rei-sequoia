@@ -1,0 +1,106 @@
+//           /$$$$$$$$                     /$$
+//          | $$_____/                    | $$
+//          | $$       /$$   /$$  /$$$$$$ | $$  /$$$$$$   /$$$$$$   /$$$$$$
+//          | $$$$$   |  $$ /$$/ /$$__  $$| $$ /$$__  $$ /$$__  $$ /$$__  $$
+//          | $$__/    \  $$$$/ | $$  \ $$| $$| $$  \ $$| $$  \__/| $$$$$$$$
+//          | $$        >$$  $$ | $$  | $$| $$| $$  | $$| $$      | $$_____/
+//          | $$$$$$$$ /$$/\  $$| $$$$$$$/| $$|  $$$$$$/| $$      |  $$$$$$$
+//   /$$$$$$|________/|__/  \__/| $$____/ |__/ \______/ |__/       \_______/
+//  |______/                    | $$
+//                              | $$
+//                              |__/
+
+/**
+ * Explore
+ * @section
+ * @sectionof Button
+ */
+
+/**
+ * @section Primary
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-explore btn-primary">
+ *   Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-explore btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+
+/**
+ * @section Secondary
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-explore btn-default">
+ *   Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-explore btn-default {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+
+/**
+ * @section Black
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <button type="button" class="btn btn-contrast btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-contrast btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+
+/**
+ * @section White
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <div class="well overlay-dark-2">
+ * <button type="button" class="btn btn-contrast btn-default">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ * </div>
+ *
+ * @code
+ * <button type="button" class="btn btn-contrast btn-default">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-contrast btn-default {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */
+
+/**
+ * @section Outline
+ * @sectionof Button.Explore
+ *
+ * @example
+ * <div class="well overlay-dark-2">
+ * <button type="button" class="btn btn-outline-alternate btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ * </div>
+ *
+ * @code
+ * <button type="button" class="btn btn-outline-alternate btn-primary">
+ *     Explore<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ *
+ * @snippet
+ * <button type="button" class="btn btn-outline-alternate btn-primary {$modifiers}">
+ *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ * </button>
+ */

@@ -1,0 +1,2851 @@
+[
+  {
+    "name": "Heading",
+    "description": "",
+    "id": "heading",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Core",
+        "description": "",
+        "id": "heading-core",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Heading",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "heading-core-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h1 class=\"header\">Core h1</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1 class=\"header\">Core h1</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1 class=\"header\">{$end}</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "heading-core-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h2 class=\"header\">Core h2</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2 class=\"header\">Core h2</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2 class=\"header\">{$end}</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "heading-core-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h3 class=\"header\">Core h3</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3 class=\"header\">Core h3</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3 class=\"header\">{$end}</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "heading-core-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h4 class=\"header\">Core h4</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4 class=\"header\">Core h4</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4 class=\"header\">{$end}</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "heading-core-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h5 class=\"header\">Core h5</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5 class=\"header\">Core h5</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5 class=\"header\">{$end}</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "heading-core-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Core",
+            "example": {
+              "description": "<h6 class=\"header\">Core h6</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6 class=\"header\">Core h6</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6 class=\"header\">{$end}</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "description": "",
+        "id": "heading-explore",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Heading",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "heading-explore-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h1 class=\"heading-editorial\">Explore h1</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1 class=\"heading-editorial\">Explore h1</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1 class=\"heading-editorial\">{$end}</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "heading-explore-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h2 class=\"heading-editorial\">Explore h2</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2 class=\"heading-editorial\">Explore h2</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2 class=\"heading-editorial\">{$end}</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "heading-explore-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h3 class=\"heading-editorial\">Explore h3</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3 class=\"heading-editorial\">Explore h3</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3 class=\"heading-editorial\">{$end}</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "heading-explore-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h4 class=\"heading-editorial\">Explore h4</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4 class=\"heading-editorial\">Explore h4</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4 class=\"heading-editorial\">{$end}</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "heading-explore-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h5 class=\"heading-editorial\">Explore h5</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5 class=\"heading-editorial\">Explore h5</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5 class=\"heading-editorial\">{$end}</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "heading-explore-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Explore",
+            "example": {
+              "description": "<h6 class=\"heading-editorial\">Explore h6</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6 class=\"heading-editorial\">Explore h6</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6 class=\"heading-editorial\">{$end}</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Hero",
+        "description": "",
+        "id": "heading-hero",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Heading",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "heading-hero-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h1 class=\"heading-hero\">Hero h1</h1>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1 class=\"heading-hero\">Hero h1</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1 class=\"heading-hero\">{$end}</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "heading-hero-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h2 class=\"heading-hero\">Hero h2</h2>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2 class=\"heading-hero\">Hero h2</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2 class=\"heading-hero\">{$end}</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "heading-hero-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h3 class=\"heading-hero\">Hero h3</h3>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3 class=\"heading-hero\">Hero h3</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3 class=\"heading-hero\">{$end}</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "heading-hero-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h4 class=\"heading-hero\">Hero h4</h4>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4 class=\"heading-hero\">Hero h4</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4 class=\"heading-hero\">{$end}</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "heading-hero-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h5 class=\"heading-hero\">Hero h5</h5>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5 class=\"heading-hero\">Hero h5</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5 class=\"heading-hero\">{$end}</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "heading-hero-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Hero",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h6 class=\"heading-hero\">Hero h6</h6>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6 class=\"heading-hero\">Hero h6</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6 class=\"heading-hero\">{$end}</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Announce",
+        "description": "",
+        "id": "heading-announce",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Heading",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "heading-announce-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h1 class=\"heading-announce\">Announce h1</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1 class=\"heading-announce\">Announce h1</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1 class=\"heading-announce\">{$end}</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "heading-announce-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h2 class=\"heading-announce\">Announce h2</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2 class=\"heading-announce\">Announce h2</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2 class=\"heading-announce\">{$end}</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "heading-announce-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h3 class=\"heading-announce\">Announce h3</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3 class=\"heading-announce\">Announce h3</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3 class=\"heading-announce\">{$end}</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "heading-announce-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h4 class=\"heading-announce\">Announce h4</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4 class=\"heading-announce\">Announce h4</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4 class=\"heading-announce\">{$end}</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "heading-announce-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h5 class=\"heading-announce\">Announce h5</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5 class=\"heading-announce\">Announce h5</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5 class=\"heading-announce\">{$end}</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "heading-announce-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Announce",
+            "example": {
+              "description": "<h6 class=\"heading-announce\">Announce h6</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6 class=\"heading-announce\">Announce h6</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6 class=\"heading-announce\">{$end}</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Label",
+        "description": "",
+        "id": "heading-label",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Heading",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "heading-label-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h1 class=\"label-classification\">Label h1</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1 class=\"label-classification\">Label h1</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1 class=\"label-classification\">{$end}</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "heading-label-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h2 class=\"label-classification\">Label h2</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2 class=\"label-classification\">Label h2</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2 class=\"label-classification\">{$end}</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "heading-label-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h3 class=\"label-classification\">Label h3</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3 class=\"label-classification\">Label h3</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3 class=\"label-classification\">{$end}</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "heading-label-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h4 class=\"label-classification\">Label h4</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4 class=\"label-classification\">Label h4</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4 class=\"label-classification\">{$end}</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "heading-label-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h5 class=\"label-classification\">Label h5</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5 class=\"label-classification\">Label h5</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5 class=\"label-classification\">{$end}</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "heading-label-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Heading.Label",
+            "example": {
+              "description": "<h6 class=\"label-classification\">Label h6</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6 class=\"label-classification\">Label h6</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6 class=\"label-classification\">{$end}</h6>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Button",
+    "description": "",
+    "id": "button",
+    "depth": 1,
+    "isSection": true,
+    "modifiers": [
+      {
+        "name": "sm",
+        "value": "btn-sm"
+      },
+      {
+        "name": "xs",
+        "value": "btn-xs"
+      },
+      {
+        "name": "block",
+        "value": "btn-block"
+      },
+      {
+        "name": "fixed",
+        "value": "btn-fixed"
+      }
+    ],
+    "page": "index",
+    "children": [
+      {
+        "name": "Core",
+        "description": "",
+        "id": "button-core",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Button",
+        "children": [
+          {
+            "name": "Primary",
+            "description": "",
+            "id": "button-core-primary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Core",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-primary\">Core</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-primary\">Core</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-primary {$modifiers}\">{$end}</button>"
+          },
+          {
+            "name": "Secondary",
+            "description": "",
+            "id": "button-core-secondary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Core",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-default\">Core</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-default\">Core</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default {$modifiers}\">{$end}</button>"
+          },
+          {
+            "name": "Black",
+            "description": "",
+            "id": "button-core-black",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Core",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-primary btn-contrast\">Core</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-primary btn-contrast\">Core</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-primary btn-contrast {$modifiers}\">{$end}</button>"
+          },
+          {
+            "name": "White",
+            "description": "",
+            "id": "button-core-white",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\"><button type=\"button\" class=\"btn btn-default btn-contrast\">Core</button></div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-default btn-contrast\">Core</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-default btn-contrast {$modifiers}\">{$end}</button>"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "description": "",
+        "id": "button-explore",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Button",
+        "children": [
+          {
+            "name": "Primary",
+            "description": "",
+            "id": "button-explore-primary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Explore",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-explore btn-primary\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-explore btn-primary\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+          },
+          {
+            "name": "Secondary",
+            "description": "",
+            "id": "button-explore-secondary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Explore",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-explore btn-default\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-explore btn-default\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-default {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+          },
+          {
+            "name": "Black",
+            "description": "",
+            "id": "button-explore-black",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Explore",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-contrast btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-contrast btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+          },
+          {
+            "name": "White",
+            "description": "",
+            "id": "button-explore-white",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Explore",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n<button type=\"button\" class=\"btn btn-contrast btn-default\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-contrast btn-default\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-default {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+          },
+          {
+            "name": "Outline",
+            "description": "",
+            "id": "button-explore-outline",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Explore",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n<button type=\"button\" class=\"btn btn-outline-alternate btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-outline-alternate btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-outline-alternate btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+          }
+        ]
+      },
+      {
+        "name": "Offprice",
+        "description": "",
+        "id": "button-offprice",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Button",
+        "children": [
+          {
+            "name": "Primary",
+            "description": "",
+            "id": "button-offprice-primary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Offprice",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-off-price btn-primary\">Offprice</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-off-price btn-primary\">Offprice</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-primary {$modifiers}\">{$end}</button>"
+          },
+          {
+            "name": "Secondary",
+            "description": "",
+            "id": "button-offprice-secondary",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Button.Offprice",
+            "example": {
+              "description": "<button type=\"button\" class=\"btn btn-off-price btn-default\">Offprice</button>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<button type=\"button\" class=\"btn btn-off-price btn-default\">Offprice</button>",
+              "type": "markup"
+            },
+            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-default {$modifiers}\">{$end}</button>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Link",
+    "description": "",
+    "id": "link",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Core",
+        "description": "",
+        "id": "link-core",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "Normal",
+            "description": "",
+            "id": "link-core-normal",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<a class=\"link-body\" href=\"\">Normal</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-body\" href=\"\">Normal</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-body\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay",
+            "description": "",
+            "id": "link-core-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-overlay\" href=\"\">Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-overlay\" href=\"\">Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay-Contrast",
+            "description": "",
+            "id": "link-core-overlay-contrast",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-contrast-overlay\" href=\"\">Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-contrast-overlay\" href=\"\">Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-contrast-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone",
+            "description": "",
+            "id": "link-core-standalone",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<a class=\"link_stag\" href=\"\">Standalone</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag\" href=\"\">Standalone</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Text",
+            "description": "",
+            "id": "link-core-standalone-text",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<a href=\"\">Standalone-Text</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a href=\"\">Standalone-Text</a>",
+              "type": "markup"
+            },
+            "snippet": "<a href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Title",
+            "description": "",
+            "id": "link-core-standalone-title",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<a class=\"link_stag-title\" href=\"\">Standalone-Title</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-title\" href=\"\">Standalone-Title</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-title\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Overlay",
+            "description": "",
+            "id": "link-core-standalone-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_stag-overlay\" href=\"\">Standalone-Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-overlay\" href=\"\">Standalone-Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Overlay-Text",
+            "description": "",
+            "id": "link-core-standalone-overlay-text",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_stag-overlay-body\" href=\"\">Standalone-Overlay-Text</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-overlay-body\" href=\"\">Standalone-Overlay-Text</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-overlay-body\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Overlay-Title",
+            "description": "",
+            "id": "link-core-standalone-overlay-title",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Core",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_stag-title-overlay\" href=\"\">Standalone-Overlay-Title</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-title-overlay\" href=\"\">Standalone-Overlay-Title</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-title-overlay\" href=\"{$href}\">{$end}</a>"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "description": "",
+        "id": "link-explore",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "Normal",
+            "description": "",
+            "id": "link-explore-normal",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Explore",
+            "example": {
+              "description": "<a class=\"link-explore\" href=\"\">Explore</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-explore\" href=\"\">Explore</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-explore\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Normal-Overlay",
+            "description": "",
+            "id": "link-explore-normal-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Explore",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-explore-overlay\" href=\"\">Explore Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-explore-overlay\" href=\"\">Explore Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-explore-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone",
+            "description": "",
+            "id": "link-explore-standalone",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Explore",
+            "example": {
+              "description": "<a class=\"link_stag-explore\" href=\"#\">\n  Explore Standalone<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-explore\" href=\"#\">\n  Explore Standalone<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-explore\" href=\"{$href}\">\n  {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
+          },
+          {
+            "name": "Standalone-Overlay",
+            "description": "",
+            "id": "link-explore-standalone-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Explore",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_stag-explore-overlay\" href=\"#\">\n    Explore Standalone Overlay<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n  </a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_stag-explore-overlay\" href=\"#\">\n  Explore Standalone Overlay<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_stag-explore-overlay\" href=\"{$href}\">\n  {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
+          }
+        ]
+      },
+      {
+        "name": "Offprice",
+        "description": "",
+        "id": "link-offprice",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "Normal",
+            "description": "",
+            "id": "link-offprice-normal",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Offprice",
+            "example": {
+              "description": "<a class=\"link-off-price\" href=\"\">Offprice</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-off-price\" href=\"\">Offprice</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-off-price\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Normal-Overlay",
+            "description": "",
+            "id": "link-offprice-normal-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Offprice",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-off-price-overlay\" href=\"\">Offprice Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-off-price-overlay\" href=\"\">Offprice Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-off-price-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone",
+            "description": "",
+            "id": "link-offprice-standalone",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Offprice",
+            "example": {
+              "description": "<a class=\"link-off-price-standalone\" href=\"\">Standalone Offprice</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-off-price-standalone\" href=\"\">Standalone Offprice</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-off-price-standalone\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Standalone-Overlay",
+            "description": "",
+            "id": "link-offprice-standalone-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Offprice",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-off-price-standalone-overlay\" href=\"\">Standalone-Overlay Offprice</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-off-price-standalone-overlay\" href=\"\">Standalone-Overlay Offprice</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-off-price-standalone-overlay\" href=\"{$href}\">{$end}</a>"
+          }
+        ]
+      },
+      {
+        "name": "Header-Core",
+        "description": "",
+        "id": "link-header-core",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "link-header-core-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "link-header-core-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "link-header-core-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "link-header-core-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "link-header-core-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "link-header-core-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Core",
+            "example": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Header-Explore",
+        "description": "",
+        "id": "link-header-explore",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "link-header-explore-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "link-header-explore-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "link-header-explore-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "link-header-explore-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "link-header-explore-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "link-header-explore-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Explore",
+            "example": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Header-Offprice",
+        "description": "",
+        "id": "link-header-offprice",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "link-header-offprice-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "link-header-offprice-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "link-header-offprice-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "link-header-offprice-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "link-header-offprice-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "link-header-offprice-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Offprice",
+            "example": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Header-Overlay",
+        "description": "",
+        "id": "link-header-overlay",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "h1",
+            "description": "",
+            "id": "link-header-overlay-h1",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h1>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h1>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h1>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
+              "type": "markup"
+            },
+            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+          },
+          {
+            "name": "h2",
+            "description": "",
+            "id": "link-header-overlay-h2",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h2>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h2>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h2>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
+              "type": "markup"
+            },
+            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+          },
+          {
+            "name": "h3",
+            "description": "",
+            "id": "link-header-overlay-h3",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h3>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h3>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h3>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
+              "type": "markup"
+            },
+            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+          },
+          {
+            "name": "h4",
+            "description": "",
+            "id": "link-header-overlay-h4",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h4>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h4>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h4>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
+              "type": "markup"
+            },
+            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+          },
+          {
+            "name": "h5",
+            "description": "",
+            "id": "link-header-overlay-h5",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h5>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h5>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h5>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
+              "type": "markup"
+            },
+            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+          },
+          {
+            "name": "h6",
+            "description": "",
+            "id": "link-header-overlay-h6",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Header-Overlay",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <h6>\n    <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n      h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n     </a>\n  </h6>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<h6>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
+              "type": "markup"
+            },
+            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "description": "",
+        "id": "link-navigation",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Link",
+        "children": [
+          {
+            "name": "Normal",
+            "description": "",
+            "id": "link-navigation-normal",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<a class=\"link_navigation\" href=\"\">Normal</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_navigation\" href=\"\">Normal</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_navigation\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Title",
+            "description": "",
+            "id": "link-navigation-title",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<a class=\"link_navigation-title\" href=\"\">Title</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_navigation-title\" href=\"\">Title</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_navigation-title\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Utility",
+            "description": "",
+            "id": "link-navigation-utility",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<a class=\"link-utility\" href=\"\">Utility</a>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-utility\" href=\"\">Utility</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-utility\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay",
+            "description": "",
+            "id": "link-navigation-overlay",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_navigation-overlay\" href=\"\">Overlay</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_navigation-overlay\" href=\"\">Overlay</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_navigation-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay-Title",
+            "description": "",
+            "id": "link-navigation-overlay-title",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link_navigation-title-overlay\" href=\"\">Overlay-Title</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link_navigation-title-overlay\" href=\"\">Overlay-Title</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link_navigation-title-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay-Utility",
+            "description": "",
+            "id": "link-navigation-overlay-utility",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-utility-overlay\" href=\"\">Overlay-Utility</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-utility-overlay\" href=\"\">Overlay-Utility</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-utility-overlay\" href=\"{$href}\">{$end}</a>"
+          },
+          {
+            "name": "Overlay-Sub-Navigation",
+            "description": "",
+            "id": "link-navigation-overlay-sub-navigation",
+            "depth": 3,
+            "isSection": true,
+            "parent": "Link.Navigation",
+            "example": {
+              "description": "<div class=\"well overlay-dark-2\">\n  <a class=\"link-sub-navigation\" href=\"\">Overlay-Sub-Navigation</a>\n</div>",
+              "type": "markup"
+            },
+            "code": {
+              "description": "<a class=\"link-sub-navigation\" href=\"\">Overlay-Sub-Navigation</a>",
+              "type": "markup"
+            },
+            "snippet": "<a class=\"link-sub-navigation\" href=\"{$href}\">{$end}</a>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "List",
+    "description": "",
+    "id": "list",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Unstyled",
+        "description": "",
+        "id": "list-unstyled",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ul class=\"list-text\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ul class=\"list-text\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
+          "type": "markup"
+        },
+        "snippet": "<ul class=\"list-text\">\n  <li>{$end}</li>\n</ul>"
+      },
+      {
+        "name": "Bullets",
+        "description": "",
+        "id": "list-bullets",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ul class=\"list-decoration\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ul class=\"list-decoration\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
+          "type": "markup"
+        },
+        "snippet": "<ul class=\"list-decoration\">\n  <li>{$end}</li>\n</ul>"
+      },
+      {
+        "name": "Ordered",
+        "description": "",
+        "id": "list-ordered",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-text-ordered\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-text-ordered\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-text-ordered\">\n  <li>{$end}</li>\n</ol>"
+      },
+      {
+        "name": "Inline",
+        "description": "",
+        "id": "list-inline",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-inline\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-inline\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-inline\">\n  <li>{$end}</li>\n</ol>"
+      },
+      {
+        "name": "Inline-Padding",
+        "description": "",
+        "id": "list-inline-padding",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-inline list-inline-md\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-inline list-inline-md\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-inline list-inline-md\">\n  <li>{$end}</li>\n</ol>"
+      },
+      {
+        "name": "Inline-Padding-Lg",
+        "description": "",
+        "id": "list-inline-padding-lg",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-inline list-inline-lg\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-inline list-inline-lg\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-inline list-inline-lg\">\n  <li>{$end}</li>\n</ol>"
+      },
+      {
+        "name": "Inline-Pipe",
+        "description": "",
+        "id": "list-inline-pipe",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>{$end}</li>\n</ol>"
+      },
+      {
+        "name": "Inline-Feature-Link",
+        "description": "",
+        "id": "list-inline-feature-link",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List",
+        "example": {
+          "description": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"\">Link 1</a></li>\n  <li><a href=\"\">Link 2</a></li>\n</ol>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"\">Link 1</a></li>\n  <li><a href=\"\">Link 2</a></li>\n</ol>",
+          "type": "markup"
+        },
+        "snippet": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"{$href}\">{$end}</a></li>\n</ol>"
+      }
+    ]
+  },
+  {
+    "name": "Input",
+    "description": "",
+    "id": "input",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Text",
+        "description": "",
+        "id": "input-text",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Input",
+        "example": {
+          "description": "<form>\n  <input type=\"text\" class=\"form-control\" placeholder=\"Text input\">\n</form>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<form>\n  <input type=\"text\" class=\"form-control\" placeholder=\"Text input\">\n</form>",
+          "type": "markup"
+        },
+        "snippet": "<input type=\"text\" class=\"form-control\" placeholder=\"{$end}\">"
+      },
+      {
+        "name": "Textarea",
+        "description": "",
+        "id": "input-textarea",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Input",
+        "example": {
+          "description": "<form>\n  <textarea class=\"form-control\" rows=\"3\" placeholder=\"Textarea\"></textarea>\n</form>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<form>\n  <textarea class=\"form-control\" rows=\"3\" placeholder=\"Textarea\"></textarea>\n</form>",
+          "type": "markup"
+        },
+        "snippet": "<textarea class=\"form-control\" rows=\"3\" placeholder=\"{$end}\"></textarea>"
+      },
+      {
+        "name": "Checkbox",
+        "description": "",
+        "id": "input-checkbox",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Input",
+        "example": {
+          "description": "<div class=\"checkbox\">\n   <input type=\"checkbox\" id=\"checkboxTest\" value=\"\">\n   <label for=\"checkboxTest\">Checkbox</label>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"checkbox\">\n   <input type=\"checkbox\" value=\"\" id=\"\">\n   <label for=\"\">Checkbox</label>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"checkbox\">\n   <input type=\"checkbox\" id=\"{$for}\" value=\"{$val}\">\n   <label for=\"{$for}\">{$end}</label>\n</div>"
+      },
+      {
+        "name": "Radio",
+        "description": "",
+        "id": "input-radio",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Input",
+        "example": {
+          "description": "<div class=\"radio\">\n   <input type=\"radio\" id=\"radioTest\" value=\"\" name=\"radioExample\">\n   <label for=\"radioTest\">Radio</label>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"radio\">\n   <input type=\"radio\" name=\"\" value=\"\" id=\"\">\n   <label for=\"\">Radio</label>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"radio\">\n   <input type=\"radio\" id=\"{$for}\" value=\"{$val}\" name=\"{$name}\">\n   <label for=\"{$for}\">{$end}</label>\n</div>"
+      }
+    ]
+  },
+  {
+    "name": "Icon",
+    "description": "",
+    "id": "icon",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Menu",
+        "description": "",
+        "id": "icon-menu",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-hamburger-menu\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-hamburger-menu\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-hamburger-menu\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Cart-Empty",
+        "description": "",
+        "id": "icon-cart-empty",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-cart-empty\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-cart-empty\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-cart-empty\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Cart-Full",
+        "description": "",
+        "id": "icon-cart-full",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-cart\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-cart\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-cart\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Account",
+        "description": "",
+        "id": "icon-account",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-profile\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-profile\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-profile\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Search",
+        "description": "",
+        "id": "icon-search",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-search\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-search\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-search\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Locator",
+        "description": "",
+        "id": "icon-locator",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-location\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-location\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-location\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Devices",
+        "description": "",
+        "id": "icon-devices",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-devices\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-devices\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-devices\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Email",
+        "description": "",
+        "id": "icon-email",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-email\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-email\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-email\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Call",
+        "description": "",
+        "id": "icon-call",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-call\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-call\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-call\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Chat",
+        "description": "",
+        "id": "icon-chat",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-chat\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-chat\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-chat\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Help",
+        "description": "",
+        "id": "icon-help",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<div class=\"well overlay-dark-2\">\n  <span class=\"icon icon-rei-help\" aria-hidden=\"true\"></span>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-help\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-help\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Add",
+        "description": "",
+        "id": "icon-add",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-add\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-add\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-add\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Close",
+        "description": "",
+        "id": "icon-close",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-close\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-close\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-close\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Remove",
+        "description": "",
+        "id": "icon-remove",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Up-Arrow",
+        "description": "",
+        "id": "icon-up-arrow",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-up-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-up-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-up-arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Right-Arrow",
+        "description": "",
+        "id": "icon-right-arrow",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Down-Arrow",
+        "description": "",
+        "id": "icon-down-arrow",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-down-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-down-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-down-arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Left-Arrow",
+        "description": "",
+        "id": "icon-left-arrow",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-left-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-left-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-left-arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Expand",
+        "description": "",
+        "id": "icon-expand",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-expand\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-expand\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-expand\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Collapse",
+        "description": "",
+        "id": "icon-collapse",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-collapse\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-collapse\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-collapse\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Tree-Arrow",
+        "description": "",
+        "id": "icon-tree-arrow",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Inline-Search",
+        "description": "",
+        "id": "icon-inline-search",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-inline-search\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-inline-search\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-inline-search\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Zoom",
+        "description": "",
+        "id": "icon-zoom",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-zoom\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-zoom\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-zoom\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Check",
+        "description": "",
+        "id": "icon-check",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-check\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-check\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-check\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "External-Link",
+        "description": "",
+        "id": "icon-external-link",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-external-link\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-external-link\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-external-link\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Play-Small",
+        "description": "",
+        "id": "icon-play-small",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-play-small\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-play-small\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-play-small\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Play-Large",
+        "description": "",
+        "id": "icon-play-large",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-play-large\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-play-large\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-play-large\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Size-Chart",
+        "description": "",
+        "id": "icon-size-chart",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-size-chart\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-size-chart\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-size-chart\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Locate",
+        "description": "",
+        "id": "icon-locate",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-target\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-target\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-target\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Print",
+        "description": "",
+        "id": "icon-print",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-print\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-print\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-print\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Shipping",
+        "description": "",
+        "id": "icon-shipping",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-shipping\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-shipping\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-shipping\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Calendar",
+        "description": "",
+        "id": "icon-calendar",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-calendar\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-calendar\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-calendar\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Error",
+        "description": "",
+        "id": "icon-error",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Warning",
+        "description": "",
+        "id": "icon-warning",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Info",
+        "description": "",
+        "id": "icon-info",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Success",
+        "description": "",
+        "id": "icon-success",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Backorder",
+        "description": "",
+        "id": "icon-backorder",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Star-100",
+        "description": "",
+        "id": "icon-star-100",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-star-100\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-star-100\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-star-100\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Star-75",
+        "description": "",
+        "id": "icon-star-75",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-star-75\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-star-75\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-star-75\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Star-50",
+        "description": "",
+        "id": "icon-star-50",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-star-50\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-star-50\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-star-50\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Star-25",
+        "description": "",
+        "id": "icon-star-25",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-star-25\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-star-25\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-star-25\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Share",
+        "description": "",
+        "id": "icon-share",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-share\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-share\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-share\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Facebook",
+        "description": "",
+        "id": "icon-facebook",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-facebook\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-facebook\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-facebook\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Twitter",
+        "description": "",
+        "id": "icon-twitter",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-twitter\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-twitter\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-twitter\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Pinterest",
+        "description": "",
+        "id": "icon-pinterest",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-pinterest\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-pinterest\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-pinterest\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Youtube",
+        "description": "",
+        "id": "icon-youtube",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-youtube\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-youtube\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-youtube\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "name": "Instagram",
+        "description": "",
+        "id": "icon-instagram",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Icon",
+        "example": {
+          "description": "<span class=\"icon icon-rei-social-instagram\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<span class=\"icon icon-rei-social-instagram\" aria-hidden=\"true\"></span>",
+          "type": "markup"
+        },
+        "snippet": "<span class=\"icon icon-rei-social-instagram\" aria-hidden=\"true\"></span>"
+      }
+    ]
+  },
+  {
+    "name": "Image",
+    "description": "",
+    "id": "image",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Responsive",
+        "description": "",
+        "id": "image-responsive",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Image",
+        "example": {
+          "description": "<img src=\"http://placehold.it/350x150\" class=\"img-responsive\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<img src=\"http://placehold.it/350x150\" class=\"img-responsive\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "snippet": "<img src=\"{$src}\" class=\"img-responsive\" alt=\"{$alt}\">"
+      },
+      {
+        "name": "Rounded",
+        "description": "",
+        "id": "image-rounded",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Image",
+        "example": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-rounded\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-rounded\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "snippet": "<img src=\"{$src}\" class=\"img-rounded\" alt=\"{$alt}\">"
+      },
+      {
+        "name": "Circle",
+        "description": "",
+        "id": "image-circle",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Image",
+        "example": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-circle\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-circle\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "snippet": "<img src=\"{$src}\" class=\"img-circle\" alt=\"{$alt}\">"
+      },
+      {
+        "name": "Thumbnail",
+        "description": "",
+        "id": "image-thumbnail",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Image",
+        "example": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-thumbnail\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-thumbnail\" alt=\"Placeholder Image\">",
+          "type": "markup"
+        },
+        "snippet": "<img src=\"{$src}\" class=\"img-thumbnail\" alt=\"{$alt}\">"
+      },
+      {
+        "name": "Mountain",
+        "description": "",
+        "id": "image-mountain",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Image",
+        "example": {
+          "description": "<div class=\"shape-mountain\"></div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"shape-mountain\"></div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"shape-mountain\"></div>"
+      }
+    ]
+  }
+]

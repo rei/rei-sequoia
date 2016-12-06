@@ -1,0 +1,15 @@
+<div class="tile-block">
+
+  {{#if example}}
+  <div class="snipExample">
+    {{{example.description}}}
+  </div>
+  {{/if}}
+
+  {{#if code}}
+  <div class="markup">
+    <pre class="livingcss__section-code"><code class="language-{{code.type}}">{{code.description}}</code></pre>
+  </div>
+  {{/if}}
+
+</div>

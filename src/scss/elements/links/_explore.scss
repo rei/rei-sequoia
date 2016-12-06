@@ -1,0 +1,80 @@
+//           /$$$$$$$$                     /$$
+//          | $$_____/                    | $$
+//          | $$       /$$   /$$  /$$$$$$ | $$  /$$$$$$   /$$$$$$   /$$$$$$
+//          | $$$$$   |  $$ /$$/ /$$__  $$| $$ /$$__  $$ /$$__  $$ /$$__  $$
+//          | $$__/    \  $$$$/ | $$  \ $$| $$| $$  \ $$| $$  \__/| $$$$$$$$
+//          | $$        >$$  $$ | $$  | $$| $$| $$  | $$| $$      | $$_____/
+//          | $$$$$$$$ /$$/\  $$| $$$$$$$/| $$|  $$$$$$/| $$      |  $$$$$$$
+//   /$$$$$$|________/|__/  \__/| $$____/ |__/ \______/ |__/       \_______/
+//  |______/                    | $$
+//                              | $$
+//                              |__/
+
+/**
+* @section Explore
+* @sectionof Link
+*/
+
+/**
+* @section Normal
+* @sectionof Link.Explore
+*
+* @example
+* <a class="link-explore" href="">Explore</a>
+*
+* @snippet
+* <a class="link-explore" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Normal-Overlay
+* @sectionof Link.Explore
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link-explore-overlay" href="">Explore Overlay</a>
+* </div>
+*
+* @code
+* <a class="link-explore-overlay" href="">Explore Overlay</a>
+*
+* @snippet
+* <a class="link-explore-overlay" href="{$href}">{$end}</a>
+*/
+
+/**
+* @section Standalone
+* @sectionof Link.Explore
+*
+* @example
+* <a class="link_stag-explore" href="#">
+*   Explore Standalone<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*
+* @snippet
+* <a class="link_stag-explore" href="{$href}">
+*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*/
+
+/**
+* @section Standalone-Overlay
+* @sectionof Link.Explore
+*
+* @example
+* <div class="well overlay-dark-2">
+*   <a class="link_stag-explore-overlay" href="#">
+*     Explore Standalone Overlay<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+*   </a>
+* </div>
+*
+* @code
+* <a class="link_stag-explore-overlay" href="#">
+*   Explore Standalone Overlay<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*
+* @snippet
+* <a class="link_stag-explore-overlay" href="{$href}">
+*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* </a>
+*/

@@ -1,0 +1,34 @@
+//    /$$$$$$  /$$                           /$$       /$$
+//   /$$__  $$| $$                          | $$      | $$
+//  | $$  \__/| $$$$$$$   /$$$$$$   /$$$$$$$| $$   /$$| $$$$$$$   /$$$$$$  /$$   /$$
+//  | $$      | $$__  $$ /$$__  $$ /$$_____/| $$  /$$/| $$__  $$ /$$__  $$|  $$ /$$/
+//  | $$      | $$  \ $$| $$$$$$$$| $$      | $$$$$$/ | $$  \ $$| $$  \ $$ \  $$$$/
+//  | $$    $$| $$  | $$| $$_____/| $$      | $$_  $$ | $$  | $$| $$  | $$  >$$  $$
+//  |  $$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$| $$$$$$$/|  $$$$$$/ /$$/\  $$
+//   \______/ |__/  |__/ \_______/ \_______/|__/  \__/|_______/  \______/ |__/  \__/
+//
+//
+//
+
+/**
+ * @section Checkbox
+ * @sectionof Input
+ *
+ * @example
+ * <div class="checkbox">
+ *    <input type="checkbox" id="checkboxTest" value="">
+ *    <label for="checkboxTest">Checkbox</label>
+ * </div>
+ *
+ * @code
+ * <div class="checkbox">
+ *    <input type="checkbox" value="" id="">
+ *    <label for="">Checkbox</label>
+ * </div>
+ *
+ * @snippet
+ * <div class="checkbox">
+ *    <input type="checkbox" id="{$for}" value="{$val}">
+ *    <label for="{$for}">{$end}</label>
+ * </div>
+ */
