@@ -35,3 +35,20 @@
 * @snippet
 * <textarea class="form-control" rows="3" placeholder="{$end}"></textarea>
 */
+
+/**
+* @section Select
+* @sectionof Input
+*
+* @example
+* <form>
+*   <select class="form-control">
+*     <option>1</option>
+*   </select>
+* </form>
+*
+* @snippet
+* <select class="form-control">
+*   <option>{$end}</option>
+* </select>
+*/

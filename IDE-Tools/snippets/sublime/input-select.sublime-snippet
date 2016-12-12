@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<select class="form-control">
+  <option>$1</option>
+</select>]]></content>
+  <tabTrigger>input-select</tabTrigger>
+  <description>Select</description>
+  <scope>text.html</scope>
+</snippet>

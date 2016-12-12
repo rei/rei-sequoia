@@ -1909,6 +1909,23 @@
         "snippet": "<textarea class=\"form-control\" rows=\"3\" placeholder=\"{$end}\"></textarea>"
       },
       {
+        "name": "Select",
+        "description": "",
+        "id": "input-select",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Input",
+        "example": {
+          "description": "<form>\n  <select class=\"form-control\">\n    <option>1</option>\n  </select>\n</form>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<form>\n  <select class=\"form-control\">\n    <option>1</option>\n  </select>\n</form>",
+          "type": "markup"
+        },
+        "snippet": "<select class=\"form-control\">\n  <option>{$end}</option>\n</select>"
+      },
+      {
         "name": "Checkbox",
         "description": "",
         "id": "input-checkbox",

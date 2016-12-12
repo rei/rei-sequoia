@@ -587,6 +587,11 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="input-select" description="Select" toReformat="true" toShortenFQNames="true" value="&lt;select class=&quot;form-control&quot;&gt;&#10;  &lt;option&gt;$END$&lt;/option&gt;&#10;&lt;/select&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
   <template name="input-checkbox" description="Checkbox" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot; id=&quot;$for$&quot; value=&quot;$val$&quot;&gt;&#10;   &lt;label for=&quot;$for$&quot;&gt;$END$&lt;/label&gt;&#10;&lt;/div&gt;">
     <variable name="for" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="val" expression="" defaultValue="" alwaysStopAt="true"/>
