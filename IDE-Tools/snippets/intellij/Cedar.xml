@@ -870,4 +870,29 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="alert-success" description="Success" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-success&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Success:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="alert-info" description="Info" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-info&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="alert-warning" description="Warning" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-warning&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="alert-backorder" description="Backorder" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-backorder&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="alert-error" description="Error" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-error&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Error:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
 </templateSet>

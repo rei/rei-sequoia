@@ -2847,5 +2847,100 @@
         "snippet": "<div class=\"shape-mountain\"></div>"
       }
     ]
+  },
+  {
+    "name": "Alert",
+    "description": "",
+    "id": "alert",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Success",
+        "description": "",
+        "id": "alert-success",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Alert",
+        "example": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   Success Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   Success Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+      },
+      {
+        "name": "Info",
+        "description": "",
+        "id": "alert-info",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Alert",
+        "example": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   Info Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   Info Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   {$end}\n  </span>\n </span>\n</div>"
+      },
+      {
+        "name": "Warning",
+        "description": "",
+        "id": "alert-warning",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Alert",
+        "example": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Warning Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Warning Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+      },
+      {
+        "name": "Backorder",
+        "description": "",
+        "id": "alert-backorder",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Alert",
+        "example": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Backorder Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Backorder Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+      },
+      {
+        "name": "Error",
+        "description": "",
+        "id": "alert-error",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Alert",
+        "example": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   Error Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<div class=\"well overlay-dark-1\">\n<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   Error Alert\n  </span>\n </span>\n</div>\n</div>",
+          "type": "markup"
+        },
+        "snippet": "<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+      }
+    ]
   }
 ]

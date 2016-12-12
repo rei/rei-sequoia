@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[<div class="alert alert-danger" role="alert">
+ <span class="icon icon-rei-error" aria-hidden="true"></span>
+  <span class="alert-text">
+   <span class="sr-only">Error:</span>
+   $1
+  </span>
+ </span>
+</div>]]></content>
+  <tabTrigger>alert-error</tabTrigger>
+  <description>Error</description>
+  <scope>text.html</scope>
+</snippet>

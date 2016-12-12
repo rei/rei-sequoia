@@ -1,0 +1,145 @@
+//    /$$$$$$  /$$                       /$$
+//   /$$__  $$| $$                      | $$
+//  | $$  \ $$| $$  /$$$$$$   /$$$$$$  /$$$$$$   /$$$$$$$
+//  | $$$$$$$$| $$ /$$__  $$ /$$__  $$|_  $$_/  /$$_____/
+//  | $$__  $$| $$| $$$$$$$$| $$  \__/  | $$   |  $$$$$$
+//  | $$  | $$| $$| $$_____/| $$        | $$ /$$\____  $$
+//  | $$  | $$| $$|  $$$$$$$| $$        |  $$$$//$$$$$$$/
+//  |__/  |__/|__/ \_______/|__/         \___/ |_______/
+
+/**
+ * @section Alert
+ */
+
+/**
+ * @section Success
+ * @sectionof Alert
+ *
+ * @example
+ * <div class="well overlay-dark-1">
+ * <div class="alert alert-success" role="alert">
+ *  <span class="icon icon-rei-success" aria-hidden="true"></span>
+ *   <span class="alert-text">
+ *    <span class="sr-only">Success:</span>
+ *    Success Alert
+ *   </span>
+ *  </span>
+ * </div>
+ * </div>
+ *
+ * @snippet
+ * <div class="alert alert-success" role="alert">
+ *  <span class="icon icon-rei-success" aria-hidden="true"></span>
+ *   <span class="alert-text">
+ *    <span class="sr-only">Success:</span>
+ *    {$end}
+ *   </span>
+ *  </span>
+ * </div>
+ */
+
+ /**
+  * @section Info
+  * @sectionof Alert
+  *
+  * @example
+  * <div class="well overlay-dark-1">
+  * <div class="alert alert-info" role="alert">
+  *  <span class="icon icon-rei-info" aria-hidden="true"></span>
+  *   <span class="alert-text">
+  *    Info Alert
+  *   </span>
+  *  </span>
+  * </div>
+  * </div>
+  *
+  * @snippet
+  * <div class="alert alert-info" role="alert">
+  *  <span class="icon icon-rei-info" aria-hidden="true"></span>
+  *   <span class="alert-text">
+  *    {$end}
+  *   </span>
+  *  </span>
+  * </div>
+  */
+
+  /**
+   * @section Warning
+   * @sectionof Alert
+   *
+   * @example
+   * <div class="well overlay-dark-1">
+   * <div class="alert alert-warning" role="alert">
+   *  <span class="icon icon-rei-warning" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Warning:</span>
+   *    Warning Alert
+   *   </span>
+   *  </span>
+   * </div>
+   * </div>
+   *
+   * @snippet
+   * <div class="alert alert-warning" role="alert">
+   *  <span class="icon icon-rei-warning" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Warning:</span>
+   *    {$end}
+   *   </span>
+   *  </span>
+   * </div>
+   */
+
+  /**
+   * @section Backorder
+   * @sectionof Alert
+   *
+   * @example
+   * <div class="well overlay-dark-1">
+   * <div class="alert alert-warning" role="alert">
+   *  <span class="icon icon-rei-backorder" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Warning:</span>
+   *    Backorder Alert
+   *   </span>
+   *  </span>
+   * </div>
+   * </div>
+   *
+   * @snippet
+   * <div class="alert alert-warning" role="alert">
+   *  <span class="icon icon-rei-backorder" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Warning:</span>
+   *    {$end}
+   *   </span>
+   *  </span>
+   * </div>
+   */
+
+  /**
+   * @section Error
+   * @sectionof Alert
+   *
+   * @example
+   * <div class="well overlay-dark-1">
+   * <div class="alert alert-danger" role="alert">
+   *  <span class="icon icon-rei-error" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Error:</span>
+   *    Error Alert
+   *   </span>
+   *  </span>
+   * </div>
+   * </div>
+   *
+   * @snippet
+   * <div class="alert alert-danger" role="alert">
+   *  <span class="icon icon-rei-error" aria-hidden="true"></span>
+   *   <span class="alert-text">
+   *    <span class="sr-only">Error:</span>
+   *    {$end}
+   *   </span>
+   *  </span>
+   * </div>
+   */

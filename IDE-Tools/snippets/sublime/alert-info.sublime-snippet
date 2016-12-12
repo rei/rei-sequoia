@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[<div class="alert alert-info" role="alert">
+ <span class="icon icon-rei-info" aria-hidden="true"></span>
+  <span class="alert-text">
+   $1
+  </span>
+ </span>
+</div>]]></content>
+  <tabTrigger>alert-info</tabTrigger>
+  <description>Info</description>
+  <scope>text.html</scope>
+</snippet>
