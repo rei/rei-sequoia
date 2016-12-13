@@ -927,4 +927,12 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="list-group-sorting" description="Sorting" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$for$&quot; value=&quot;$val$&quot; name=&quot;$name$&quot;&gt;&#10;   &lt;label for=&quot;$for$&quot;&gt;$END$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="for" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
 </templateSet>

@@ -3010,5 +3010,32 @@
         "snippet": "<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   {$end}\n  </span>\n </span>\n</div>"
       }
     ]
+  },
+  {
+    "name": "List-Group",
+    "description": "",
+    "id": "list-group",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Sorting",
+        "description": "",
+        "id": "list-group-sorting",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List-Group",
+        "example": {
+          "description": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-1\" value=\"1\">\n   <label for=\"sort-group-item-1\">sort-group-item 1</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-2\" value=\"2\">\n   <label for=\"sort-group-item-2\">sort-group-item 2</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-3\" value=\"3\">\n   <label for=\"sort-group-item-3\">sort-group-item 3</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-4\" value=\"4\">\n   <label for=\"sort-group-item-4\">sort-group-item 4</label>\n </li>\n</ul>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"\" id=\"\" value=\"\">\n   <label for=\"\">Label</label>\n </li>\n</ul>",
+          "type": "markup"
+        },
+        "snippet": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" id=\"{$for}\" value=\"{$val}\" name=\"{$name}\">\n   <label for=\"{$for}\">{$end}</label>\n </li>\n</ul>"
+      }
+    ]
   }
 ]

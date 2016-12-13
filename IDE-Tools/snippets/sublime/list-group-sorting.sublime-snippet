@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[<ul class="list-group">
+ <li class="list-group-item radio toggle-sort">
+   <input type="radio" id="$1" value="$2" name="$3">
+   <label for="$1">$4</label>
+ </li>
+</ul>]]></content>
+  <tabTrigger>list-group-sorting</tabTrigger>
+  <description>Sorting</description>
+  <scope>text.html</scope>
+</snippet>
