@@ -1,0 +1,8 @@
+{
+  "dependencies": [],
+  "version": "2016.11.09.19.20.49",
+  "description": "Snippets for REI Cedar",
+  "platforms": ["*"],
+  "url": "https://github.com/rei/rei-sequoia/tree/master/IDE-Tools/snippets/sublime",
+  "sublime_text": "*"
+}
