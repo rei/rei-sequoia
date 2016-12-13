@@ -42,7 +42,7 @@
  *  <span class="icon icon-rei-success" aria-hidden="true"></span>
  *   <span class="alert-text">
  *    <span class="sr-only">Success:</span>
- *    {$end}
+ *    {$1}
  *   </span>
  *  </span>
  * </div>
@@ -76,7 +76,7 @@
   * <div class="alert alert-info" role="alert">
   *  <span class="icon icon-rei-info" aria-hidden="true"></span>
   *   <span class="alert-text">
-  *    {$end}
+  *    {$1}
   *   </span>
   *  </span>
   * </div>
@@ -113,7 +113,7 @@
    *  <span class="icon icon-rei-warning" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Warning:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>
@@ -150,7 +150,7 @@
    *  <span class="icon icon-rei-backorder" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Warning:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>
@@ -187,7 +187,7 @@
    *  <span class="icon icon-rei-error" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Error:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>

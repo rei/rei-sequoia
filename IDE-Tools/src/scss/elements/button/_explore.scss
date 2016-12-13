@@ -27,7 +27,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-explore btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 
@@ -42,7 +42,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-explore btn-default {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 
@@ -57,7 +57,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-contrast btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 
@@ -79,7 +79,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-contrast btn-default {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 
@@ -101,6 +101,6 @@
  *
  * @snippet
  * <button type="button" class="btn btn-outline-alternate btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */

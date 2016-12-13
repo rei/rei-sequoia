@@ -30,7 +30,7 @@
               "description": "<h1 class=\"header\">Core h1</h1>",
               "type": "markup"
             },
-            "snippet": "<h1 class=\"header\">{$end}</h1>"
+            "snippet": "<h1 class=\"header\">{$1}</h1>"
           },
           {
             "name": "h2",
@@ -47,7 +47,7 @@
               "description": "<h2 class=\"header\">Core h2</h2>",
               "type": "markup"
             },
-            "snippet": "<h2 class=\"header\">{$end}</h2>"
+            "snippet": "<h2 class=\"header\">{$1}</h2>"
           },
           {
             "name": "h3",
@@ -64,7 +64,7 @@
               "description": "<h3 class=\"header\">Core h3</h3>",
               "type": "markup"
             },
-            "snippet": "<h3 class=\"header\">{$end}</h3>"
+            "snippet": "<h3 class=\"header\">{$1}</h3>"
           },
           {
             "name": "h4",
@@ -81,7 +81,7 @@
               "description": "<h4 class=\"header\">Core h4</h4>",
               "type": "markup"
             },
-            "snippet": "<h4 class=\"header\">{$end}</h4>"
+            "snippet": "<h4 class=\"header\">{$1}</h4>"
           },
           {
             "name": "h5",
@@ -98,7 +98,7 @@
               "description": "<h5 class=\"header\">Core h5</h5>",
               "type": "markup"
             },
-            "snippet": "<h5 class=\"header\">{$end}</h5>"
+            "snippet": "<h5 class=\"header\">{$1}</h5>"
           },
           {
             "name": "h6",
@@ -115,7 +115,7 @@
               "description": "<h6 class=\"header\">Core h6</h6>",
               "type": "markup"
             },
-            "snippet": "<h6 class=\"header\">{$end}</h6>"
+            "snippet": "<h6 class=\"header\">{$1}</h6>"
           }
         ]
       },
@@ -142,7 +142,7 @@
               "description": "<h1 class=\"heading-editorial\">Explore h1</h1>",
               "type": "markup"
             },
-            "snippet": "<h1 class=\"heading-editorial\">{$end}</h1>"
+            "snippet": "<h1 class=\"heading-editorial\">{$1}</h1>"
           },
           {
             "name": "h2",
@@ -159,7 +159,7 @@
               "description": "<h2 class=\"heading-editorial\">Explore h2</h2>",
               "type": "markup"
             },
-            "snippet": "<h2 class=\"heading-editorial\">{$end}</h2>"
+            "snippet": "<h2 class=\"heading-editorial\">{$1}</h2>"
           },
           {
             "name": "h3",
@@ -176,7 +176,7 @@
               "description": "<h3 class=\"heading-editorial\">Explore h3</h3>",
               "type": "markup"
             },
-            "snippet": "<h3 class=\"heading-editorial\">{$end}</h3>"
+            "snippet": "<h3 class=\"heading-editorial\">{$1}</h3>"
           },
           {
             "name": "h4",
@@ -193,7 +193,7 @@
               "description": "<h4 class=\"heading-editorial\">Explore h4</h4>",
               "type": "markup"
             },
-            "snippet": "<h4 class=\"heading-editorial\">{$end}</h4>"
+            "snippet": "<h4 class=\"heading-editorial\">{$1}</h4>"
           },
           {
             "name": "h5",
@@ -210,7 +210,7 @@
               "description": "<h5 class=\"heading-editorial\">Explore h5</h5>",
               "type": "markup"
             },
-            "snippet": "<h5 class=\"heading-editorial\">{$end}</h5>"
+            "snippet": "<h5 class=\"heading-editorial\">{$1}</h5>"
           },
           {
             "name": "h6",
@@ -227,7 +227,7 @@
               "description": "<h6 class=\"heading-editorial\">Explore h6</h6>",
               "type": "markup"
             },
-            "snippet": "<h6 class=\"heading-editorial\">{$end}</h6>"
+            "snippet": "<h6 class=\"heading-editorial\">{$1}</h6>"
           }
         ]
       },
@@ -254,7 +254,7 @@
               "description": "<h1 class=\"heading-hero\">Hero h1</h1>",
               "type": "markup"
             },
-            "snippet": "<h1 class=\"heading-hero\">{$end}</h1>"
+            "snippet": "<h1 class=\"heading-hero\">{$1}</h1>"
           },
           {
             "name": "h2",
@@ -271,7 +271,7 @@
               "description": "<h2 class=\"heading-hero\">Hero h2</h2>",
               "type": "markup"
             },
-            "snippet": "<h2 class=\"heading-hero\">{$end}</h2>"
+            "snippet": "<h2 class=\"heading-hero\">{$1}</h2>"
           },
           {
             "name": "h3",
@@ -288,7 +288,7 @@
               "description": "<h3 class=\"heading-hero\">Hero h3</h3>",
               "type": "markup"
             },
-            "snippet": "<h3 class=\"heading-hero\">{$end}</h3>"
+            "snippet": "<h3 class=\"heading-hero\">{$1}</h3>"
           },
           {
             "name": "h4",
@@ -305,7 +305,7 @@
               "description": "<h4 class=\"heading-hero\">Hero h4</h4>",
               "type": "markup"
             },
-            "snippet": "<h4 class=\"heading-hero\">{$end}</h4>"
+            "snippet": "<h4 class=\"heading-hero\">{$1}</h4>"
           },
           {
             "name": "h5",
@@ -322,7 +322,7 @@
               "description": "<h5 class=\"heading-hero\">Hero h5</h5>",
               "type": "markup"
             },
-            "snippet": "<h5 class=\"heading-hero\">{$end}</h5>"
+            "snippet": "<h5 class=\"heading-hero\">{$1}</h5>"
           },
           {
             "name": "h6",
@@ -339,7 +339,7 @@
               "description": "<h6 class=\"heading-hero\">Hero h6</h6>",
               "type": "markup"
             },
-            "snippet": "<h6 class=\"heading-hero\">{$end}</h6>"
+            "snippet": "<h6 class=\"heading-hero\">{$1}</h6>"
           }
         ]
       },
@@ -366,7 +366,7 @@
               "description": "<h1 class=\"heading-announce\">Announce h1</h1>",
               "type": "markup"
             },
-            "snippet": "<h1 class=\"heading-announce\">{$end}</h1>"
+            "snippet": "<h1 class=\"heading-announce\">{$1}</h1>"
           },
           {
             "name": "h2",
@@ -383,7 +383,7 @@
               "description": "<h2 class=\"heading-announce\">Announce h2</h2>",
               "type": "markup"
             },
-            "snippet": "<h2 class=\"heading-announce\">{$end}</h2>"
+            "snippet": "<h2 class=\"heading-announce\">{$1}</h2>"
           },
           {
             "name": "h3",
@@ -400,7 +400,7 @@
               "description": "<h3 class=\"heading-announce\">Announce h3</h3>",
               "type": "markup"
             },
-            "snippet": "<h3 class=\"heading-announce\">{$end}</h3>"
+            "snippet": "<h3 class=\"heading-announce\">{$1}</h3>"
           },
           {
             "name": "h4",
@@ -417,7 +417,7 @@
               "description": "<h4 class=\"heading-announce\">Announce h4</h4>",
               "type": "markup"
             },
-            "snippet": "<h4 class=\"heading-announce\">{$end}</h4>"
+            "snippet": "<h4 class=\"heading-announce\">{$1}</h4>"
           },
           {
             "name": "h5",
@@ -434,7 +434,7 @@
               "description": "<h5 class=\"heading-announce\">Announce h5</h5>",
               "type": "markup"
             },
-            "snippet": "<h5 class=\"heading-announce\">{$end}</h5>"
+            "snippet": "<h5 class=\"heading-announce\">{$1}</h5>"
           },
           {
             "name": "h6",
@@ -451,7 +451,7 @@
               "description": "<h6 class=\"heading-announce\">Announce h6</h6>",
               "type": "markup"
             },
-            "snippet": "<h6 class=\"heading-announce\">{$end}</h6>"
+            "snippet": "<h6 class=\"heading-announce\">{$1}</h6>"
           }
         ]
       },
@@ -478,7 +478,7 @@
               "description": "<h1 class=\"label-classification\">Label h1</h1>",
               "type": "markup"
             },
-            "snippet": "<h1 class=\"label-classification\">{$end}</h1>"
+            "snippet": "<h1 class=\"label-classification\">{$1}</h1>"
           },
           {
             "name": "h2",
@@ -495,7 +495,7 @@
               "description": "<h2 class=\"label-classification\">Label h2</h2>",
               "type": "markup"
             },
-            "snippet": "<h2 class=\"label-classification\">{$end}</h2>"
+            "snippet": "<h2 class=\"label-classification\">{$1}</h2>"
           },
           {
             "name": "h3",
@@ -512,7 +512,7 @@
               "description": "<h3 class=\"label-classification\">Label h3</h3>",
               "type": "markup"
             },
-            "snippet": "<h3 class=\"label-classification\">{$end}</h3>"
+            "snippet": "<h3 class=\"label-classification\">{$1}</h3>"
           },
           {
             "name": "h4",
@@ -529,7 +529,7 @@
               "description": "<h4 class=\"label-classification\">Label h4</h4>",
               "type": "markup"
             },
-            "snippet": "<h4 class=\"label-classification\">{$end}</h4>"
+            "snippet": "<h4 class=\"label-classification\">{$1}</h4>"
           },
           {
             "name": "h5",
@@ -546,7 +546,7 @@
               "description": "<h5 class=\"label-classification\">Label h5</h5>",
               "type": "markup"
             },
-            "snippet": "<h5 class=\"label-classification\">{$end}</h5>"
+            "snippet": "<h5 class=\"label-classification\">{$1}</h5>"
           },
           {
             "name": "h6",
@@ -563,7 +563,7 @@
               "description": "<h6 class=\"label-classification\">Label h6</h6>",
               "type": "markup"
             },
-            "snippet": "<h6 class=\"label-classification\">{$end}</h6>"
+            "snippet": "<h6 class=\"label-classification\">{$1}</h6>"
           }
         ]
       }
@@ -618,7 +618,7 @@
               "description": "<button type=\"button\" class=\"btn btn-primary\">Core</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-primary {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-primary {$modifiers}\">{$1}</button>"
           },
           {
             "name": "Secondary",
@@ -635,7 +635,7 @@
               "description": "<button type=\"button\" class=\"btn btn-default\">Core</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-default {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-default {$modifiers}\">{$1}</button>"
           },
           {
             "name": "Black",
@@ -652,7 +652,7 @@
               "description": "<button type=\"button\" class=\"btn btn-primary btn-contrast\">Core</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-primary btn-contrast {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-primary btn-contrast {$modifiers}\">{$1}</button>"
           },
           {
             "name": "White",
@@ -669,7 +669,7 @@
               "description": "<button type=\"button\" class=\"btn btn-default btn-contrast\">Core</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-default btn-contrast {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-default btn-contrast {$modifiers}\">{$1}</button>"
           }
         ]
       },
@@ -696,7 +696,7 @@
               "description": "<button type=\"button\" class=\"btn btn-explore btn-primary\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-primary {$modifiers}\">\n    {$1}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
           },
           {
             "name": "Secondary",
@@ -713,7 +713,7 @@
               "description": "<button type=\"button\" class=\"btn btn-explore btn-default\">\n  Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-default {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-explore btn-default {$modifiers}\">\n    {$1}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
           },
           {
             "name": "Black",
@@ -730,7 +730,7 @@
               "description": "<button type=\"button\" class=\"btn btn-contrast btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-primary {$modifiers}\">\n    {$1}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
           },
           {
             "name": "White",
@@ -747,7 +747,7 @@
               "description": "<button type=\"button\" class=\"btn btn-contrast btn-default\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-default {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-contrast btn-default {$modifiers}\">\n    {$1}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
           },
           {
             "name": "Outline",
@@ -764,7 +764,7 @@
               "description": "<button type=\"button\" class=\"btn btn-outline-alternate btn-primary\">\n    Explore<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-outline-alternate btn-primary {$modifiers}\">\n    {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-outline-alternate btn-primary {$modifiers}\">\n    {$1}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"></span>\n</button>"
           }
         ]
       },
@@ -791,7 +791,7 @@
               "description": "<button type=\"button\" class=\"btn btn-off-price btn-primary\">Offprice</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-primary {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-primary {$modifiers}\">{$1}</button>"
           },
           {
             "name": "Secondary",
@@ -808,7 +808,7 @@
               "description": "<button type=\"button\" class=\"btn btn-off-price btn-default\">Offprice</button>",
               "type": "markup"
             },
-            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-default {$modifiers}\">{$end}</button>"
+            "snippet": "<button type=\"button\" class=\"btn btn-off-price btn-default {$modifiers}\">{$1}</button>"
           }
         ]
       },
@@ -827,7 +827,7 @@
           "description": "<button class=\"btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Remove</span>\n  <span>Remove Filter</span>\n</button>",
           "type": "markup"
         },
-        "snippet": "<button class=\"btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Remove</span>\n  <span>{$end}</span>\n</button>"
+        "snippet": "<button class=\"btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Remove</span>\n  <span>{$1}</span>\n</button>"
       },
       {
         "name": "Remove",
@@ -844,7 +844,7 @@
           "description": "<button type=\"button\" class=\"close\" aria-label=\"Close\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Close button</span>\n</button>",
           "type": "markup"
         },
-        "snippet": "<button type=\"button\" class=\"close\" aria-label=\"Close\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Close button</span>\n</button>"
+        "snippet": "<button type=\"button\" class=\"close\" aria-label=\"Close\">\n  <span class=\"icon icon-rei-close-small\" aria-hidden=\"true\"></span>\n  <span class=\"sr-only\">Remove button</span>\n</button>"
       },
       {
         "name": "Close",
@@ -896,7 +896,7 @@
               "description": "<a class=\"link-body\" href=\"\">Normal</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-body\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-body\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay",
@@ -913,7 +913,7 @@
               "description": "<a class=\"link-overlay\" href=\"\">Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay-Contrast",
@@ -930,7 +930,7 @@
               "description": "<a class=\"link-contrast-overlay\" href=\"\">Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-contrast-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-contrast-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone",
@@ -947,7 +947,7 @@
               "description": "<a class=\"link_stag\" href=\"\">Standalone</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_stag\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Text",
@@ -964,7 +964,7 @@
               "description": "<a href=\"\">Standalone-Text</a>",
               "type": "markup"
             },
-            "snippet": "<a href=\"{$href}\">{$end}</a>"
+            "snippet": "<a href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Title",
@@ -981,7 +981,7 @@
               "description": "<a class=\"link_stag-title\" href=\"\">Standalone-Title</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-title\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_stag-title\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Overlay",
@@ -998,7 +998,7 @@
               "description": "<a class=\"link_stag-overlay\" href=\"\">Standalone-Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_stag-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Overlay-Text",
@@ -1015,7 +1015,7 @@
               "description": "<a class=\"link_stag-overlay-body\" href=\"\">Standalone-Overlay-Text</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-overlay-body\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_stag-overlay-body\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Overlay-Title",
@@ -1032,7 +1032,7 @@
               "description": "<a class=\"link_stag-title-overlay\" href=\"\">Standalone-Overlay-Title</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-title-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_stag-title-overlay\" href=\"{$1}\">{$2}</a>"
           }
         ]
       },
@@ -1059,7 +1059,7 @@
               "description": "<a class=\"link-explore\" href=\"\">Explore</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-explore\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-explore\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Normal-Overlay",
@@ -1076,7 +1076,7 @@
               "description": "<a class=\"link-explore-overlay\" href=\"\">Explore Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-explore-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-explore-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone",
@@ -1093,7 +1093,7 @@
               "description": "<a class=\"link_stag-explore\" href=\"#\">\n  Explore Standalone<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-explore\" href=\"{$href}\">\n  {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
+            "snippet": "<a class=\"link_stag-explore\" href=\"{$1}\">\n  {$2}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
           },
           {
             "name": "Standalone-Overlay",
@@ -1110,7 +1110,7 @@
               "description": "<a class=\"link_stag-explore-overlay\" href=\"#\">\n  Explore Standalone Overlay<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_stag-explore-overlay\" href=\"{$href}\">\n  {$end}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
+            "snippet": "<a class=\"link_stag-explore-overlay\" href=\"{$1}\">\n  {$2}<span class=\"icon icon-rei-tree-arrow\" aria-hidden=\"true\"> </span>\n</a>"
           }
         ]
       },
@@ -1137,7 +1137,7 @@
               "description": "<a class=\"link-off-price\" href=\"\">Offprice</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-off-price\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-off-price\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Normal-Overlay",
@@ -1154,7 +1154,7 @@
               "description": "<a class=\"link-off-price-overlay\" href=\"\">Offprice Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-off-price-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-off-price-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone",
@@ -1171,7 +1171,7 @@
               "description": "<a class=\"link-off-price-standalone\" href=\"\">Standalone Offprice</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-off-price-standalone\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-off-price-standalone\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Standalone-Overlay",
@@ -1188,7 +1188,7 @@
               "description": "<a class=\"link-off-price-standalone-overlay\" href=\"\">Standalone-Overlay Offprice</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-off-price-standalone-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-off-price-standalone-overlay\" href=\"{$1}\">{$2}</a>"
           }
         ]
       },
@@ -1215,7 +1215,7 @@
               "description": "<h1>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
               "type": "markup"
             },
-            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+            "snippet": "<h1>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
           },
           {
             "name": "h2",
@@ -1232,7 +1232,7 @@
               "description": "<h2>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
               "type": "markup"
             },
-            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+            "snippet": "<h2>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
           },
           {
             "name": "h3",
@@ -1249,7 +1249,7 @@
               "description": "<h3>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
               "type": "markup"
             },
-            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+            "snippet": "<h3>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
           },
           {
             "name": "h4",
@@ -1266,7 +1266,7 @@
               "description": "<h4>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
               "type": "markup"
             },
-            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+            "snippet": "<h4>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
           },
           {
             "name": "h5",
@@ -1283,7 +1283,7 @@
               "description": "<h5>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
               "type": "markup"
             },
-            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+            "snippet": "<h5>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
           },
           {
             "name": "h6",
@@ -1300,7 +1300,7 @@
               "description": "<h6>\n  <a href=\"#\" class=\"link_header text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
               "type": "markup"
             },
-            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+            "snippet": "<h6>\n  <a href=\"{$1}\" class=\"link_header text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
           }
         ]
       },
@@ -1327,7 +1327,7 @@
               "description": "<h1>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
               "type": "markup"
             },
-            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+            "snippet": "<h1>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
           },
           {
             "name": "h2",
@@ -1344,7 +1344,7 @@
               "description": "<h2>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
               "type": "markup"
             },
-            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+            "snippet": "<h2>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
           },
           {
             "name": "h3",
@@ -1361,7 +1361,7 @@
               "description": "<h3>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
               "type": "markup"
             },
-            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+            "snippet": "<h3>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
           },
           {
             "name": "h4",
@@ -1378,7 +1378,7 @@
               "description": "<h4>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
               "type": "markup"
             },
-            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+            "snippet": "<h4>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
           },
           {
             "name": "h5",
@@ -1395,7 +1395,7 @@
               "description": "<h5>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
               "type": "markup"
             },
-            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+            "snippet": "<h5>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
           },
           {
             "name": "h6",
@@ -1412,7 +1412,7 @@
               "description": "<h6>\n  <a href=\"#\" class=\"link_header-explore text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
               "type": "markup"
             },
-            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+            "snippet": "<h6>\n  <a href=\"{$1}\" class=\"link_header-explore text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
           }
         ]
       },
@@ -1439,7 +1439,7 @@
               "description": "<h1>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
               "type": "markup"
             },
-            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+            "snippet": "<h1>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
           },
           {
             "name": "h2",
@@ -1456,7 +1456,7 @@
               "description": "<h2>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
               "type": "markup"
             },
-            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+            "snippet": "<h2>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
           },
           {
             "name": "h3",
@@ -1473,7 +1473,7 @@
               "description": "<h3>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
               "type": "markup"
             },
-            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+            "snippet": "<h3>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
           },
           {
             "name": "h4",
@@ -1490,7 +1490,7 @@
               "description": "<h4>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
               "type": "markup"
             },
-            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+            "snippet": "<h4>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
           },
           {
             "name": "h5",
@@ -1507,7 +1507,7 @@
               "description": "<h5>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
               "type": "markup"
             },
-            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+            "snippet": "<h5>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
           },
           {
             "name": "h6",
@@ -1524,7 +1524,7 @@
               "description": "<h6>\n  <a href=\"#\" class=\"link_header-off-price text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
               "type": "markup"
             },
-            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+            "snippet": "<h6>\n  <a href=\"{$1}\" class=\"link_header-off-price text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
           }
         ]
       },
@@ -1551,7 +1551,7 @@
               "description": "<h1>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h1 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h1>",
               "type": "markup"
             },
-            "snippet": "<h1>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
+            "snippet": "<h1>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h1>"
           },
           {
             "name": "h2",
@@ -1568,7 +1568,7 @@
               "description": "<h2>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h2 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h2>",
               "type": "markup"
             },
-            "snippet": "<h2>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
+            "snippet": "<h2>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h2>"
           },
           {
             "name": "h3",
@@ -1585,7 +1585,7 @@
               "description": "<h3>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h3 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h3>",
               "type": "markup"
             },
-            "snippet": "<h3>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
+            "snippet": "<h3>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h3>"
           },
           {
             "name": "h4",
@@ -1602,7 +1602,7 @@
               "description": "<h4>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h4 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h4>",
               "type": "markup"
             },
-            "snippet": "<h4>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
+            "snippet": "<h4>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h4>"
           },
           {
             "name": "h5",
@@ -1619,7 +1619,7 @@
               "description": "<h5>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h5 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h5>",
               "type": "markup"
             },
-            "snippet": "<h5>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
+            "snippet": "<h5>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h5>"
           },
           {
             "name": "h6",
@@ -1636,7 +1636,7 @@
               "description": "<h6>\n  <a href=\"#\" class=\"link_header-overlay text-icon-right-arrow\">\n    h6 Header Link<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n   </a>\n</h6>",
               "type": "markup"
             },
-            "snippet": "<h6>\n  <a href=\"{$href}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$end}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
+            "snippet": "<h6>\n  <a href=\"{$1}\" class=\"link_header-overlay text-icon-right-arrow\">\n    {$2}<span class=\"icon icon-rei-right-arrow\" aria-hidden=\"true\"></span>\n  </a>\n</h6>"
           }
         ]
       },
@@ -1663,7 +1663,7 @@
               "description": "<a class=\"link_navigation\" href=\"\">Normal</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_navigation\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_navigation\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Title",
@@ -1680,7 +1680,7 @@
               "description": "<a class=\"link_navigation-title\" href=\"\">Title</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_navigation-title\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_navigation-title\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Utility",
@@ -1697,7 +1697,7 @@
               "description": "<a class=\"link-utility\" href=\"\">Utility</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-utility\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-utility\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay",
@@ -1714,7 +1714,7 @@
               "description": "<a class=\"link_navigation-overlay\" href=\"\">Overlay</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_navigation-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_navigation-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay-Title",
@@ -1731,7 +1731,7 @@
               "description": "<a class=\"link_navigation-title-overlay\" href=\"\">Overlay-Title</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link_navigation-title-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link_navigation-title-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay-Utility",
@@ -1748,7 +1748,7 @@
               "description": "<a class=\"link-utility-overlay\" href=\"\">Overlay-Utility</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-utility-overlay\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-utility-overlay\" href=\"{$1}\">{$2}</a>"
           },
           {
             "name": "Overlay-Sub-Navigation",
@@ -1765,7 +1765,7 @@
               "description": "<a class=\"link-sub-navigation\" href=\"\">Overlay-Sub-Navigation</a>",
               "type": "markup"
             },
-            "snippet": "<a class=\"link-sub-navigation\" href=\"{$href}\">{$end}</a>"
+            "snippet": "<a class=\"link-sub-navigation\" href=\"{$1}\">{$2}</a>"
           }
         ]
       }
@@ -1794,7 +1794,7 @@
           "description": "<ul class=\"list-text\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
           "type": "markup"
         },
-        "snippet": "<ul class=\"list-text\">\n  <li>{$end}</li>\n</ul>"
+        "snippet": "<ul class=\"list-text\">\n  <li>{$1}</li>\n</ul>"
       },
       {
         "name": "Bullets",
@@ -1811,7 +1811,7 @@
           "description": "<ul class=\"list-decoration\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ul>",
           "type": "markup"
         },
-        "snippet": "<ul class=\"list-decoration\">\n  <li>{$end}</li>\n</ul>"
+        "snippet": "<ul class=\"list-decoration\">\n  <li>{$1}</li>\n</ul>"
       },
       {
         "name": "Ordered",
@@ -1828,7 +1828,7 @@
           "description": "<ol class=\"list-text-ordered\">\n  <li>Lorem ipsum dolor sit amet</li>\n  <li>Facilisis in pretium nisl aliquet</li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-text-ordered\">\n  <li>{$end}</li>\n</ol>"
+        "snippet": "<ol class=\"list-text-ordered\">\n  <li>{$1}</li>\n</ol>"
       },
       {
         "name": "Inline",
@@ -1845,7 +1845,7 @@
           "description": "<ol class=\"list-inline\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-inline\">\n  <li>{$end}</li>\n</ol>"
+        "snippet": "<ol class=\"list-inline\">\n  <li>{$1}</li>\n</ol>"
       },
       {
         "name": "Inline-Padding",
@@ -1862,7 +1862,7 @@
           "description": "<ol class=\"list-inline list-inline-md\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-inline list-inline-md\">\n  <li>{$end}</li>\n</ol>"
+        "snippet": "<ol class=\"list-inline list-inline-md\">\n  <li>{$1}</li>\n</ol>"
       },
       {
         "name": "Inline-Padding-Lg",
@@ -1879,7 +1879,7 @@
           "description": "<ol class=\"list-inline list-inline-lg\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-inline list-inline-lg\">\n  <li>{$end}</li>\n</ol>"
+        "snippet": "<ol class=\"list-inline list-inline-lg\">\n  <li>{$1}</li>\n</ol>"
       },
       {
         "name": "Inline-Pipe",
@@ -1896,7 +1896,7 @@
           "description": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>Thing 1</li>\n  <li>Thing 2</li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>{$end}</li>\n</ol>"
+        "snippet": "<ol class=\"list-inline list-inline-md list-inline-pipe\">\n  <li>{$1}</li>\n</ol>"
       },
       {
         "name": "Inline-Feature-Link",
@@ -1913,7 +1913,7 @@
           "description": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"\">Link 1</a></li>\n  <li><a href=\"\">Link 2</a></li>\n</ol>",
           "type": "markup"
         },
-        "snippet": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"{$href}\">{$end}</a></li>\n</ol>"
+        "snippet": "<ol class=\"list-inline list-inline-lg use_link-stag-explore\">\n  <li><a href=\"{$1}\">{$2}</a></li>\n</ol>"
       }
     ]
   },
@@ -1940,7 +1940,7 @@
           "description": "<form>\n  <input type=\"text\" class=\"form-control\" placeholder=\"Text input\">\n</form>",
           "type": "markup"
         },
-        "snippet": "<input type=\"text\" class=\"form-control\" placeholder=\"{$end}\">"
+        "snippet": "<input type=\"text\" class=\"form-control\" placeholder=\"{$1}\">"
       },
       {
         "name": "Textarea",
@@ -1957,7 +1957,7 @@
           "description": "<form>\n  <textarea class=\"form-control\" rows=\"3\" placeholder=\"Textarea\"></textarea>\n</form>",
           "type": "markup"
         },
-        "snippet": "<textarea class=\"form-control\" rows=\"3\" placeholder=\"{$end}\"></textarea>"
+        "snippet": "<textarea class=\"form-control\" rows=\"3\" placeholder=\"{$1}\"></textarea>"
       },
       {
         "name": "Select",
@@ -1974,7 +1974,7 @@
           "description": "<form>\n  <select class=\"form-control\">\n    <option>1</option>\n  </select>\n</form>",
           "type": "markup"
         },
-        "snippet": "<select class=\"form-control\">\n  <option>{$end}</option>\n</select>"
+        "snippet": "<select class=\"form-control\">\n  <option>{$1}</option>\n</select>"
       },
       {
         "name": "Checkbox",
@@ -1991,7 +1991,7 @@
           "description": "<div class=\"checkbox\">\n   <input type=\"checkbox\" value=\"\" id=\"\">\n   <label for=\"\">Checkbox</label>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"checkbox\">\n   <input type=\"checkbox\" id=\"{$for}\" value=\"{$val}\">\n   <label for=\"{$for}\">{$end}</label>\n</div>"
+        "snippet": "<div class=\"checkbox\">\n   <input type=\"checkbox\" id=\"{$1}\" value=\"{$2}\">\n   <label for=\"{$1}\">{$3}</label>\n</div>"
       },
       {
         "name": "Radio",
@@ -2008,7 +2008,7 @@
           "description": "<div class=\"radio\">\n   <input type=\"radio\" name=\"\" value=\"\" id=\"\">\n   <label for=\"\">Radio</label>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"radio\">\n   <input type=\"radio\" id=\"{$for}\" value=\"{$val}\" name=\"{$name}\">\n   <label for=\"{$for}\">{$end}</label>\n</div>"
+        "snippet": "<div class=\"radio\">\n   <input type=\"radio\" id=\"{$1}\" value=\"{$2}\" name=\"{$3}\">\n   <label for=\"{$1}\">{$4}</label>\n</div>"
       }
     ]
   },
@@ -2822,101 +2822,6 @@
     ]
   },
   {
-    "name": "Image",
-    "description": "",
-    "id": "image",
-    "depth": 1,
-    "isSection": true,
-    "page": "index",
-    "children": [
-      {
-        "name": "Responsive",
-        "description": "",
-        "id": "image-responsive",
-        "depth": 2,
-        "isSection": true,
-        "parent": "Image",
-        "example": {
-          "description": "<img src=\"http://placehold.it/350x150\" class=\"img-responsive\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "code": {
-          "description": "<img src=\"http://placehold.it/350x150\" class=\"img-responsive\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "snippet": "<img src=\"{$src}\" class=\"img-responsive\" alt=\"{$alt}\">"
-      },
-      {
-        "name": "Rounded",
-        "description": "",
-        "id": "image-rounded",
-        "depth": 2,
-        "isSection": true,
-        "parent": "Image",
-        "example": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-rounded\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "code": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-rounded\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "snippet": "<img src=\"{$src}\" class=\"img-rounded\" alt=\"{$alt}\">"
-      },
-      {
-        "name": "Circle",
-        "description": "",
-        "id": "image-circle",
-        "depth": 2,
-        "isSection": true,
-        "parent": "Image",
-        "example": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-circle\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "code": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-circle\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "snippet": "<img src=\"{$src}\" class=\"img-circle\" alt=\"{$alt}\">"
-      },
-      {
-        "name": "Thumbnail",
-        "description": "",
-        "id": "image-thumbnail",
-        "depth": 2,
-        "isSection": true,
-        "parent": "Image",
-        "example": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-thumbnail\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "code": {
-          "description": "<img src=\"http://placehold.it/150x150\" class=\"img-thumbnail\" alt=\"Placeholder Image\">",
-          "type": "markup"
-        },
-        "snippet": "<img src=\"{$src}\" class=\"img-thumbnail\" alt=\"{$alt}\">"
-      },
-      {
-        "name": "Mountain",
-        "description": "",
-        "id": "image-mountain",
-        "depth": 2,
-        "isSection": true,
-        "parent": "Image",
-        "example": {
-          "description": "<div class=\"shape-mountain\"></div>",
-          "type": "markup"
-        },
-        "code": {
-          "description": "<div class=\"shape-mountain\"></div>",
-          "type": "markup"
-        },
-        "snippet": "<div class=\"shape-mountain\"></div>"
-      }
-    ]
-  },
-  {
     "name": "Alert",
     "description": "",
     "id": "alert",
@@ -2939,7 +2844,7 @@
           "description": "<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   Success Alert\n  </span>\n </span>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+        "snippet": "<div class=\"alert alert-success\" role=\"alert\">\n <span class=\"icon icon-rei-success\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Success:</span>\n   {$1}\n  </span>\n </span>\n</div>"
       },
       {
         "name": "Info",
@@ -2956,7 +2861,7 @@
           "description": "<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   Info Alert\n  </span>\n </span>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   {$end}\n  </span>\n </span>\n</div>"
+        "snippet": "<div class=\"alert alert-info\" role=\"alert\">\n <span class=\"icon icon-rei-info\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   {$1}\n  </span>\n </span>\n</div>"
       },
       {
         "name": "Warning",
@@ -2973,7 +2878,7 @@
           "description": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Warning Alert\n  </span>\n </span>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-warning\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$1}\n  </span>\n </span>\n</div>"
       },
       {
         "name": "Backorder",
@@ -2990,7 +2895,7 @@
           "description": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   Backorder Alert\n  </span>\n </span>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+        "snippet": "<div class=\"alert alert-warning\" role=\"alert\">\n <span class=\"icon icon-rei-backorder\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Warning:</span>\n   {$1}\n  </span>\n </span>\n</div>"
       },
       {
         "name": "Error",
@@ -3007,7 +2912,7 @@
           "description": "<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   Error Alert\n  </span>\n </span>\n</div>",
           "type": "markup"
         },
-        "snippet": "<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   {$end}\n  </span>\n </span>\n</div>"
+        "snippet": "<div class=\"alert alert-danger\" role=\"alert\">\n <span class=\"icon icon-rei-error\" aria-hidden=\"true\"></span>\n  <span class=\"alert-text\">\n   <span class=\"sr-only\">Error:</span>\n   {$1}\n  </span>\n </span>\n</div>"
       }
     ]
   },
@@ -3034,7 +2939,7 @@
           "description": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"\" id=\"\" value=\"\">\n   <label for=\"\">Label</label>\n </li>\n</ul>",
           "type": "markup"
         },
-        "snippet": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" id=\"{$for}\" value=\"{$val}\" name=\"{$name}\">\n   <label for=\"{$for}\">{$end}</label>\n </li>\n</ul>"
+        "snippet": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" id=\"{$1}\" value=\"{$2}\" name=\"{$3}\">\n   <label for=\"{$1}\">{$4}</label>\n </li>\n</ul>"
       }
     ]
   }

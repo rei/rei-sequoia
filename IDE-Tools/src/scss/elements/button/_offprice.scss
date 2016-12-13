@@ -24,7 +24,7 @@
  * <button type="button" class="btn btn-off-price btn-primary">Offprice</button>
  *
  * @snippet
- * <button type="button" class="btn btn-off-price btn-primary {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-off-price btn-primary {$modifiers}">{$1}</button>
  */
 
 /**
@@ -35,5 +35,5 @@
  * <button type="button" class="btn btn-off-price btn-default">Offprice</button>
  *
  * @snippet
- * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$1}</button>
  */

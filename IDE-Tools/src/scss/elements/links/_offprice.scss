@@ -23,7 +23,7 @@
 * <a class="link-off-price" href="">Offprice</a>
 *
 * @snippet
-* <a class="link-off-price" href="{$href}">{$end}</a>
+* <a class="link-off-price" href="{$1}">{$2}</a>
 */
 
 /**
@@ -39,7 +39,7 @@
 * <a class="link-off-price-overlay" href="">Offprice Overlay</a>
 *
 * @snippet
-* <a class="link-off-price-overlay" href="{$href}">{$end}</a>
+* <a class="link-off-price-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -50,7 +50,7 @@
 * <a class="link-off-price-standalone" href="">Standalone Offprice</a>
 *
 * @snippet
-* <a class="link-off-price-standalone" href="{$href}">{$end}</a>
+* <a class="link-off-price-standalone" href="{$1}">{$2}</a>
 */
 
 /**
@@ -66,5 +66,5 @@
 * <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
 *
 * @snippet
-* <a class="link-off-price-standalone-overlay" href="{$href}">{$end}</a>
+* <a class="link-off-price-standalone-overlay" href="{$1}">{$2}</a>
 */

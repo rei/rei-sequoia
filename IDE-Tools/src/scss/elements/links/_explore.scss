@@ -23,7 +23,7 @@
 * <a class="link-explore" href="">Explore</a>
 *
 * @snippet
-* <a class="link-explore" href="{$href}">{$end}</a>
+* <a class="link-explore" href="{$1}">{$2}</a>
 */
 
 /**
@@ -39,7 +39,7 @@
 * <a class="link-explore-overlay" href="">Explore Overlay</a>
 *
 * @snippet
-* <a class="link-explore-overlay" href="{$href}">{$end}</a>
+* <a class="link-explore-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -52,8 +52,8 @@
 * </a>
 *
 * @snippet
-* <a class="link_stag-explore" href="{$href}">
-*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* <a class="link_stag-explore" href="{$1}">
+*   {$2}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
 * </a>
 */
 
@@ -74,7 +74,7 @@
 * </a>
 *
 * @snippet
-* <a class="link_stag-explore-overlay" href="{$href}">
-*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* <a class="link_stag-explore-overlay" href="{$1}">
+*   {$2}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
 * </a>
 */

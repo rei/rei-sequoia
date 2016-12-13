@@ -1,263 +1,305 @@
 <templateSet group="Cedar">
-  <template name="heading-core-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;header&quot;&gt;$END$&lt;/h1&gt;">
+  <template name="heading-core-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;header&quot;&gt;$1$&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-core-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;header&quot;&gt;$END$&lt;/h2&gt;">
+  <template name="heading-core-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;header&quot;&gt;$1$&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-core-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;header&quot;&gt;$END$&lt;/h3&gt;">
+  <template name="heading-core-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;header&quot;&gt;$1$&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-core-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;header&quot;&gt;$END$&lt;/h4&gt;">
+  <template name="heading-core-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;header&quot;&gt;$1$&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-core-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;header&quot;&gt;$END$&lt;/h5&gt;">
+  <template name="heading-core-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;header&quot;&gt;$1$&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-core-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;header&quot;&gt;$END$&lt;/h6&gt;">
+  <template name="heading-core-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;header&quot;&gt;$1$&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h1&gt;">
+  <template name="heading-explore-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h2&gt;">
+  <template name="heading-explore-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h3&gt;">
+  <template name="heading-explore-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h4&gt;">
+  <template name="heading-explore-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h5&gt;">
+  <template name="heading-explore-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-explore-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-editorial&quot;&gt;$END$&lt;/h6&gt;">
+  <template name="heading-explore-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-editorial&quot;&gt;$1$&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-hero&quot;&gt;$END$&lt;/h1&gt;">
+  <template name="heading-hero-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-hero&quot;&gt;$1$&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-hero&quot;&gt;$END$&lt;/h2&gt;">
+  <template name="heading-hero-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-hero&quot;&gt;$1$&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-hero&quot;&gt;$END$&lt;/h3&gt;">
+  <template name="heading-hero-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-hero&quot;&gt;$1$&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-hero&quot;&gt;$END$&lt;/h4&gt;">
+  <template name="heading-hero-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-hero&quot;&gt;$1$&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-hero&quot;&gt;$END$&lt;/h5&gt;">
+  <template name="heading-hero-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-hero&quot;&gt;$1$&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-hero-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-hero&quot;&gt;$END$&lt;/h6&gt;">
+  <template name="heading-hero-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-hero&quot;&gt;$1$&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-announce&quot;&gt;$END$&lt;/h1&gt;">
+  <template name="heading-announce-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;heading-announce&quot;&gt;$1$&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-announce&quot;&gt;$END$&lt;/h2&gt;">
+  <template name="heading-announce-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;heading-announce&quot;&gt;$1$&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-announce&quot;&gt;$END$&lt;/h3&gt;">
+  <template name="heading-announce-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;heading-announce&quot;&gt;$1$&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-announce&quot;&gt;$END$&lt;/h4&gt;">
+  <template name="heading-announce-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;heading-announce&quot;&gt;$1$&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-announce&quot;&gt;$END$&lt;/h5&gt;">
+  <template name="heading-announce-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;heading-announce&quot;&gt;$1$&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-announce-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-announce&quot;&gt;$END$&lt;/h6&gt;">
+  <template name="heading-announce-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;heading-announce&quot;&gt;$1$&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;label-classification&quot;&gt;$END$&lt;/h1&gt;">
+  <template name="heading-label-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1 class=&quot;label-classification&quot;&gt;$1$&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;label-classification&quot;&gt;$END$&lt;/h2&gt;">
+  <template name="heading-label-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2 class=&quot;label-classification&quot;&gt;$1$&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;label-classification&quot;&gt;$END$&lt;/h3&gt;">
+  <template name="heading-label-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3 class=&quot;label-classification&quot;&gt;$1$&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;label-classification&quot;&gt;$END$&lt;/h4&gt;">
+  <template name="heading-label-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4 class=&quot;label-classification&quot;&gt;$1$&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;label-classification&quot;&gt;$END$&lt;/h5&gt;">
+  <template name="heading-label-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5 class=&quot;label-classification&quot;&gt;$1$&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="heading-label-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;label-classification&quot;&gt;$END$&lt;/h6&gt;">
+  <template name="heading-label-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6 class=&quot;label-classification&quot;&gt;$1$&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-core-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-primary $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-core-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-primary $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-core-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-default $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-core-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-default $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-core-black" description="Black" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-contrast $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-core-black" description="Black" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-contrast $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-core-white" description="White" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-contrast $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-core-white" description="White" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-contrast $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-explore-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-explore btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-explore-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-explore btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $5$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-explore-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-explore btn-default $1$ $2$ $3$ $4$&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-explore-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-explore btn-default $1$ $2$ $3$ $4$&quot;&gt;&#10;    $5$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-explore-black" description="Black" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-contrast btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-explore-black" description="Black" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-contrast btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $5$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-explore-white" description="White" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-contrast btn-default $1$ $2$ $3$ $4$&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-explore-white" description="White" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-contrast btn-default $1$ $2$ $3$ $4$&quot;&gt;&#10;    $5$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-explore-outline" description="Outline" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-alternate btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-explore-outline" description="Outline" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-alternate btn-primary $1$ $2$ $3$ $4$&quot;&gt;&#10;    $5$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-offprice-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-off-price btn-primary $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-offprice-primary" description="Primary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-off-price btn-primary $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-offprice-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-off-price btn-default $1$ $2$ $3$ $4$&quot;&gt;$END$&lt;/button&gt;">
+  <template name="button-offprice-secondary" description="Secondary" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;btn btn-off-price btn-default $1$ $2$ $3$ $4$&quot;&gt;$5$&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-filter-remove" description="Filter-Remove" toReformat="true" toShortenFQNames="true" value="&lt;button class=&quot;btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Remove&lt;/span&gt;&#10;  &lt;span&gt;$END$&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-filter-remove" description="Filter-Remove" toReformat="true" toShortenFQNames="true" value="&lt;button class=&quot;btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Remove&lt;/span&gt;&#10;  &lt;span&gt;$5$&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-remove" description="Remove" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;close&quot; aria-label=&quot;Close&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Close button&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-remove" description="Remove" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;close&quot; aria-label=&quot;Close&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Remove button&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
@@ -275,361 +317,422 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-body&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-body&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-overlay" description="Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-overlay" description="Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-overlay-contrast" description="Overlay-Contrast" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-contrast-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-overlay-contrast" description="Overlay-Contrast" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-contrast-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone-text" description="Standalone-Text" toReformat="true" toShortenFQNames="true" value="&lt;a href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone-text" description="Standalone-Text" toReformat="true" toShortenFQNames="true" value="&lt;a href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone-title" description="Standalone-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-title&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone-title" description="Standalone-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-title&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone-overlay-text" description="Standalone-Overlay-Text" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-overlay-body&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone-overlay-text" description="Standalone-Overlay-Text" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-overlay-body&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-core-standalone-overlay-title" description="Standalone-Overlay-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-title-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-core-standalone-overlay-title" description="Standalone-Overlay-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-title-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-explore-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-explore&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-explore-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-explore&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-explore-normal-overlay" description="Normal-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-explore-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-explore-normal-overlay" description="Normal-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-explore-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-explore-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-explore&quot; href=&quot;$href$&quot;&gt;&#10;  $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt; &lt;/span&gt;&#10;&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-explore-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-explore&quot; href=&quot;$1$&quot;&gt;&#10;  $2$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt; &lt;/span&gt;&#10;&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-explore-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-explore-overlay&quot; href=&quot;$href$&quot;&gt;&#10;  $END$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt; &lt;/span&gt;&#10;&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-explore-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_stag-explore-overlay&quot; href=&quot;$1$&quot;&gt;&#10;  $2$&lt;span class=&quot;icon icon-rei-tree-arrow&quot; aria-hidden=&quot;true&quot;&gt; &lt;/span&gt;&#10;&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-offprice-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-offprice-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-offprice-normal-overlay" description="Normal-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-offprice-normal-overlay" description="Normal-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-offprice-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-standalone&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-offprice-standalone" description="Standalone" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-standalone&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-offprice-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-standalone-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-offprice-standalone-overlay" description="Standalone-Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-off-price-standalone-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-core-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-core-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-explore-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-explore-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-explore text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-offprice-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-offprice-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-off-price text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h1" description="h1" toReformat="true" toShortenFQNames="true" value="&lt;h1&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h1&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h2" description="h2" toReformat="true" toShortenFQNames="true" value="&lt;h2&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h2&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h3" description="h3" toReformat="true" toShortenFQNames="true" value="&lt;h3&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h3&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h4" description="h4" toReformat="true" toShortenFQNames="true" value="&lt;h4&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h4&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h5" description="h5" toReformat="true" toShortenFQNames="true" value="&lt;h5&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h5&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-header-overlay-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$href$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $END$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-header-overlay-h6" description="h6" toReformat="true" toShortenFQNames="true" value="&lt;h6&gt;&#10;  &lt;a href=&quot;$1$&quot; class=&quot;link_header-overlay text-icon-right-arrow&quot;&gt;&#10;    $2$&lt;span class=&quot;icon icon-rei-right-arrow&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;/a&gt;&#10;&lt;/h6&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-normal" description="Normal" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-title" description="Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-title&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-title" description="Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-title&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-utility" description="Utility" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-utility&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-utility" description="Utility" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-utility&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-overlay" description="Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-overlay" description="Overlay" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-overlay-title" description="Overlay-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-title-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-overlay-title" description="Overlay-Title" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link_navigation-title-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-overlay-utility" description="Overlay-Utility" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-utility-overlay&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-overlay-utility" description="Overlay-Utility" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-utility-overlay&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="link-navigation-overlay-sub-navigation" description="Overlay-Sub-Navigation" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-sub-navigation&quot; href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="link-navigation-overlay-sub-navigation" description="Overlay-Sub-Navigation" toReformat="true" toShortenFQNames="true" value="&lt;a class=&quot;link-sub-navigation&quot; href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-unstyled" description="Unstyled" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-text&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-unstyled" description="Unstyled" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-text&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-bullets" description="Bullets" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-decoration&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-bullets" description="Bullets" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-decoration&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-ordered" description="Ordered" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-text-ordered&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ol&gt;">
+  <template name="list-ordered" description="Ordered" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-text-ordered&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-inline" description="Inline" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ol&gt;">
+  <template name="list-inline" description="Inline" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-inline-padding" description="Inline-Padding" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-md&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ol&gt;">
+  <template name="list-inline-padding" description="Inline-Padding" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-md&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-inline-padding-lg" description="Inline-Padding-Lg" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-lg&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ol&gt;">
+  <template name="list-inline-padding-lg" description="Inline-Padding-Lg" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-lg&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-inline-pipe" description="Inline-Pipe" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-md list-inline-pipe&quot;&gt;&#10;  &lt;li&gt;$END$&lt;/li&gt;&#10;&lt;/ol&gt;">
+  <template name="list-inline-pipe" description="Inline-Pipe" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-md list-inline-pipe&quot;&gt;&#10;  &lt;li&gt;$1$&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-inline-feature-link" description="Inline-Feature-Link" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-lg use_link-stag-explore&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;$href$&quot;&gt;$END$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ol&gt;">
-    <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="list-inline-feature-link" description="Inline-Feature-Link" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;list-inline list-inline-lg use_link-stag-explore&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;$1$&quot;&gt;$2$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-text" description="Text" toReformat="true" toShortenFQNames="true" value="&lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;$END$&quot;&gt;">
+  <template name="input-text" description="Text" toReformat="true" toShortenFQNames="true" value="&lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;$1$&quot;&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-textarea" description="Textarea" toReformat="true" toShortenFQNames="true" value="&lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot; placeholder=&quot;$END$&quot;&gt;&lt;/textarea&gt;">
+  <template name="input-textarea" description="Textarea" toReformat="true" toShortenFQNames="true" value="&lt;textarea class=&quot;form-control&quot; rows=&quot;3&quot; placeholder=&quot;$1$&quot;&gt;&lt;/textarea&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-select" description="Select" toReformat="true" toShortenFQNames="true" value="&lt;select class=&quot;form-control&quot;&gt;&#10;  &lt;option&gt;$END$&lt;/option&gt;&#10;&lt;/select&gt;">
+  <template name="input-select" description="Select" toReformat="true" toShortenFQNames="true" value="&lt;select class=&quot;form-control&quot;&gt;&#10;  &lt;option&gt;$1$&lt;/option&gt;&#10;&lt;/select&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-checkbox" description="Checkbox" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot; id=&quot;$for$&quot; value=&quot;$val$&quot;&gt;&#10;   &lt;label for=&quot;$for$&quot;&gt;$END$&lt;/label&gt;&#10;&lt;/div&gt;">
-    <variable name="for" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="val" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="input-checkbox" description="Checkbox" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot; id=&quot;$1$&quot; value=&quot;$2$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$3$&lt;/label&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-radio" description="Radio" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;radio&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$for$&quot; value=&quot;$val$&quot; name=&quot;$name$&quot;&gt;&#10;   &lt;label for=&quot;$for$&quot;&gt;$END$&lt;/label&gt;&#10;&lt;/div&gt;">
-    <variable name="for" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="val" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="input-radio" description="Radio" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;radio&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
@@ -869,68 +972,41 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="image-responsive" description="Responsive" toReformat="true" toShortenFQNames="true" value="&lt;img src=&quot;$src$&quot; class=&quot;img-responsive&quot; alt=&quot;$alt$&quot;&gt;">
-    <variable name="src" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="alert-success" description="Success" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-success&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Success:&lt;/span&gt;&#10;   $1$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="image-rounded" description="Rounded" toReformat="true" toShortenFQNames="true" value="&lt;img src=&quot;$src$&quot; class=&quot;img-rounded&quot; alt=&quot;$alt$&quot;&gt;">
-    <variable name="src" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="alert-info" description="Info" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-info&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   $1$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="image-circle" description="Circle" toReformat="true" toShortenFQNames="true" value="&lt;img src=&quot;$src$&quot; class=&quot;img-circle&quot; alt=&quot;$alt$&quot;&gt;">
-    <variable name="src" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="alert-warning" description="Warning" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-warning&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $1$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="image-thumbnail" description="Thumbnail" toReformat="true" toShortenFQNames="true" value="&lt;img src=&quot;$src$&quot; class=&quot;img-thumbnail&quot; alt=&quot;$alt$&quot;&gt;">
-    <variable name="src" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="alt" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="alert-backorder" description="Backorder" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-backorder&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $1$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="image-mountain" description="Mountain" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;shape-mountain&quot;&gt;&lt;/div&gt;">
+  <template name="alert-error" description="Error" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-error&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Error:&lt;/span&gt;&#10;   $1$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="alert-success" description="Success" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-success&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Success:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="alert-info" description="Info" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-info&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="alert-warning" description="Warning" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-warning&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="alert-backorder" description="Backorder" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-backorder&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Warning:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="alert-error" description="Error" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&#10; &lt;span class=&quot;icon icon-rei-error&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;alert-text&quot;&gt;&#10;   &lt;span class=&quot;sr-only&quot;&gt;Error:&lt;/span&gt;&#10;   $END$&#10;  &lt;/span&gt;&#10; &lt;/span&gt;&#10;&lt;/div&gt;">
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="list-group-sorting" description="Sorting" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$for$&quot; value=&quot;$val$&quot; name=&quot;$name$&quot;&gt;&#10;   &lt;label for=&quot;$for$&quot;&gt;$END$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
-    <variable name="for" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="val" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true"/>
+  <template name="list-group-sorting" description="Sorting" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>

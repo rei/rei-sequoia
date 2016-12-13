@@ -2,10 +2,15 @@ var gulp = require( 'gulp' ),
     livingcss = require( 'gulp-livingcss' ),
     sass = require( 'gulp-sass' ),
     fs = require( 'fs-extra' ),
-    path = require( 'path' );
-runSequence = require( 'run-sequence' ),
+    path = require( 'path' ),
+    runSequence = require( 'run-sequence' ),
+    clean = require( 'gulp-dest-clean' ),
     sublime = require( './lib/gulp-sublime.js' ),
     intellij = require( './lib/gulp-intellij.js' );
+
+// Output variables
+var sublimeDest = 'snippets/sublime',
+    intellijDest = 'snippets/intellij'
 
 // define custom tag
 var optsObj = {
@@ -51,18 +56,27 @@ gulp.task( 'livingjson', function () {
         .pipe( livingcss( '', jsonObj ) )
 } );
 
+gulp.task( 'clean-sublime', function () {
+    return gulp.src( sublimeDest )
+        .pipe( clean( sublimeDest ) );
+} )
+
+gulp.task( 'clean-intellij', function () {
+    return gulp.src( intellijDest )
+        .pipe( clean( intellijDest ) );
+} )
 
 // Create Snippets tasks
 gulp.task( 'sublime-snips', function () {
     return gulp.src( './dist/json/elements.json' )
         .pipe( sublime() )
-        .pipe( gulp.dest( 'snippets/sublime' ) )
+        .pipe( gulp.dest( sublimeDest ) )
 } );
 
 gulp.task( 'intellij-snips', function () {
     return gulp.src( './dist/json/elements.json' )
         .pipe( intellij() )
-        .pipe( gulp.dest( 'snippets/intellij' ) )
+        .pipe( gulp.dest( intellijDest ) )
 } );
 
 
@@ -92,7 +106,9 @@ gulp.task( 'default', function ( cb ) {
 gulp.task( 'snippets', function ( cb ) {
     runSequence(
         'default',
+        'clean-sublime',
         'sublime-snips',
+        'clean-intellij',
         'intellij-snips',
         cb )
 } );
@@ -101,6 +117,7 @@ gulp.task( 'snippets', function ( cb ) {
 gulp.task( 'sublime', function ( cb ) {
     runSequence(
         'default',
+        'clean-sublime',
         'sublime-snips',
         cb )
 } );
@@ -109,6 +126,7 @@ gulp.task( 'sublime', function ( cb ) {
 gulp.task( 'intellij', function ( cb ) {
     runSequence(
         'default',
+        'clean-intellij',
         'intellij-snips',
         cb )
 } );

@@ -23,7 +23,7 @@
 * <a class="link_navigation" href="">Normal</a>
 *
 * @snippet
-* <a class="link_navigation" href="{$href}">{$end}</a>
+* <a class="link_navigation" href="{$1}">{$2}</a>
 */
 
 /**
@@ -34,7 +34,7 @@
 * <a class="link_navigation-title" href="">Title</a>
 *
 * @snippet
-* <a class="link_navigation-title" href="{$href}">{$end}</a>
+* <a class="link_navigation-title" href="{$1}">{$2}</a>
 */
 
 /**
@@ -45,7 +45,7 @@
 * <a class="link-utility" href="">Utility</a>
 *
 * @snippet
-* <a class="link-utility" href="{$href}">{$end}</a>
+* <a class="link-utility" href="{$1}">{$2}</a>
 */
 
 /**
@@ -61,7 +61,7 @@
 * <a class="link_navigation-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link_navigation-overlay" href="{$href}">{$end}</a>
+* <a class="link_navigation-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -77,7 +77,7 @@
 * <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
 *
 * @snippet
-* <a class="link_navigation-title-overlay" href="{$href}">{$end}</a>
+* <a class="link_navigation-title-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -93,7 +93,7 @@
 * <a class="link-utility-overlay" href="">Overlay-Utility</a>
 *
 * @snippet
-* <a class="link-utility-overlay" href="{$href}">{$end}</a>
+* <a class="link-utility-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -109,5 +109,5 @@
 * <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
 *
 * @snippet
-* <a class="link-sub-navigation" href="{$href}">{$end}</a>
+* <a class="link-sub-navigation" href="{$1}">{$2}</a>
 */

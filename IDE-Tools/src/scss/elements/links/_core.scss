@@ -22,7 +22,7 @@
 * <a class="link-body" href="">Normal</a>
 *
 * @snippet
-* <a class="link-body" href="{$href}">{$end}</a>
+* <a class="link-body" href="{$1}">{$2}</a>
 */
 
 /**
@@ -38,7 +38,7 @@
 * <a class="link-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link-overlay" href="{$href}">{$end}</a>
+* <a class="link-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -54,7 +54,7 @@
 * <a class="link-contrast-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link-contrast-overlay" href="{$href}">{$end}</a>
+* <a class="link-contrast-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -65,7 +65,7 @@
 * <a class="link_stag" href="">Standalone</a>
 *
 * @snippet
-* <a class="link_stag" href="{$href}">{$end}</a>
+* <a class="link_stag" href="{$1}">{$2}</a>
 */
 
 /**
@@ -76,7 +76,7 @@
 * <a href="">Standalone-Text</a>
 *
 * @snippet
-* <a href="{$href}">{$end}</a>
+* <a href="{$1}">{$2}</a>
 */
 
 /**
@@ -87,7 +87,7 @@
 * <a class="link_stag-title" href="">Standalone-Title</a>
 *
 * @snippet
-* <a class="link_stag-title" href="{$href}">{$end}</a>
+* <a class="link_stag-title" href="{$1}">{$2}</a>
 */
 
 /**
@@ -103,7 +103,7 @@
 * <a class="link_stag-overlay" href="">Standalone-Overlay</a>
 *
 * @snippet
-* <a class="link_stag-overlay" href="{$href}">{$end}</a>
+* <a class="link_stag-overlay" href="{$1}">{$2}</a>
 */
 
 /**
@@ -119,7 +119,7 @@
 * <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
 *
 * @snippet
-* <a class="link_stag-overlay-body" href="{$href}">{$end}</a>
+* <a class="link_stag-overlay-body" href="{$1}">{$2}</a>
 */
 
 /**
@@ -135,5 +135,5 @@
 * <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
 *
 * @snippet
-* <a class="link_stag-title-overlay" href="{$href}">{$end}</a>
+* <a class="link_stag-title-overlay" href="{$1}">{$2}</a>
 */

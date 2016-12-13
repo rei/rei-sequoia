@@ -20,7 +20,7 @@
 * </form>
 *
 * @snippet
-* <input type="text" class="form-control" placeholder="{$end}">
+* <input type="text" class="form-control" placeholder="{$1}">
 */
 
 /**
@@ -33,7 +33,7 @@
 * </form>
 *
 * @snippet
-* <textarea class="form-control" rows="3" placeholder="{$end}"></textarea>
+* <textarea class="form-control" rows="3" placeholder="{$1}"></textarea>
 */
 
 /**
@@ -49,6 +49,6 @@
 *
 * @snippet
 * <select class="form-control">
-*   <option>{$end}</option>
+*   <option>{$1}</option>
 * </select>
 */

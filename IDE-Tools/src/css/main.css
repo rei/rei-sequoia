@@ -13,7 +13,7 @@
 * <h1 class="header">Core h1</h1>
 *
 * @snippet
-* <h1 class="header">{$end}</h1>
+* <h1 class="header">{$1}</h1>
 */
 /**
 * @section h2
@@ -23,7 +23,7 @@
 * <h2 class="header">Core h2</h2>
 *
 * @snippet
-* <h2 class="header">{$end}</h2>
+* <h2 class="header">{$1}</h2>
 */
 /**
 * @section h3
@@ -33,7 +33,7 @@
 * <h3 class="header">Core h3</h3>
 *
 * @snippet
-* <h3 class="header">{$end}</h3>
+* <h3 class="header">{$1}</h3>
 */
 /**
 * @section h4
@@ -43,7 +43,7 @@
 * <h4 class="header">Core h4</h4>
 *
 * @snippet
-* <h4 class="header">{$end}</h4>
+* <h4 class="header">{$1}</h4>
 */
 /**
 * @section h5
@@ -53,7 +53,7 @@
 * <h5 class="header">Core h5</h5>
 *
 * @snippet
-* <h5 class="header">{$end}</h5>
+* <h5 class="header">{$1}</h5>
 */
 /**
 * @section h6
@@ -63,7 +63,7 @@
 * <h6 class="header">Core h6</h6>
 *
 * @snippet
-* <h6 class="header">{$end}</h6>
+* <h6 class="header">{$1}</h6>
 */
 /**
 * @section Explore
@@ -77,7 +77,7 @@
 * <h1 class="heading-editorial">Explore h1</h1>
 *
 * @snippet
-* <h1 class="heading-editorial">{$end}</h1>
+* <h1 class="heading-editorial">{$1}</h1>
 */
 /**
 * @section h2
@@ -87,7 +87,7 @@
 * <h2 class="heading-editorial">Explore h2</h2>
 *
 * @snippet
-* <h2 class="heading-editorial">{$end}</h2>
+* <h2 class="heading-editorial">{$1}</h2>
 */
 /**
 * @section h3
@@ -97,7 +97,7 @@
 * <h3 class="heading-editorial">Explore h3</h3>
 *
 * @snippet
-* <h3 class="heading-editorial">{$end}</h3>
+* <h3 class="heading-editorial">{$1}</h3>
 */
 /**
 * @section h4
@@ -107,7 +107,7 @@
 * <h4 class="heading-editorial">Explore h4</h4>
 *
 * @snippet
-* <h4 class="heading-editorial">{$end}</h4>
+* <h4 class="heading-editorial">{$1}</h4>
 */
 /**
 * @section h5
@@ -117,7 +117,7 @@
 * <h5 class="heading-editorial">Explore h5</h5>
 *
 * @snippet
-* <h5 class="heading-editorial">{$end}</h5>
+* <h5 class="heading-editorial">{$1}</h5>
 */
 /**
 * @section h6
@@ -127,7 +127,7 @@
 * <h6 class="heading-editorial">Explore h6</h6>
 *
 * @snippet
-* <h6 class="heading-editorial">{$end}</h6>
+* <h6 class="heading-editorial">{$1}</h6>
 */
 /**
 * @section Hero
@@ -146,7 +146,7 @@
 * <h1 class="heading-hero">Hero h1</h1>
 *
 * @snippet
-* <h1 class="heading-hero">{$end}</h1>
+* <h1 class="heading-hero">{$1}</h1>
 */
 /**
 * @section h2
@@ -161,7 +161,7 @@
 * <h2 class="heading-hero">Hero h2</h2>
 *
 * @snippet
-* <h2 class="heading-hero">{$end}</h2>
+* <h2 class="heading-hero">{$1}</h2>
 */
 /**
 * @section h3
@@ -176,7 +176,7 @@
 * <h3 class="heading-hero">Hero h3</h3>
 *
 * @snippet
-* <h3 class="heading-hero">{$end}</h3>
+* <h3 class="heading-hero">{$1}</h3>
 */
 /**
 * @section h4
@@ -191,7 +191,7 @@
 * <h4 class="heading-hero">Hero h4</h4>
 *
 * @snippet
-* <h4 class="heading-hero">{$end}</h4>
+* <h4 class="heading-hero">{$1}</h4>
 */
 /**
 * @section h5
@@ -206,7 +206,7 @@
 * <h5 class="heading-hero">Hero h5</h5>
 *
 * @snippet
-* <h5 class="heading-hero">{$end}</h5>
+* <h5 class="heading-hero">{$1}</h5>
 */
 /**
 * @section h6
@@ -221,7 +221,7 @@
 * <h6 class="heading-hero">Hero h6</h6>
 *
 * @snippet
-* <h6 class="heading-hero">{$end}</h6>
+* <h6 class="heading-hero">{$1}</h6>
 */
 /**
 * @section Announce
@@ -235,7 +235,7 @@
 * <h1 class="heading-announce">Announce h1</h1>
 *
 * @snippet
-* <h1 class="heading-announce">{$end}</h1>
+* <h1 class="heading-announce">{$1}</h1>
 */
 /**
 * @section h2
@@ -245,7 +245,7 @@
 * <h2 class="heading-announce">Announce h2</h2>
 *
 * @snippet
-* <h2 class="heading-announce">{$end}</h2>
+* <h2 class="heading-announce">{$1}</h2>
 */
 /**
 * @section h3
@@ -255,7 +255,7 @@
 * <h3 class="heading-announce">Announce h3</h3>
 *
 * @snippet
-* <h3 class="heading-announce">{$end}</h3>
+* <h3 class="heading-announce">{$1}</h3>
 */
 /**
 * @section h4
@@ -265,7 +265,7 @@
 * <h4 class="heading-announce">Announce h4</h4>
 *
 * @snippet
-* <h4 class="heading-announce">{$end}</h4>
+* <h4 class="heading-announce">{$1}</h4>
 */
 /**
 * @section h5
@@ -275,7 +275,7 @@
 * <h5 class="heading-announce">Announce h5</h5>
 *
 * @snippet
-* <h5 class="heading-announce">{$end}</h5>
+* <h5 class="heading-announce">{$1}</h5>
 */
 /**
 * @section h6
@@ -285,7 +285,7 @@
 * <h6 class="heading-announce">Announce h6</h6>
 *
 * @snippet
-* <h6 class="heading-announce">{$end}</h6>
+* <h6 class="heading-announce">{$1}</h6>
 */
 /**
 * @section Label
@@ -299,7 +299,7 @@
 * <h1 class="label-classification">Label h1</h1>
 *
 * @snippet
-* <h1 class="label-classification">{$end}</h1>
+* <h1 class="label-classification">{$1}</h1>
 */
 /**
 * @section h2
@@ -309,7 +309,7 @@
 * <h2 class="label-classification">Label h2</h2>
 *
 * @snippet
-* <h2 class="label-classification">{$end}</h2>
+* <h2 class="label-classification">{$1}</h2>
 */
 /**
 * @section h3
@@ -319,7 +319,7 @@
 * <h3 class="label-classification">Label h3</h3>
 *
 * @snippet
-* <h3 class="label-classification">{$end}</h3>
+* <h3 class="label-classification">{$1}</h3>
 */
 /**
 * @section h4
@@ -329,7 +329,7 @@
 * <h4 class="label-classification">Label h4</h4>
 *
 * @snippet
-* <h4 class="label-classification">{$end}</h4>
+* <h4 class="label-classification">{$1}</h4>
 */
 /**
 * @section h5
@@ -339,7 +339,7 @@
 * <h5 class="label-classification">Label h5</h5>
 *
 * @snippet
-* <h5 class="label-classification">{$end}</h5>
+* <h5 class="label-classification">{$1}</h5>
 */
 /**
 * @section h6
@@ -349,7 +349,7 @@
 * <h6 class="label-classification">Label h6</h6>
 *
 * @snippet
-* <h6 class="label-classification">{$end}</h6>
+* <h6 class="label-classification">{$1}</h6>
 */
 /**
  * @section Button
@@ -371,7 +371,7 @@
  * <button type="button" class="btn btn-primary">Core</button>
  *
  * @snippet
- * <button type="button" class="btn btn-primary {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-primary {$modifiers}">{$1}</button>
  */
 /**
  * @section Secondary
@@ -381,7 +381,7 @@
  * <button type="button" class="btn btn-default">Core</button>
  *
  * @snippet
- * <button type="button" class="btn btn-default {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-default {$modifiers}">{$1}</button>
  */
 /**
  * @section Black
@@ -391,7 +391,7 @@
  * <button type="button" class="btn btn-primary btn-contrast">Core</button>
  *
  * @snippet
- * <button type="button" class="btn btn-primary btn-contrast {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-primary btn-contrast {$modifiers}">{$1}</button>
  */
 /**
  * @section White
@@ -404,7 +404,7 @@
  * <button type="button" class="btn btn-default btn-contrast">Core</button>
  *
  * @snippet
- * <button type="button" class="btn btn-default btn-contrast {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-default btn-contrast {$modifiers}">{$1}</button>
  */
 /**
  * Explore
@@ -422,7 +422,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-explore btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 /**
@@ -436,7 +436,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-explore btn-default {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 /**
@@ -450,7 +450,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-contrast btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 /**
@@ -471,7 +471,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-contrast btn-default {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 /**
@@ -492,7 +492,7 @@
  *
  * @snippet
  * <button type="button" class="btn btn-outline-alternate btn-primary {$modifiers}">
- *     {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
+ *     {$1}<span class="icon icon-rei-tree-arrow" aria-hidden="true"></span>
  * </button>
  */
 /**
@@ -507,7 +507,7 @@
  * <button type="button" class="btn btn-off-price btn-primary">Offprice</button>
  *
  * @snippet
- * <button type="button" class="btn btn-off-price btn-primary {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-off-price btn-primary {$modifiers}">{$1}</button>
  */
 /**
  * @section Secondary
@@ -517,7 +517,7 @@
  * <button type="button" class="btn btn-off-price btn-default">Offprice</button>
  *
  * @snippet
- * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$end}</button>
+ * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$1}</button>
  */
 /**
   * @section Filter-Remove
@@ -534,7 +534,7 @@
   * <button class="btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle">
   *   <span class="icon icon-rei-close-small" aria-hidden="true"></span>
   *   <span class="sr-only">Remove</span>
-  *   <span>{$end}</span>
+  *   <span>{$1}</span>
   * </button>
   */
 /**
@@ -550,7 +550,7 @@
   * @snippet
   * <button type="button" class="close" aria-label="Close">
   *   <span class="icon icon-rei-close-small" aria-hidden="true"></span>
-  *   <span class="sr-only">Close button</span>
+  *   <span class="sr-only">Remove button</span>
   * </button>
   */
 /**
@@ -584,7 +584,7 @@
 * <a class="link-body" href="">Normal</a>
 *
 * @snippet
-* <a class="link-body" href="{$href}">{$end}</a>
+* <a class="link-body" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay
@@ -599,7 +599,7 @@
 * <a class="link-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link-overlay" href="{$href}">{$end}</a>
+* <a class="link-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay-Contrast
@@ -614,7 +614,7 @@
 * <a class="link-contrast-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link-contrast-overlay" href="{$href}">{$end}</a>
+* <a class="link-contrast-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone
@@ -624,7 +624,7 @@
 * <a class="link_stag" href="">Standalone</a>
 *
 * @snippet
-* <a class="link_stag" href="{$href}">{$end}</a>
+* <a class="link_stag" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Text
@@ -634,7 +634,7 @@
 * <a href="">Standalone-Text</a>
 *
 * @snippet
-* <a href="{$href}">{$end}</a>
+* <a href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Title
@@ -644,7 +644,7 @@
 * <a class="link_stag-title" href="">Standalone-Title</a>
 *
 * @snippet
-* <a class="link_stag-title" href="{$href}">{$end}</a>
+* <a class="link_stag-title" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Overlay
@@ -659,7 +659,7 @@
 * <a class="link_stag-overlay" href="">Standalone-Overlay</a>
 *
 * @snippet
-* <a class="link_stag-overlay" href="{$href}">{$end}</a>
+* <a class="link_stag-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Overlay-Text
@@ -674,7 +674,7 @@
 * <a class="link_stag-overlay-body" href="">Standalone-Overlay-Text</a>
 *
 * @snippet
-* <a class="link_stag-overlay-body" href="{$href}">{$end}</a>
+* <a class="link_stag-overlay-body" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Overlay-Title
@@ -689,7 +689,7 @@
 * <a class="link_stag-title-overlay" href="">Standalone-Overlay-Title</a>
 *
 * @snippet
-* <a class="link_stag-title-overlay" href="{$href}">{$end}</a>
+* <a class="link_stag-title-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Explore
@@ -703,7 +703,7 @@
 * <a class="link-explore" href="">Explore</a>
 *
 * @snippet
-* <a class="link-explore" href="{$href}">{$end}</a>
+* <a class="link-explore" href="{$1}">{$2}</a>
 */
 /**
 * @section Normal-Overlay
@@ -718,7 +718,7 @@
 * <a class="link-explore-overlay" href="">Explore Overlay</a>
 *
 * @snippet
-* <a class="link-explore-overlay" href="{$href}">{$end}</a>
+* <a class="link-explore-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone
@@ -730,8 +730,8 @@
 * </a>
 *
 * @snippet
-* <a class="link_stag-explore" href="{$href}">
-*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* <a class="link_stag-explore" href="{$1}">
+*   {$2}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
 * </a>
 */
 /**
@@ -751,8 +751,8 @@
 * </a>
 *
 * @snippet
-* <a class="link_stag-explore-overlay" href="{$href}">
-*   {$end}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
+* <a class="link_stag-explore-overlay" href="{$1}">
+*   {$2}<span class="icon icon-rei-tree-arrow" aria-hidden="true"> </span>
 * </a>
 */
 /**
@@ -767,7 +767,7 @@
 * <a class="link-off-price" href="">Offprice</a>
 *
 * @snippet
-* <a class="link-off-price" href="{$href}">{$end}</a>
+* <a class="link-off-price" href="{$1}">{$2}</a>
 */
 /**
 * @section Normal-Overlay
@@ -782,7 +782,7 @@
 * <a class="link-off-price-overlay" href="">Offprice Overlay</a>
 *
 * @snippet
-* <a class="link-off-price-overlay" href="{$href}">{$end}</a>
+* <a class="link-off-price-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone
@@ -792,7 +792,7 @@
 * <a class="link-off-price-standalone" href="">Standalone Offprice</a>
 *
 * @snippet
-* <a class="link-off-price-standalone" href="{$href}">{$end}</a>
+* <a class="link-off-price-standalone" href="{$1}">{$2}</a>
 */
 /**
 * @section Standalone-Overlay
@@ -807,7 +807,7 @@
 * <a class="link-off-price-standalone-overlay" href="">Standalone-Overlay Offprice</a>
 *
 * @snippet
-* <a class="link-off-price-standalone-overlay" href="{$href}">{$end}</a>
+* <a class="link-off-price-standalone-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Header-Core
@@ -826,8 +826,8 @@
 *
 * @snippet
 * <h1>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h1>
 */
@@ -844,8 +844,8 @@
 *
 * @snippet
 * <h2>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h2>
 */
@@ -862,8 +862,8 @@
 *
 * @snippet
 * <h3>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h3>
 */
@@ -880,8 +880,8 @@
 *
 * @snippet
 * <h4>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h4>
 */
@@ -898,8 +898,8 @@
 *
 * @snippet
 * <h5>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h5>
 */
@@ -916,8 +916,8 @@
 *
 * @snippet
 * <h6>
-*   <a href="{$href}" class="link_header text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h6>
 */
@@ -938,8 +938,8 @@
 *
 * @snippet
 * <h1>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h1>
 */
@@ -956,8 +956,8 @@
 *
 * @snippet
 * <h2>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h2>
 */
@@ -974,8 +974,8 @@
 *
 * @snippet
 * <h3>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h3>
 */
@@ -992,8 +992,8 @@
 *
 * @snippet
 * <h4>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h4>
 */
@@ -1010,8 +1010,8 @@
 *
 * @snippet
 * <h5>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h5>
 */
@@ -1028,8 +1028,8 @@
 *
 * @snippet
 * <h6>
-*   <a href="{$href}" class="link_header-explore text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-explore text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h6>
 */
@@ -1050,8 +1050,8 @@
 *
 * @snippet
 * <h1>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h1>
 */
@@ -1068,8 +1068,8 @@
 *
 * @snippet
 * <h2>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h2>
 */
@@ -1086,8 +1086,8 @@
 *
 * @snippet
 * <h3>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h3>
 */
@@ -1104,8 +1104,8 @@
 *
 * @snippet
 * <h4>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h4>
 */
@@ -1122,8 +1122,8 @@
 *
 * @snippet
 * <h5>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h5>
 */
@@ -1140,8 +1140,8 @@
 *
 * @snippet
 * <h6>
-*   <a href="{$href}" class="link_header-off-price text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-off-price text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h6>
 */
@@ -1171,8 +1171,8 @@
 *
 * @snippet
 * <h1>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h1>
 */
@@ -1198,8 +1198,8 @@
 *
 * @snippet
 * <h2>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h2>
 */
@@ -1225,8 +1225,8 @@
 *
 * @snippet
 * <h3>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h3>
 */
@@ -1252,8 +1252,8 @@
 *
 * @snippet
 * <h4>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h4>
 */
@@ -1279,8 +1279,8 @@
 *
 * @snippet
 * <h5>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h5>
 */
@@ -1306,8 +1306,8 @@
 *
 * @snippet
 * <h6>
-*   <a href="{$href}" class="link_header-overlay text-icon-right-arrow">
-*     {$end}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
+*   <a href="{$1}" class="link_header-overlay text-icon-right-arrow">
+*     {$2}<span class="icon icon-rei-right-arrow" aria-hidden="true"></span>
 *   </a>
 * </h6>
 */
@@ -1323,7 +1323,7 @@
 * <a class="link_navigation" href="">Normal</a>
 *
 * @snippet
-* <a class="link_navigation" href="{$href}">{$end}</a>
+* <a class="link_navigation" href="{$1}">{$2}</a>
 */
 /**
 * @section Title
@@ -1333,7 +1333,7 @@
 * <a class="link_navigation-title" href="">Title</a>
 *
 * @snippet
-* <a class="link_navigation-title" href="{$href}">{$end}</a>
+* <a class="link_navigation-title" href="{$1}">{$2}</a>
 */
 /**
 * @section Utility
@@ -1343,7 +1343,7 @@
 * <a class="link-utility" href="">Utility</a>
 *
 * @snippet
-* <a class="link-utility" href="{$href}">{$end}</a>
+* <a class="link-utility" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay
@@ -1358,7 +1358,7 @@
 * <a class="link_navigation-overlay" href="">Overlay</a>
 *
 * @snippet
-* <a class="link_navigation-overlay" href="{$href}">{$end}</a>
+* <a class="link_navigation-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay-Title
@@ -1373,7 +1373,7 @@
 * <a class="link_navigation-title-overlay" href="">Overlay-Title</a>
 *
 * @snippet
-* <a class="link_navigation-title-overlay" href="{$href}">{$end}</a>
+* <a class="link_navigation-title-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay-Utility
@@ -1388,7 +1388,7 @@
 * <a class="link-utility-overlay" href="">Overlay-Utility</a>
 *
 * @snippet
-* <a class="link-utility-overlay" href="{$href}">{$end}</a>
+* <a class="link-utility-overlay" href="{$1}">{$2}</a>
 */
 /**
 * @section Overlay-Sub-Navigation
@@ -1403,7 +1403,7 @@
 * <a class="link-sub-navigation" href="">Overlay-Sub-Navigation</a>
 *
 * @snippet
-* <a class="link-sub-navigation" href="{$href}">{$end}</a>
+* <a class="link-sub-navigation" href="{$1}">{$2}</a>
 */
 /**
 * @section List
@@ -1420,7 +1420,7 @@
 *
 * @snippet
 * <ul class="list-text">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ul>
 */
 /**
@@ -1435,7 +1435,7 @@
 *
 * @snippet
 * <ul class="list-decoration">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ul>
 */
 /**
@@ -1450,7 +1450,7 @@
 *
 * @snippet
 * <ol class="list-text-ordered">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ol>
 */
 /**
@@ -1465,7 +1465,7 @@
 *
 * @snippet
 * <ol class="list-inline">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ol>
 */
 /**
@@ -1480,7 +1480,7 @@
 *
 * @snippet
 * <ol class="list-inline list-inline-md">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ol>
 */
 /**
@@ -1495,7 +1495,7 @@
 *
 * @snippet
 * <ol class="list-inline list-inline-lg">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ol>
 */
 /**
@@ -1510,7 +1510,7 @@
 *
 * @snippet
 * <ol class="list-inline list-inline-md list-inline-pipe">
-*   <li>{$end}</li>
+*   <li>{$1}</li>
 * </ol>
 */
 /**
@@ -1525,7 +1525,7 @@
 *
 * @snippet
 * <ol class="list-inline list-inline-lg use_link-stag-explore">
-*   <li><a href="{$href}">{$end}</a></li>
+*   <li><a href="{$1}">{$2}</a></li>
 * </ol>
 */
 /**
@@ -1541,7 +1541,7 @@
 * </form>
 *
 * @snippet
-* <input type="text" class="form-control" placeholder="{$end}">
+* <input type="text" class="form-control" placeholder="{$1}">
 */
 /**
 * @section Textarea
@@ -1553,7 +1553,7 @@
 * </form>
 *
 * @snippet
-* <textarea class="form-control" rows="3" placeholder="{$end}"></textarea>
+* <textarea class="form-control" rows="3" placeholder="{$1}"></textarea>
 */
 /**
 * @section Select
@@ -1568,7 +1568,7 @@
 *
 * @snippet
 * <select class="form-control">
-*   <option>{$end}</option>
+*   <option>{$1}</option>
 * </select>
 */
 /**
@@ -1589,8 +1589,8 @@
  *
  * @snippet
  * <div class="checkbox">
- *    <input type="checkbox" id="{$for}" value="{$val}">
- *    <label for="{$for}">{$end}</label>
+ *    <input type="checkbox" id="{$1}" value="{$2}">
+ *    <label for="{$1}">{$3}</label>
  * </div>
  */
 /**
@@ -1611,8 +1611,8 @@
  *
  * @snippet
  * <div class="radio">
- *    <input type="radio" id="{$for}" value="{$val}" name="{$name}">
- *    <label for="{$for}">{$end}</label>
+ *    <input type="radio" id="{$1}" value="{$2}" name="{$3}">
+ *    <label for="{$1}">{$4}</label>
  * </div>
  */
 /**
@@ -2144,59 +2144,6 @@
 * <span class="icon icon-rei-social-instagram" aria-hidden="true"></span>
 */
 /**
-* @section Image
-*/
-/**
-* @section Responsive
-* @sectionof Image
-*
-* @example
-* <img src="http://placehold.it/350x150" class="img-responsive" alt="Placeholder Image">
-*
-* @snippet
-* <img src="{$src}" class="img-responsive" alt="{$alt}">
-*/
-/**
-* @section Rounded
-* @sectionof Image
-*
-* @example
-* <img src="http://placehold.it/150x150" class="img-rounded" alt="Placeholder Image">
-*
-* @snippet
-* <img src="{$src}" class="img-rounded" alt="{$alt}">
-*/
-/**
-* @section Circle
-* @sectionof Image
-*
-* @example
-* <img src="http://placehold.it/150x150" class="img-circle" alt="Placeholder Image">
-*
-* @snippet
-* <img src="{$src}" class="img-circle" alt="{$alt}">
-*/
-/**
-* @section Thumbnail
-* @sectionof Image
-*
-* @example
-* <img src="http://placehold.it/150x150" class="img-thumbnail" alt="Placeholder Image">
-*
-* @snippet
-* <img src="{$src}" class="img-thumbnail" alt="{$alt}">
-*/
-/**
-* @section Mountain
-* @sectionof Image
-*
-* @example
-* <div class="shape-mountain"></div>
-*
-* @snippet
-* <div class="shape-mountain"></div>
-*/
-/**
  * @section Alert
  */
 /**
@@ -2230,7 +2177,7 @@
  *  <span class="icon icon-rei-success" aria-hidden="true"></span>
  *   <span class="alert-text">
  *    <span class="sr-only">Success:</span>
- *    {$end}
+ *    {$1}
  *   </span>
  *  </span>
  * </div>
@@ -2263,7 +2210,7 @@
   * <div class="alert alert-info" role="alert">
   *  <span class="icon icon-rei-info" aria-hidden="true"></span>
   *   <span class="alert-text">
-  *    {$end}
+  *    {$1}
   *   </span>
   *  </span>
   * </div>
@@ -2299,7 +2246,7 @@
    *  <span class="icon icon-rei-warning" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Warning:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>
@@ -2335,7 +2282,7 @@
    *  <span class="icon icon-rei-backorder" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Warning:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>
@@ -2371,7 +2318,7 @@
    *  <span class="icon icon-rei-error" aria-hidden="true"></span>
    *   <span class="alert-text">
    *    <span class="sr-only">Error:</span>
-   *    {$end}
+   *    {$1}
    *   </span>
    *  </span>
    * </div>
@@ -2414,8 +2361,8 @@
   * @snippet
   * <ul class="list-group">
   *  <li class="list-group-item radio toggle-sort">
-  *    <input type="radio" id="{$for}" value="{$val}" name="{$name}">
-  *    <label for="{$for}">{$end}</label>
+  *    <input type="radio" id="{$1}" value="{$2}" name="{$3}">
+  *    <label for="{$1}">{$4}</label>
   *  </li>
   * </ul>
   */
