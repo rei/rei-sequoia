@@ -79,6 +79,7 @@ gulp.task( 'sass', function () {
         .pipe( gulp.dest( 'src/css/' ) )
 } );
 
+// Parsing SCSS comments and outputting JSON
 gulp.task( 'default', function ( cb ) {
     runSequence(
         'sass',
@@ -87,6 +88,16 @@ gulp.task( 'default', function ( cb ) {
         cb )
 } );
 
+// Generate all snippet types
+gulp.task( 'snippets', function ( cb ) {
+    runSequence(
+        'default',
+        'sublime-snips',
+        'intellij-snips',
+        cb )
+} );
+
+// Generate sublime snippets
 gulp.task( 'sublime', function ( cb ) {
     runSequence(
         'default',
@@ -94,6 +105,7 @@ gulp.task( 'sublime', function ( cb ) {
         cb )
 } );
 
+// Generate intellij snippets
 gulp.task( 'intellij', function ( cb ) {
     runSequence(
         'default',
