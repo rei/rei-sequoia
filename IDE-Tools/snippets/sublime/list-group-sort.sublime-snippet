@@ -5,7 +5,7 @@
    <label for="$1">$4</label>
  </li>
 </ul>]]></content>
-  <tabTrigger>list-group-sorting</tabTrigger>
-  <description>Sorting</description>
+  <tabTrigger>list-group-sort</tabTrigger>
+  <description>Sort</description>
   <scope>text.html</scope>
 </snippet>

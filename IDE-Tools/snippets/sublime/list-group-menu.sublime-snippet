@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[<ul class="list-group-menu">
+  <li class="list-group-item collapsibleList checkbox toggle-expand-collapse">
+    <input type="checkbox" value="" id="$1">
+    <label for="$1">$2</label>
+    <ul class="nest">
+      <li class="item-secondary">
+        <a href="$3">
+          <span>$4</span>
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="list-group-item">
+    <a href="$5">
+      <span>$6</span>
+    </a>
+  </li>
+</ul>]]></content>
+  <tabTrigger>list-group-menu</tabTrigger>
+  <description>Menu</description>
+  <scope>text.html</scope>
+</snippet>

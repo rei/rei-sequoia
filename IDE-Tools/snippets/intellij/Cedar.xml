@@ -1002,11 +1002,33 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-group-sorting" description="Sorting" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-group-sort" description="Sort" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="list-group-filter" description="Filter" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-filter&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;div class=&quot;checkbox&quot;&gt;&#10;          &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$3$&quot;&gt;&#10;          &lt;label for=&quot;$3$&quot;&gt;$4$&lt;/label&gt;&#10;        &lt;/div&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item collapsed&quot;&gt;&#10;    &lt;a href=&quot;$5$&quot;&gt;&#10;      &lt;span&gt;$6$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="list-group-menu" description="Menu" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-menu&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;a href=&quot;$3$&quot;&gt;&#10;          &lt;span&gt;$4$&lt;/span&gt;&#10;        &lt;/a&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item&quot;&gt;&#10;    &lt;a href=&quot;$5$&quot;&gt;&#10;      &lt;span&gt;$6$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>

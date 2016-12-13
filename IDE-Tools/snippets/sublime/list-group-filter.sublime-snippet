@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[<ul class="list-group-filter">
+  <li class="list-group-item collapsibleList checkbox toggle-expand-collapse">
+    <input type="checkbox" value="" id="$1">
+    <label for="$1">$2</label>
+    <ul class="nest">
+      <li class="item-secondary">
+        <div class="checkbox">
+          <input type="checkbox" value="" id="$3">
+          <label for="$3">$4</label>
+        </div>
+      </li>
+    </ul>
+  </li>
+  <li class="list-group-item collapsed">
+    <a href="$5">
+      <span>$6</span>
+    </a>
+  </li>
+</ul>]]></content>
+  <tabTrigger>list-group-filter</tabTrigger>
+  <description>Filter</description>
+  <scope>text.html</scope>
+</snippet>

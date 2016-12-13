@@ -2925,14 +2925,14 @@
     "page": "index",
     "children": [
       {
-        "name": "Sorting",
+        "name": "Sort",
         "description": "",
-        "id": "list-group-sorting",
+        "id": "list-group-sort",
         "depth": 2,
         "isSection": true,
         "parent": "List-Group",
         "example": {
-          "description": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-1\" value=\"1\">\n   <label for=\"sort-group-item-1\">sort-group-item 1</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-2\" value=\"2\">\n   <label for=\"sort-group-item-2\">sort-group-item 2</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-3\" value=\"3\">\n   <label for=\"sort-group-item-3\">sort-group-item 3</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-4\" value=\"4\">\n   <label for=\"sort-group-item-4\">sort-group-item 4</label>\n </li>\n</ul>",
+          "description": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-1\" value=\"1\">\n   <label for=\"sort-group-item-1\">sort-group-item 1</label>\n </li>\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" name=\"optionsRadios\" id=\"sort-group-item-2\" value=\"2\">\n   <label for=\"sort-group-item-2\">sort-group-item 2</label>\n </li>\n</ul>",
           "type": "markup"
         },
         "code": {
@@ -2940,6 +2940,40 @@
           "type": "markup"
         },
         "snippet": "<ul class=\"list-group\">\n <li class=\"list-group-item radio toggle-sort\">\n   <input type=\"radio\" id=\"{$1}\" value=\"{$2}\" name=\"{$3}\">\n   <label for=\"{$1}\">{$4}</label>\n </li>\n</ul>"
+      },
+      {
+        "name": "Filter",
+        "description": "",
+        "id": "list-group-filter",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List-Group",
+        "example": {
+          "description": "<ul class=\"list-group-filter\">\n <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n  <input type=\"checkbox\" value=\"\" id=\"list-group-item-1\">\n  <label for=\"list-group-item-1\">list-group-filter-item 1</label>\n <ul class=\"nest\">\n   <li class=\"item-secondary\">\n     <div class=\"checkbox\">\n       <input type=\"checkbox\" value=\"\" id=\"filter-one\">\n       <label for=\"filter-one\">Sub-option 1</label>\n\n       </div>\n     </li>\n     <li class=\"item-secondary\">\n       <div class=\"checkbox\">\n         <input type=\"checkbox\" value=\"\" id=\"filter-two\">\n         <label for=\"filter-two\">Sub-option 2 </label>\n       </div>\n     </li>\n     <li class=\"item-secondary\">\n       <div class=\"checkbox\">\n         <input type=\"checkbox\" value=\"\" id=\"filter-three\">\n         <label for=\"filter-three\">Sub-option 3</label>\n       </div>\n     </li>\n   </ul>\n </li>\n <li class=\"list-group-item collapsed\">\n   <a href=\"#\">\n     <span>list-group-item 2</span>\n   </a>\n </li>\n</ul>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ul class=\"list-group-filter\">\n <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n  <input type=\"checkbox\" value=\"\" id=\"list-group-item-1\">\n  <label for=\"list-group-item-1\">list-group-filter-item 1</label>\n  <ul class=\"nest\">\n   <li class=\"item-secondary\">\n     <div class=\"checkbox\">\n       <input type=\"checkbox\" value=\"\" id=\"filter-one\">\n       <label for=\"filter-one\">Sub-option 1</label>\n     </div>\n   </li>\n     <li class=\"item-secondary\">\n       <div class=\"checkbox\">\n         <input type=\"checkbox\" value=\"\" id=\"filter-two\">\n         <label for=\"filter-two\">Sub-option 2 </label>\n       </div>\n     </li>\n     <li class=\"item-secondary\">\n       <div class=\"checkbox\">\n         <input type=\"checkbox\" value=\"\" id=\"filter-three\">\n         <label for=\"filter-three\">Sub-option 3</label>\n       </div>\n     </li>\n   </ul>\n </li>\n <li class=\"list-group-item collapsed\">\n   <a href=\"#\">\n     <span>list-group-item 2</span>\n   </a>\n </li>\n</ul>",
+          "type": "markup"
+        },
+        "snippet": "<ul class=\"list-group-filter\">\n  <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n    <input type=\"checkbox\" value=\"\" id=\"{$1}\">\n    <label for=\"{$1}\">{$2}</label>\n    <ul class=\"nest\">\n      <li class=\"item-secondary\">\n        <div class=\"checkbox\">\n          <input type=\"checkbox\" value=\"\" id=\"{$3}\">\n          <label for=\"{$3}\">{$4}</label>\n        </div>\n      </li>\n    </ul>\n  </li>\n  <li class=\"list-group-item collapsed\">\n    <a href=\"{$5}\">\n      <span>{$6}</span>\n    </a>\n  </li>\n</ul>"
+      },
+      {
+        "name": "Menu",
+        "description": "",
+        "id": "list-group-menu",
+        "depth": 2,
+        "isSection": true,
+        "parent": "List-Group",
+        "example": {
+          "description": "<ul class=\"list-group-menu\">\n  <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n    <input type=\"checkbox\" value=\"\" id=\"menu-list-group-item-1\">\n    <label for=\"menu-list-group-item-1\">menu-list-group-item 1</label>\n    <ul class=\"nest\">\n      <li class=\"item-secondary\">\n        <a href=\"#\">\n          <span>Sub-option 1</span>\n        </a>\n      </li>\n      <li class=\"item-secondary\">\n        <a href=\"#\">\n          <span>Sub-option 2</span>\n        </a>\n      </li>\n      <li class=\"item-secondary\">\n        <a href=\"#\">\n          <span>Sub-option 3</span>\n        </a>\n      </li>\n      <li class=\"item-secondary\">\n        <a href=\"#\">\n          <span>Sub-option 4<span>\n        </a>\n      </li>\n    </ul>\n  </li>\n  <li class=\"list-group-item\">\n    <a href=\"#list-group-menu\">\n      <span>list-group-item 2</span>\n    </a>\n  </li>\n</ul>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<ul class=\"list-group-menu\">\n  <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n    <input type=\"checkbox\" value=\"\" id=\"menu-list-group-item-1\">\n    <label for=\"menu-list-group-item-1\">menu-list-group-item 1</label>\n    <ul class=\"nest\">\n      <li class=\"item-secondary\">\n        <a href=\"#\">\n          <span>Sub-option 1</span>\n        </a>\n      </li>\n    </ul>\n  </li>\n  <li class=\"list-group-item\">\n    <a href=\"#list-group-menu\">\n      <span>list-group-item 2</span>\n    </a>\n  </li>\n</ul>",
+          "type": "markup"
+        },
+        "snippet": "<ul class=\"list-group-menu\">\n  <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n    <input type=\"checkbox\" value=\"\" id=\"{$1}\">\n    <label for=\"{$1}\">{$2}</label>\n    <ul class=\"nest\">\n      <li class=\"item-secondary\">\n        <a href=\"{$3}\">\n          <span>{$4}</span>\n        </a>\n      </li>\n    </ul>\n  </li>\n  <li class=\"list-group-item\">\n    <a href=\"{$5}\">\n      <span>{$6}</span>\n    </a>\n  </li>\n</ul>"
       }
     ]
   }
