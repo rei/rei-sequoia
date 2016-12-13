@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[<button type="button" class="close" aria-label="Close">
-  <span class="icon icon-rei-close-small" aria-hidden="true"></span>
+  <span class="icon icon-rei-close" aria-hidden="true"></span>
   <span class="sr-only">Close button</span>
 </button>]]></content>
-  <tabTrigger>button-remove</tabTrigger>
-  <description>Remove</description>
+  <tabTrigger>button-close</tabTrigger>
+  <description>Close</description>
   <scope>text.html</scope>
 </snippet>

@@ -520,7 +520,7 @@
  * <button type="button" class="btn btn-off-price btn-default {$modifiers}">{$end}</button>
  */
 /**
-  * @section Remove
+  * @section Filter-Remove
   * @sectionof Button
   *
   * @example
@@ -535,6 +535,38 @@
   *   <span class="icon icon-rei-close-small" aria-hidden="true"></span>
   *   <span class="sr-only">Remove</span>
   *   <span>{$end}</span>
+  * </button>
+  */
+/**
+  * @section Remove
+  * @sectionof Button
+  *
+  * @example
+  * <button type="button" class="close" aria-label="Close">
+  *   <span class="icon icon-rei-close-small" aria-hidden="true"></span>
+  *   <span class="sr-only">Close button</span>
+  * </button>
+  *
+  * @snippet
+  * <button type="button" class="close" aria-label="Close">
+  *   <span class="icon icon-rei-close-small" aria-hidden="true"></span>
+  *   <span class="sr-only">Close button</span>
+  * </button>
+  */
+/**
+  * @section Close
+  * @sectionof Button
+  *
+  * @example
+  * <button type="button" class="close" aria-label="Close">
+  *   <span class="icon icon-rei-close" aria-hidden="true"></span>
+  *   <span class="sr-only">Close button</span>
+  * </button>
+  *
+  * @snippet
+  * <button type="button" class="close" aria-label="Close">
+  *   <span class="icon icon-rei-close" aria-hidden="true"></span>
+  *   <span class="sr-only">Close button</span>
   * </button>
   */
 /**

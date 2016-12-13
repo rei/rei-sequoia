@@ -248,7 +248,25 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="button-remove" description="Remove" toReformat="true" toShortenFQNames="true" value="&lt;button class=&quot;btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Remove&lt;/span&gt;&#10;  &lt;span&gt;$END$&lt;/span&gt;&#10;&lt;/button&gt;">
+  <template name="button-filter-remove" description="Filter-Remove" toReformat="true" toShortenFQNames="true" value="&lt;button class=&quot;btn btn-primary btn-contrast btn-xs btn-fixed remove-toggle&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Remove&lt;/span&gt;&#10;  &lt;span&gt;$END$&lt;/span&gt;&#10;&lt;/button&gt;">
+    <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="button-remove" description="Remove" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;close&quot; aria-label=&quot;Close&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close-small&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Close button&lt;/span&gt;&#10;&lt;/button&gt;">
+    <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="&quot;btn-fixed&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="button-close" description="Close" toReformat="true" toShortenFQNames="true" value="&lt;button type=&quot;button&quot; class=&quot;close&quot; aria-label=&quot;Close&quot;&gt;&#10;  &lt;span class=&quot;icon icon-rei-close&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&#10;  &lt;span class=&quot;sr-only&quot;&gt;Close button&lt;/span&gt;&#10;&lt;/button&gt;">
     <variable name="1" expression="" defaultValue="&quot;btn-sm&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="&quot;btn-xs&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="&quot;btn-block&quot;" alwaysStopAt="true"/>
