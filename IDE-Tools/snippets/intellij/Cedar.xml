@@ -1041,4 +1041,11 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="button-group" description="Button-Group" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;btn-group inline-group&quot; role=&quot;group&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$1$&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;$2$&lt;/button&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
 </templateSet>

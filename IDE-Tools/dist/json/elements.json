@@ -2993,5 +2993,22 @@
     },
     "snippet": "<ol class=\"breadcrumb\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"{$1}\">\n            <span itemprop=\"name\">{$2}</span>\n        </a>\n        <meta itemprop=\"position\" content=\"{$3}\">\n    </li>\n</ol>",
     "page": "index"
+  },
+  {
+    "name": "Button-Group",
+    "description": "",
+    "id": "button-group",
+    "depth": 1,
+    "isSection": true,
+    "example": {
+      "description": "<div class=\"btn-group inline-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-default\">1</button>\n  <button type=\"button\" class=\"btn btn-default\">2</button>\n  <button type=\"button\" class=\"btn btn-default\">3</button>\n  <button type=\"button\" class=\"btn btn-default\">4</button>\n</div>",
+      "type": "markup"
+    },
+    "code": {
+      "description": "<div class=\"btn-group inline-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-default\">1</button>\n  <button type=\"button\" class=\"btn btn-default\">2</button>\n  <button type=\"button\" class=\"btn btn-default\">3</button>\n  <button type=\"button\" class=\"btn btn-default\">4</button>\n</div>",
+      "type": "markup"
+    },
+    "snippet": "<div class=\"btn-group inline-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-default\">{$1}</button>\n  <button type=\"button\" class=\"btn btn-default\">{$2}</button>\n</div>",
+    "page": "index"
   }
 ]
