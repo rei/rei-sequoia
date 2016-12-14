@@ -10,13 +10,13 @@ var gulp = require( 'gulp' ),
 
 // Output variables
 var sublimeDest = 'snippets/sublime',
-    intellijDest = 'snippets/intellij'
+    intellijDest = 'snippets/intellij';
 
 // define custom tag
 var optsObj = {
     preprocess: function ( context, template, Handlebars ) {
         context.globalStylesheets.push( 'cedar.css' );
-        context.title = "Cedar Snippet Docs";
+        context.title = 'Cedar Snippet Docs';
 
         return livingcss.utils.readFileGlobs( './template/partials/*.hbs', function ( data, file ) {
             // make the name of the partial the name of the file
@@ -33,7 +33,7 @@ var optsObj = {
                 section.modifiers.push( {
                     name: this.tag.name,
                     value: this.tag.type
-                } )
+                } );
             }
         }
     },
@@ -53,30 +53,30 @@ gulp.task( 'livingjson', function () {
     };
 
     return gulp.src( 'src/css/main.css' )
-        .pipe( livingcss( '', jsonObj ) )
+        .pipe( livingcss( '', jsonObj ) );
 } );
 
 gulp.task( 'clean-sublime', function () {
     return gulp.src( sublimeDest )
         .pipe( clean( sublimeDest ) );
-} )
+} );
 
 gulp.task( 'clean-intellij', function () {
     return gulp.src( intellijDest )
         .pipe( clean( intellijDest ) );
-} )
+} );
 
 // Create Snippets tasks
 gulp.task( 'sublime-snips', function () {
     return gulp.src( './dist/json/elements.json' )
         .pipe( sublime() )
-        .pipe( gulp.dest( sublimeDest ) )
+        .pipe( gulp.dest( sublimeDest ) );
 } );
 
 gulp.task( 'intellij-snips', function () {
     return gulp.src( './dist/json/elements.json' )
         .pipe( intellij() )
-        .pipe( gulp.dest( intellijDest ) )
+        .pipe( gulp.dest( intellijDest ) );
 } );
 
 
@@ -84,13 +84,13 @@ gulp.task( 'intellij-snips', function () {
 gulp.task( 'livingcss', function () {
     return gulp.src( 'src/css/main.css' )
         .pipe( livingcss( '', optsObj ) )
-        .pipe( gulp.dest( 'dist' ) )
+        .pipe( gulp.dest( 'dist' ) );
 } );
 
 gulp.task( 'sass', function () {
     return gulp.src( './src/scss/**/*.scss' )
         .pipe( sass().on( 'error', sass.logError ) )
-        .pipe( gulp.dest( 'src/css/' ) )
+        .pipe( gulp.dest( 'src/css/' ) );
 } );
 
 // Parsing SCSS comments and outputting JSON
@@ -99,7 +99,7 @@ gulp.task( 'default', function ( cb ) {
         'sass',
         'livingcss',
         'livingjson',
-        cb )
+        cb );
 } );
 
 // Generate all snippet types
@@ -110,7 +110,7 @@ gulp.task( 'snippets', function ( cb ) {
         'sublime-snips',
         'clean-intellij',
         'intellij-snips',
-        cb )
+        cb );
 } );
 
 // Generate sublime snippets
@@ -119,7 +119,7 @@ gulp.task( 'sublime', function ( cb ) {
         'default',
         'clean-sublime',
         'sublime-snips',
-        cb )
+        cb );
 } );
 
 // Generate intellij snippets
@@ -128,5 +128,5 @@ gulp.task( 'intellij', function ( cb ) {
         'default',
         'clean-intellij',
         'intellij-snips',
-        cb )
+        cb );
 } );

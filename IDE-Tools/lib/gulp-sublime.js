@@ -20,7 +20,6 @@ var sublimeSnippets = function sublimeSnippets() {
         var mods = [],
             snippets = [],
             json = JSON.parse( file.contents.toString( 'utf8' ) ),
-            base = path.join( file.path, '..' ),
             _self = this;
 
         for ( var i = 0, j = json.length; i < j; i++ ) {
@@ -51,8 +50,8 @@ var sublimeSnippets = function sublimeSnippets() {
             }
 
             // dd tab stops
-            while ( snipStr.includes( "{$" + tabStop + "}" ) ) {
-                var regex = new RegExp( "{\\$" + tabStop + "\}", "g" );
+            while ( snipStr.includes( '{$' + tabStop + '}' ) ) {
+                var regex = new RegExp( '{\\$' + tabStop + '\}', 'g' );
 
                 snipStr = snipStr.replace( regex, '$' + ++pos );
 
@@ -88,14 +87,14 @@ var sublimeSnippets = function sublimeSnippets() {
                 snippets.push( {
                     name: item.id,
                     xml: toXML( item )
-                } )
+                } );
             }
         }
 
         cb();
 
     } );
-}
+};
 
 
 module.exports = sublimeSnippets;

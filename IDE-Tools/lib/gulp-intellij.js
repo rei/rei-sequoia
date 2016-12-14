@@ -25,7 +25,7 @@ var intellijSnippets = function intellijSnippets() {
 
         snippets.templateSet = [ {
             _attr: {
-                group: "Cedar"
+                group: 'Cedar'
             }
         } ];
 
@@ -37,7 +37,7 @@ var intellijSnippets = function intellijSnippets() {
             traverse( json[ i ] );
         }
 
-        outxml = xml( snippets, {
+        var outxml = xml( snippets, {
             indent: '  '
         } );
 
@@ -78,13 +78,15 @@ var intellijSnippets = function intellijSnippets() {
                 } ).join( ' ' );
             }
 
-            // add tab stops
-            while ( snipStr.includes( "{$" + tabStop + "}" ) ) {
-                var regexG = new RegExp( "{\\$" + tabStop + "\}", "g" ),
-                    regex = new RegExp( "{\\$" + tabStop + "\}" ),
+            // add/format tab stops
+            // i.e. replace {$1} with $1$
+            while ( snipStr.includes( '{$' + tabStop + '}' ) ) {
+                var regexG = new RegExp( '{\\$' + tabStop + '\}', 'g' ), // \g
+                    regex = new RegExp( '{\\$' + tabStop + '\}' ), // not \g
                     match;
 
                 // For repeated variables because intellij won't split cursors -_-
+                // i.e. {$1} repeated twice will turn first instance to $1$ and second to $2$
                 while ( match = regexG.exec( snipStr ) ) {
                     snipStr = snipStr.replace( regex, '$' + ++pos + '$' );
                     templateObj.template.push( varObj( pos.toString() ) );
@@ -108,7 +110,7 @@ var intellijSnippets = function intellijSnippets() {
                     _attr: {}
                 }
             } );
-            contextObj.context[ 0 ].option._attr.name = "HTML_TEXT";
+            contextObj.context[ 0 ].option._attr.name = 'HTML_TEXT';
             contextObj.context[ 0 ].option._attr.value = true;
 
             templateObj.template.push( contextObj );
@@ -117,12 +119,12 @@ var intellijSnippets = function intellijSnippets() {
         }
 
         function varObj( name, defaultVal ) {
-            dVal = defaultVal || "";
+            var dVal = defaultVal || '';
             return {
                 variable: {
                     _attr: {
                         name: name,
-                        expression: "",
+                        expression: '',
                         defaultValue: dVal,
                         alwaysStopAt: true
                     }
@@ -143,7 +145,7 @@ var intellijSnippets = function intellijSnippets() {
         cb();
 
     } );
-}
+};
 
 
 module.exports = intellijSnippets;
