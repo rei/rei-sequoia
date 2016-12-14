@@ -3010,5 +3010,49 @@
     },
     "snippet": "<div class=\"btn-group inline-group\" role=\"group\">\n  <button type=\"button\" class=\"btn btn-default\">{$1}</button>\n  <button type=\"button\" class=\"btn btn-default\">{$2}</button>\n</div>",
     "page": "index"
+  },
+  {
+    "name": "Form",
+    "description": "",
+    "id": "form",
+    "depth": 1,
+    "isSection": true,
+    "page": "index",
+    "children": [
+      {
+        "name": "Inline",
+        "description": "",
+        "id": "form-inline",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Form",
+        "example": {
+          "description": "<form class=\"form-inline\">\n  <div class=\"form-group\">\n    <label for=\"exampleInputName2\">Name</label>\n    <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail2\">Email</label>\n    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">\n  </div>\n  <div class=\"form-group non-label\">\n    <button type=\"submit\" class=\"btn btn-primary\">Send invitation</button>\n  </div>\n</form>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<form class=\"form-inline\">\n  <div class=\"form-group\">\n    <label for=\"exampleInputName2\">Name</label>\n    <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Jane Doe\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail2\">Email</label>\n    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"jane.doe@example.com\">\n  </div>\n  <div class=\"form-group non-label\">\n    <button type=\"submit\" class=\"btn btn-primary\">Send invitation</button>\n  </div>\n</form>",
+          "type": "markup"
+        },
+        "snippet": "<form class=\"form-inline\">\n  <div class=\"form-group\">\n    <label for=\"{$1}\">{$2}</label>\n    <input type=\"text\" class=\"form-control\" id=\"{$1}\" placeholder=\"{$3}\">\n  </div>\n  <div class=\"form-group non-label\">\n    <button type=\"submit\" class=\"btn btn-primary\">{$4}</button>\n  </div>\n</form>"
+      },
+      {
+        "name": "Horizontal",
+        "description": "",
+        "id": "form-horizontal",
+        "depth": 2,
+        "isSection": true,
+        "parent": "Form",
+        "example": {
+          "description": "<form class=\"form-horizontal\">\n  <div class=\"form-group\">\n    <label for=\"inputEmail3\" class=\"col-sm-2 control-label\">Email</label>\n    <div class=\"col-sm-10\">\n      <input type=\"email\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Email\" autocomplete=\"off\">\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"inputPassword3\" class=\"col-sm-2 control-label\">Password</label>\n    <div class=\"col-sm-10\">\n      <input type=\"password\" class=\"form-control\" id=\"inputPassword3\" placeholder=\"Password\" autocomplete=\"off\">\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-10\">\n      <button type=\"submit\" class=\"btn btn-primary\">Sign in</button>\n    </div>\n  </div>\n</form>",
+          "type": "markup"
+        },
+        "code": {
+          "description": "<form class=\"form-horizontal\">\n  <div class=\"form-group\">\n    <label for=\"inputEmail3\" class=\"col-sm-2 control-label\">Email</label>\n    <div class=\"col-sm-10\">\n      <input type=\"email\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Email\" autocomplete=\"off\">\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"inputPassword3\" class=\"col-sm-2 control-label\">Password</label>\n    <div class=\"col-sm-10\">\n      <input type=\"password\" class=\"form-control\" id=\"inputPassword3\" placeholder=\"Password\" autocomplete=\"off\">\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-10\">\n      <button type=\"submit\" class=\"btn btn-primary\">Sign in</button>\n    </div>\n  </div>\n</form>",
+          "type": "markup"
+        },
+        "snippet": "<form class=\"form-horizontal\">\n  <div class=\"form-group\">\n    <label for=\"{$1}\" class=\"col-sm-2 control-label\">{$2}</label>\n    <div class=\"col-sm-10\">\n      <input type=\"{$3}\" class=\"form-control\" id=\"{$1}\" placeholder=\"{$4}\">\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-sm-offset-2 col-sm-10\">\n      <button type=\"submit\" class=\"btn btn-primary\">{$5}</button>\n    </div>\n  </div>\n</form>"
+      }
+    ]
   }
 ]

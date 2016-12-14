@@ -1048,4 +1048,23 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="form-inline" description="Inline" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-inline&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$1$&quot; placeholder=&quot;$3$&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group non-label&quot;&gt;&#10;    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$4$&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="form-horizontal" description="Horizontal" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-horizontal&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;      &lt;input type=&quot;$3$&quot; class=&quot;form-control&quot; id=&quot;$1$&quot; placeholder=&quot;$4$&quot;&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;      &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$5$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
 </templateSet>
