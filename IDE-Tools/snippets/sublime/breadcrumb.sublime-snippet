@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[<ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+        <a itemprop="item" href="$1">
+            <span itemprop="name">$2</span>
+        </a>
+        <meta itemprop="position" content="$3">
+    </li>
+</ol>]]></content>
+  <tabTrigger>breadcrumb</tabTrigger>
+  <description>Breadcrumb</description>
+  <scope>text.html</scope>
+</snippet>

@@ -2976,5 +2976,22 @@
         "snippet": "<ul class=\"list-group-menu\">\n  <li class=\"list-group-item collapsibleList checkbox toggle-expand-collapse\">\n    <input type=\"checkbox\" value=\"\" id=\"{$1}\">\n    <label for=\"{$1}\">{$2}</label>\n    <ul class=\"nest\">\n      <li class=\"item-secondary\">\n        <a href=\"{$3}\">\n          <span>{$4}</span>\n        </a>\n      </li>\n    </ul>\n  </li>\n  <li class=\"list-group-item\">\n    <a href=\"{$5}\">\n      <span>{$6}</span>\n    </a>\n  </li>\n</ul>"
       }
     ]
+  },
+  {
+    "name": "Breadcrumb",
+    "description": "",
+    "id": "breadcrumb",
+    "depth": 1,
+    "isSection": true,
+    "example": {
+      "description": "<ol class=\"breadcrumb\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1\">\n            <span itemprop=\"name\">Item 1</span></a>\n        <meta itemprop=\"position\" content=\"1\">\n    </li>\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1/item2\">\n            <span itemprop=\"name\">Item 2</span></a>\n        <meta itemprop=\"position\" content=\"2\">\n    </li>\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1/item2/item3\">\n            <span itemprop=\"name\">Item 3</span></a>\n        <meta itemprop=\"position\" content=\"3\">\n    </li>\n</ol>",
+      "type": "markup"
+    },
+    "code": {
+      "description": "<ol class=\"breadcrumb\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1\">\n            <span itemprop=\"name\">Item 1</span></a>\n        <meta itemprop=\"position\" content=\"1\">\n    </li>\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1/item2\">\n            <span itemprop=\"name\">Item 2</span></a>\n        <meta itemprop=\"position\" content=\"2\">\n    </li>\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"https://example.com/item1/item2/item3\">\n            <span itemprop=\"name\">Item 3</span></a>\n        <meta itemprop=\"position\" content=\"3\">\n    </li>\n</ol>",
+      "type": "markup"
+    },
+    "snippet": "<ol class=\"breadcrumb\" itemscope=\"\" itemtype=\"http://schema.org/BreadcrumbList\">\n    <li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"http://schema.org/ListItem\">\n        <a itemprop=\"item\" href=\"{$1}\">\n            <span itemprop=\"name\">{$2}</span>\n        </a>\n        <meta itemprop=\"position\" content=\"{$3}\">\n    </li>\n</ol>",
+    "page": "index"
   }
 ]

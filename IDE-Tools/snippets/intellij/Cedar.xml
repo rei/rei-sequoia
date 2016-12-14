@@ -1033,4 +1033,12 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
+  <template name="breadcrumb" description="Breadcrumb" toReformat="true" toShortenFQNames="true" value="&lt;ol class=&quot;breadcrumb&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/BreadcrumbList&quot;&gt;&#10;    &lt;li itemprop=&quot;itemListElement&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/ListItem&quot;&gt;&#10;        &lt;a itemprop=&quot;item&quot; href=&quot;$1$&quot;&gt;&#10;            &lt;span itemprop=&quot;name&quot;&gt;$2$&lt;/span&gt;&#10;        &lt;/a&gt;&#10;        &lt;meta itemprop=&quot;position&quot; content=&quot;$3$&quot;&gt;&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
 </templateSet>
