@@ -69,7 +69,7 @@ var intellijSnippets = function intellijSnippets() {
                 tabStop = 1, // for replacing variables in snippet
                 snipStr = item.snippet;
 
-            //All this for intellij variables
+            // Turn modifiers into variables
             if ( mods.length ) {
                 var modStr = mods.map( function ( mod, index ) {
                     pos = index + 1;
@@ -80,17 +80,22 @@ var intellijSnippets = function intellijSnippets() {
 
             // add tab stops
             while ( snipStr.includes( "{$" + tabStop + "}" ) ) {
-                var regex = new RegExp( "{\\$" + tabStop + "\}", "g" );
+                var regexG = new RegExp( "{\\$" + tabStop + "\}", "g" ),
+                    regex = new RegExp( "{\\$" + tabStop + "\}" ),
+                    match;
 
-                snipStr = snipStr.replace( regex, '$' + ++pos + '$' );
-                templateObj.template.push( varObj( pos.toString() ) );
-
+                // For repeated variables because intellij won't split cursors -_-
+                while ( match = regexG.exec( snipStr ) ) {
+                    snipStr = snipStr.replace( regex, '$' + ++pos + '$' );
+                    templateObj.template.push( varObj( pos.toString() ) );
+                }
                 tabStop++;
             }
 
             // add modifiers
             snipStr = snipStr.replace( /\{\$modifiers\}/g, modStr );
 
+            // for snippet formatting
             snipStr = snipStr.replace( /[\n\r]/g, '$NEWLINE' );
 
             templateObj.template[ 0 ]._attr.value = snipStr;

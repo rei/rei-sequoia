@@ -720,19 +720,21 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="input-checkbox" description="Checkbox" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot; id=&quot;$1$&quot; value=&quot;$2$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$3$&lt;/label&gt;&#10;&lt;/div&gt;">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="input-radio" description="Radio" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;radio&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10;&lt;/div&gt;">
+  <template name="input-checkbox" description="Checkbox" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot; id=&quot;$1$&quot; value=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$2$&quot;&gt;$4$&lt;/label&gt;&#10;&lt;/div&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="input-radio" description="Radio" toReformat="true" toShortenFQNames="true" value="&lt;div class=&quot;radio&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$3$&quot; name=&quot;$4$&quot;&gt;&#10;   &lt;label for=&quot;$2$&quot;&gt;$5$&lt;/label&gt;&#10;&lt;/div&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
@@ -1002,33 +1004,37 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-group-sort" description="Sort" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$2$&quot; name=&quot;$3$&quot;&gt;&#10;   &lt;label for=&quot;$1$&quot;&gt;$4$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-group-sort" description="Sort" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group&quot;&gt;&#10; &lt;li class=&quot;list-group-item radio toggle-sort&quot;&gt;&#10;   &lt;input type=&quot;radio&quot; id=&quot;$1$&quot; value=&quot;$3$&quot; name=&quot;$4$&quot;&gt;&#10;   &lt;label for=&quot;$2$&quot;&gt;$5$&lt;/label&gt;&#10; &lt;/li&gt;&#10;&lt;/ul&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-group-filter" description="Filter" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-filter&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;div class=&quot;checkbox&quot;&gt;&#10;          &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$3$&quot;&gt;&#10;          &lt;label for=&quot;$3$&quot;&gt;$4$&lt;/label&gt;&#10;        &lt;/div&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item collapsed&quot;&gt;&#10;    &lt;a href=&quot;$5$&quot;&gt;&#10;      &lt;span&gt;$6$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-group-filter" description="Filter" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-filter&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$2$&quot;&gt;$3$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;div class=&quot;checkbox&quot;&gt;&#10;          &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$4$&quot;&gt;&#10;          &lt;label for=&quot;$5$&quot;&gt;$6$&lt;/label&gt;&#10;        &lt;/div&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item collapsed&quot;&gt;&#10;    &lt;a href=&quot;$7$&quot;&gt;&#10;      &lt;span&gt;$8$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="6" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="8" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="list-group-menu" description="Menu" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-menu&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;a href=&quot;$3$&quot;&gt;&#10;          &lt;span&gt;$4$&lt;/span&gt;&#10;        &lt;/a&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item&quot;&gt;&#10;    &lt;a href=&quot;$5$&quot;&gt;&#10;      &lt;span&gt;$6$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
+  <template name="list-group-menu" description="Menu" toReformat="true" toShortenFQNames="true" value="&lt;ul class=&quot;list-group-menu&quot;&gt;&#10;  &lt;li class=&quot;list-group-item collapsibleList checkbox toggle-expand-collapse&quot;&gt;&#10;    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;$1$&quot;&gt;&#10;    &lt;label for=&quot;$2$&quot;&gt;$3$&lt;/label&gt;&#10;    &lt;ul class=&quot;nest&quot;&gt;&#10;      &lt;li class=&quot;item-secondary&quot;&gt;&#10;        &lt;a href=&quot;$4$&quot;&gt;&#10;          &lt;span&gt;$5$&lt;/span&gt;&#10;        &lt;/a&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;  &lt;li class=&quot;list-group-item&quot;&gt;&#10;    &lt;a href=&quot;$6$&quot;&gt;&#10;      &lt;span&gt;$7$&lt;/span&gt;&#10;    &lt;/a&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="6" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
@@ -1048,21 +1054,23 @@
       <option name="HTML_TEXT" value="true"/>
     </context>
   </template>
-  <template name="form-inline" description="Inline" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-inline&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$1$&quot; placeholder=&quot;$3$&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group non-label&quot;&gt;&#10;    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$4$&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
-    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
-    <context>
-      <option name="HTML_TEXT" value="true"/>
-    </context>
-  </template>
-  <template name="form-horizontal" description="Horizontal" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-horizontal&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;      &lt;input type=&quot;$3$&quot; class=&quot;form-control&quot; id=&quot;$1$&quot; placeholder=&quot;$4$&quot;&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;      &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$5$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
+  <template name="form-inline" description="Inline" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-inline&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot;&gt;$3$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$2$&quot; placeholder=&quot;$4$&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group non-label&quot;&gt;&#10;    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$5$&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
     <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+    </context>
+  </template>
+  <template name="form-horizontal" description="Horizontal" toReformat="true" toShortenFQNames="true" value="&lt;form class=&quot;form-horizontal&quot;&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$3$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;      &lt;input type=&quot;$4$&quot; class=&quot;form-control&quot; id=&quot;$2$&quot; placeholder=&quot;$5$&quot;&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;      &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$6$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true"/>
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
     </context>
