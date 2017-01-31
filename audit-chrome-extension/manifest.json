@@ -9,11 +9,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://*.rei.com/*","https://*.rei.com/*"],
+      "matches": ["http://*/*","https://*/*"],
       "js": ["auditIndex.js"]
     },
     {
-      "matches": ["http://*.rei.com/*","https://*.rei.com/*"],
+      "matches": ["http://*/*","https://*/*"],
       "css": ["lib/prism.css"],
       "js": ["lib/prism.js"]
     }
@@ -24,8 +24,8 @@
   "permissions": [
     "activeTab",
     "storage",
-    "https://*.rei.com/",
-    "http://*.rei.com/"
+    "https://*/*",
+    "http://*/*"
   ],
   "options_ui": {
     "page": "options/options.html",
