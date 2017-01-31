@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Test Extension Options</title>
+  <style>
+    body {
+      padding: 10px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <p>Style Guide CSS file name (without .css extension) -- ONLY ONE FILE!</p>
+    <input type="text" id="guide" placeholder="i.e. rei-cedar">
+  </p>
+
+  <p>
+    <p>Ignored style sheets (comma separated without .css extension)</p>
+    <input type="text" id="ignored" placeholder="i.e. bootstrap,foundation,etc">
+  </p>
+
+
+  <p id="status"></p>
+  <button id="save">Save</button>
+
+
+  <script src="options.js"></script>
+</body>
+</html>
