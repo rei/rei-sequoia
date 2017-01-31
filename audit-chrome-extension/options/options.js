@@ -1,5 +1,5 @@
 // Saves options to chrome.storage.sync
-function save_options() {
+function saveOptions() {
     console.log( 'saving' );
     var guide = document.getElementById( 'guide' ).value;
     var ignored = document.getElementById( 'ignored' ).value;
@@ -17,7 +17,7 @@ function save_options() {
 }
 
 // stored in chrome.storage.sync
-function restore_options() {
+function restoreOptions() {
     console.log( 'restoring' );
     chrome.storage.sync.get( {
         guide: 'rei-cedar',
@@ -27,5 +27,5 @@ function restore_options() {
         document.getElementById( 'ignored' ).value = items.ignored;
     } );
 }
-document.addEventListener( 'DOMContentLoaded', restore_options );
-document.getElementById( 'save' ).addEventListener( 'click', save_options );
+document.addEventListener( 'DOMContentLoaded', restoreOptions );
+document.getElementById( 'save' ).addEventListener( 'click', saveOptions );

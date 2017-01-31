@@ -3,7 +3,7 @@ chrome.browserAction.onClicked.addListener( function ( tab ) {
         var ignoredArr = [];
         if ( res.ignored ) {
             var str = res.ignored.split( /[\s,]+/ ).join();
-            ignoredArr = str.split( ',' )
+            ignoredArr = str.split( ',' );
         }
         chrome.tabs.sendMessage( tab.id, {
             guide: res.guide,
