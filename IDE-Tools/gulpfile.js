@@ -15,7 +15,6 @@ var sublimeDest = 'snippets/sublime',
 // define custom tag
 var optsObj = {
     preprocess: function ( context, template, Handlebars ) {
-        context.globalStylesheets.push( 'cedar.css' );
         context.title = 'Cedar Snippet Docs';
 
         return livingcss.utils.readFileGlobs( './template/partials/*.hbs', function ( data, file ) {
