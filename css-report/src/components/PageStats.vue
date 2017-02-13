@@ -31,7 +31,7 @@
       <p><b>Font Families: </b>{{pageData.uniques.fontFamily.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Media Queries: </b>{{pageData.mediaQueries}}</p>
+      <p><b>Media Queries: </b>{{pageData.uniques.mediaQueries.length}}</p>
     </div>
   </div>
 </template>

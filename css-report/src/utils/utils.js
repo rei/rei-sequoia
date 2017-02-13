@@ -9,7 +9,7 @@ module.exports = {
         }
 
         var uniques = {};
-        var uniqueProperties = [ 'color', 'background-color' ];
+        var uniqueProperties = [ 'color', 'background-color' ]; // font-size, font-family, z-index, and media queries done below
 
         uniqueProperties.forEach( ( property ) => {
             uniques[ _.camelCase( property ) ] = _.uniq( stats.declarations.properties[ property ] );
@@ -49,7 +49,6 @@ module.exports = {
                 totalObj.rules += linkObj.stats.rules.total;
                 totalObj.selectors += linkObj.stats.selectors.total;
                 totalObj.declarations += linkObj.stats.declarations.total;
-                totalObj.mediaQueries += linkObj.stats.mediaQueries.unique;
                 linkObj.uniques.id = randomID( 10 );
                 linkObj.uniques.data = this.parseUniques( linkObj.stats );
                 uniquesArr.push( linkObj.uniques );
@@ -70,7 +69,6 @@ module.exports = {
                 totalObj.rules += styleObj.stats.rules.total;
                 totalObj.selectors += styleObj.stats.selectors.total;
                 totalObj.declarations += styleObj.stats.declarations.total;
-                totalObj.mediaQueries += styleObj.stats.mediaQueries.unique;
                 styleObj.uniques.id = randomID( 10 );
                 styleObj.uniques.data = this.parseUniques( styleObj.stats );
                 uniquesArr.push( styleObj.uniques );
