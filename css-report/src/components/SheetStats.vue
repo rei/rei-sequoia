@@ -10,16 +10,31 @@
       <p><b>Declarations:</b> {{stats.declarations.total}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Colors:</b> {{uniques.color.length}}</p>
+      <p><b>Unique Colors:</b> {{uniques.color.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Background Colors:</b> {{uniques.backgroundColor.length}}</p>
+      <p><b>Total Colors:</b> {{totals.color.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Font Sizes:</b> {{uniques.fontSize.length}}</p>
+      <p><b>Unique Background Colors:</b> {{uniques.backgroundColor.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Font Families:</b> {{uniques.fontFamily.length}}</p>
+      <p><b>Background Colors:</b> {{totals.backgroundColor.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Unique Font Sizes:</b> {{uniques.fontSize.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Font Sizes:</b> {{totals.fontSize.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Unique Font Families:</b> {{uniques.fontFamily.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Font Families:</b> {{totals.fontFamily.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Unique Media Queries:</b> {{uniques.mediaQueries.length}}</p>
     </div>
     <div class="col-md-4">
       <p><b>Media Queries:</b> {{stats.mediaQueries.unique}}</p>
@@ -30,7 +45,7 @@
 <script>
 export default {
   name: 'sheet-stats',
-  props: ['stats', 'uniques']
+  props: ['stats', 'totals', 'uniques']
 }
 </script>
 
