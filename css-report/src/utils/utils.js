@@ -1,4 +1,6 @@
 var _ = require( 'lodash' );
+let cssstats = require( 'cssstats' );
+let randomID = require( 'random-id' );
 
 module.exports = {
     parseUniques: function ( stats ) {
@@ -16,9 +18,94 @@ module.exports = {
         uniques.fontSize = _.uniq( stats.declarations.getAllFontSizes() );
         uniques.fontFamily = _.uniq( stats.declarations.getAllFontFamilies() );
         uniques.fontSizeSorted = this.sortFontSizes( uniques.fontSize );
+        uniques.mediaQueries = _.uniq( stats.mediaQueries.values );
         uniques.zIndexSorted = this.sortZIndices( uniques.zIndex );
 
         return uniques;
+    },
+    parsePageData: function ( links, styles ) {
+        let totalObj = {};
+        totalObj.size = 0;
+        totalObj.rules = 0;
+        totalObj.selectors = 0;
+        totalObj.declarations = 0;
+        totalObj.mediaQueries = 0;
+        totalObj.styleSheetsCount = links.length;
+        totalObj.styleTagsCount = styles.length;
+        totalObj.uniques = {};
+        totalObj.styleData = [];
+        let uniquesArr = [];
+
+        // Linked css stats
+        links.forEach( ( link ) => {
+            let linkObj = {};
+            linkObj.name = link.link;
+            linkObj.css = link.css;
+            linkObj.uniques = {};
+            linkObj.trueUniques = {};
+            linkObj.stats = cssstats( link.css );
+            if ( linkObj.stats ) {
+                totalObj.size += linkObj.stats.gzipSize;
+                totalObj.rules += linkObj.stats.rules.total;
+                totalObj.selectors += linkObj.stats.selectors.total;
+                totalObj.declarations += linkObj.stats.declarations.total;
+                totalObj.mediaQueries += linkObj.stats.mediaQueries.unique;
+                linkObj.uniques.id = randomID( 10 );
+                linkObj.uniques.data = this.parseUniques( linkObj.stats );
+                uniquesArr.push( linkObj.uniques );
+            }
+            totalObj.styleData.push( linkObj );
+        } )
+
+        // Style tag stats
+        styles.forEach( ( style ) => {
+            let styleObj = {};
+            styleObj.name = '<style> tag';
+            styleObj.css = style;
+            styleObj.uniques = {};
+            styleObj.trueUniques = {};
+            styleObj.stats = cssstats( style );
+            if ( styleObj.stats ) {
+                totalObj.size += styleObj.stats.gzipSize;
+                totalObj.rules += styleObj.stats.rules.total;
+                totalObj.selectors += styleObj.stats.selectors.total;
+                totalObj.declarations += styleObj.stats.declarations.total;
+                totalObj.mediaQueries += styleObj.stats.mediaQueries.unique;
+                styleObj.uniques.id = randomID( 10 );
+                styleObj.uniques.data = this.parseUniques( styleObj.stats );
+                uniquesArr.push( styleObj.uniques );
+            }
+            totalObj.styleData.push( styleObj );
+        } );
+
+        // Get total uniques
+        uniquesArr.forEach( ( unique ) => {
+            let uniqueData = unique.data
+            let props = _.keys( uniqueData );
+            props.forEach( function ( prop ) {
+                totalObj.uniques[ prop ] = _.union( totalObj.uniques[ prop ], uniqueData[ prop ] );
+            } );
+        } );
+
+        // Get stylesheet uniques
+        totalObj.styleData.forEach( ( styleObj ) => {
+            let props = _.keys( styleObj.uniques.data );
+            let othersArr = _.reject( uniquesArr, {
+                id: styleObj.uniques.id
+            } );
+
+            let compareObj = {};
+
+            props.forEach( ( prop ) => {
+                compareObj[ prop ] = [];
+                othersArr.forEach( ( o ) => {
+                    compareObj[ prop ] = _.concat( compareObj[ prop ], o.data[ prop ] );
+                } );
+                styleObj.trueUniques[ prop ] = _.difference( styleObj.uniques.data[ prop ], compareObj[ prop ] );
+            } );
+        } );
+
+        return totalObj;
     },
     sortFontSizes: function ( fontSizes ) {
         let that = this;

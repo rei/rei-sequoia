@@ -1,34 +1,37 @@
 <template lang="html">
   <div class="row row-flex vertical-push">
     <div class="col-md-4">
-      <p><b>Total Size (Gzip): </b>{{pageTotals.size/1000}}kb</p>
+      <p><b>Total Size (Gzip): </b>{{pageData.size/1000}}kb</p>
     </div>
     <div class="col-md-4">
-      <p><b>Stylesheets: </b>{{links.length}}</p>
+      <p><b>Stylesheets: </b>{{pageData.styleSheetsCount}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Style Tags: </b>{{styles.length}}</p>
+      <p><b>Style Tags: </b>{{pageData.styleTagsCount}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Total Rules: </b>{{pageTotals.rules}}</p>
+      <p><b>Total Rules: </b>{{pageData.rules}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Total Selectors: </b>{{pageTotals.selectors}}</p>
+      <p><b>Total Selectors: </b>{{pageData.selectors}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Total Declarations: </b>{{pageTotals.declarations}}</p>
+      <p><b>Total Declarations: </b>{{pageData.declarations}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Colors: </b>{{pageTotals.uniques.color.length}}</p>
+      <p><b>Colors: </b>{{pageData.uniques.color.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Background Colors: </b>{{pageTotals.uniques.backgroundColor.length}}</p>
+      <p><b>Background Colors: </b>{{pageData.uniques.backgroundColor.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Font Sizes: </b>{{pageTotals.uniques.fontSize.length}}</p>
+      <p><b>Font Sizes: </b>{{pageData.uniques.fontSize.length}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Font Families: </b>{{pageTotals.uniques.fontFamily.length}}</p>
+      <p><b>Font Families: </b>{{pageData.uniques.fontFamily.length}}</p>
+    </div>
+    <div class="col-md-4">
+      <p><b>Media Queries: </b>{{pageData.mediaQueries}}</p>
     </div>
   </div>
 </template>
@@ -36,7 +39,7 @@
 <script>
 export default {
   name: 'page-stats',
-  props:['pageTotals', 'links', 'styles']
+  props:['pageData']
 }
 </script>
 

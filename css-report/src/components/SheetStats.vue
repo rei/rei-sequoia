@@ -21,6 +21,9 @@
     <div class="col-md-4">
       <p><b>Font Families:</b> {{uniques.fontFamily.length}}</p>
     </div>
+    <div class="col-md-4">
+      <p><b>Media Queries:</b> {{stats.mediaQueries.unique}}</p>
+    </div>
   </div>
 </template>
 
