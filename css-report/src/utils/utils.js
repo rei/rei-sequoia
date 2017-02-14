@@ -12,81 +12,97 @@ module.exports = {
         var uniqueProperties = [ 'color', 'background-color' ]; // font-size, font-family, z-index, and media queries done below
 
         uniqueProperties.forEach( ( property ) => {
-            uniques[ _.camelCase( property ) ] = _.uniq( stats.declarations.properties[ property ] );
+            uniques[ _.camelCase( property ) ] = {};
+            uniques[ _.camelCase( property ) ].values = _.uniq( stats.declarations.properties[ property ] );
+            uniques[ _.camelCase( property ) ].counts = _.countBy( stats.declarations.properties[ property ], _.identity );
         } );
 
-        uniques.fontSize = _.uniq( stats.declarations.getAllFontSizes() );
-        uniques.fontFamily = _.uniq( stats.declarations.getAllFontFamilies() );
-        uniques.fontSizeSorted = this.sortFontSizes( uniques.fontSize );
-        uniques.mediaQueries = _.uniq( stats.mediaQueries.values );
-        uniques.zIndexSorted = this.sortZIndices( uniques.zIndex );
+        uniques.fontSize = {};
+        uniques.fontSize.values = _.uniq( stats.declarations.getAllFontSizes() );
+        uniques.fontSize.counts = _.countBy( stats.declarations.getAllFontSizes(), _.identity );
+        uniques.fontSizeSorted = this.sortFontSizes( uniques.fontSize.values );
+
+        uniques.fontFamily = {};
+        uniques.fontFamily.values = _.uniq( stats.declarations.getAllFontFamilies() );
+        uniques.fontFamily.counts = _.countBy( stats.declarations.getAllFontFamilies(), _.identity );
+
+        uniques.mediaQueries = {};
+        uniques.mediaQueries.values = _.uniq( stats.mediaQueries.values );
+        uniques.mediaQueries.counts = _.countBy( stats.mediaQueries.values, _.identity );
+
+        // uniques.zIndexSorted = this.sortZIndices( uniques.zIndex );
 
         return uniques;
     },
+    parseStats: function ( style, isStyle ) {
+        let styleObj = {};
+        if ( isStyle ) {
+            styleObj.name = '<style> tag';
+            styleObj.css = style;
+        } else {
+            styleObj.name = style.link;
+            styleObj.css = style.css;
+        }
+        styleObj.uniques = {};
+        styleObj.trueUniques = {};
+        styleObj.stats = cssstats( styleObj.css );
+        if ( styleObj.stats ) {
+            styleObj.uniques.id = randomID( 10 );
+            styleObj.uniques.data = this.parseUniques( styleObj.stats );
+        }
+
+        return styleObj;
+    },
     parsePageData: function ( links, styles ) {
-        let totalObj = {};
-        totalObj.size = 0;
-        totalObj.rules = 0;
-        totalObj.selectors = 0;
-        totalObj.declarations = 0;
-        totalObj.mediaQueries = 0;
-        totalObj.styleSheetsCount = links.length;
-        totalObj.styleTagsCount = styles.length;
-        totalObj.uniques = {};
-        totalObj.styleData = [];
+        let pageData = {};
+        pageData.size = 0;
+        pageData.rules = 0;
+        pageData.selectors = 0;
+        pageData.declarations = 0;
+        pageData.mediaQueries = 0;
+        pageData.styleSheetsCount = links.length;
+        pageData.styleTagsCount = styles.length;
+        pageData.uniques = {};
+        pageData.styleData = [];
         let uniquesArr = [];
 
         // Linked css stats
         links.forEach( ( link ) => {
-            let linkObj = {};
-            linkObj.name = link.link;
-            linkObj.css = link.css;
-            linkObj.uniques = {};
-            linkObj.trueUniques = {};
-            linkObj.stats = cssstats( link.css );
+            let linkObj = this.parseStats( link, false );
             if ( linkObj.stats ) {
-                totalObj.size += linkObj.stats.gzipSize;
-                totalObj.rules += linkObj.stats.rules.total;
-                totalObj.selectors += linkObj.stats.selectors.total;
-                totalObj.declarations += linkObj.stats.declarations.total;
-                linkObj.uniques.id = randomID( 10 );
-                linkObj.uniques.data = this.parseUniques( linkObj.stats );
+                pageData.size += linkObj.stats.gzipSize;
+                pageData.rules += linkObj.stats.rules.total;
+                pageData.selectors += linkObj.stats.selectors.total;
+                pageData.declarations += linkObj.stats.declarations.total;
                 uniquesArr.push( linkObj.uniques );
             }
-            totalObj.styleData.push( linkObj );
+            pageData.styleData.push( linkObj );
         } )
 
         // Style tag stats
         styles.forEach( ( style ) => {
-            let styleObj = {};
-            styleObj.name = '<style> tag';
-            styleObj.css = style;
-            styleObj.uniques = {};
-            styleObj.trueUniques = {};
-            styleObj.stats = cssstats( style );
+            let styleObj = this.parseStats( style, true );
             if ( styleObj.stats ) {
-                totalObj.size += styleObj.stats.gzipSize;
-                totalObj.rules += styleObj.stats.rules.total;
-                totalObj.selectors += styleObj.stats.selectors.total;
-                totalObj.declarations += styleObj.stats.declarations.total;
-                styleObj.uniques.id = randomID( 10 );
-                styleObj.uniques.data = this.parseUniques( styleObj.stats );
+                pageData.size += styleObj.stats.gzipSize;
+                pageData.rules += styleObj.stats.rules.total;
+                pageData.selectors += styleObj.stats.selectors.total;
+                pageData.declarations += styleObj.stats.declarations.total;
                 uniquesArr.push( styleObj.uniques );
             }
-            totalObj.styleData.push( styleObj );
+            pageData.styleData.push( styleObj );
         } );
 
         // Get total uniques
         uniquesArr.forEach( ( unique ) => {
-            let uniqueData = unique.data
+            let uniqueData = unique.data;
             let props = _.keys( uniqueData );
             props.forEach( function ( prop ) {
-                totalObj.uniques[ prop ] = _.union( totalObj.uniques[ prop ], uniqueData[ prop ] );
+                pageData.uniques[ prop ] = _.union( pageData.uniques[ prop ], uniqueData[ prop ].values );
             } );
         } );
 
         // Get stylesheet uniques
-        totalObj.styleData.forEach( ( styleObj ) => {
+        pageData.styleData.forEach( ( styleObj ) => {
             let props = _.keys( styleObj.uniques.data );
             let othersArr = _.reject( uniquesArr, {
                 id: styleObj.uniques.id
@@ -96,14 +112,26 @@ module.exports = {
 
             props.forEach( ( prop ) => {
                 compareObj[ prop ] = [];
+
                 othersArr.forEach( ( o ) => {
-                    compareObj[ prop ] = _.concat( compareObj[ prop ], o.data[ prop ] );
+                    let otherVals = _.keys( o.data[ prop ].counts );
+                    compareObj[ prop ] = _.concat( compareObj[ prop ], otherVals );
                 } );
-                styleObj.trueUniques[ prop ] = _.difference( styleObj.uniques.data[ prop ], compareObj[ prop ] );
+
+                let styleVals = _.keys( styleObj.uniques.data[ prop ].counts )
+                let diffArr = _.difference( styleVals, compareObj[ prop ] );
+
+                styleObj.trueUniques[ prop ] = [];
+                diffArr.forEach( ( d ) => {
+                    let uniqueObj = {};
+                    uniqueObj.value = d;
+                    uniqueObj.count = styleObj.uniques.data[ prop ].counts[ d ];
+                    styleObj.trueUniques[ prop ].push( uniqueObj );
+                } );
             } );
         } );
 
-        return totalObj;
+        return pageData;
     },
     sortFontSizes: function ( fontSizes ) {
         let that = this;

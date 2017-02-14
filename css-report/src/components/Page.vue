@@ -46,7 +46,6 @@ export default {
       page: this.dataObj.page,
       links: this.dataObj.links,
       styles: this.dataObj.styles,
-      css: this.dataObj.css,
       collapsed: true
     };
   },
@@ -61,6 +60,7 @@ export default {
   props: ['dataObj'],
   created () {
     this.pageData = utils.parsePageData(this.links, this.styles);
+    console.log(this.pageData);
   }
 };
 </script>

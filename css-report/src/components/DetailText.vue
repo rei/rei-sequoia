@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="col-md-4">
-    <p>{{value}}</p>
+    <p>{{value}} <span v-if="uses">({{uses}})</span></p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'detail-text',
-  props: ['value']
+  props: ['value', 'uses']
 }
 </script>
 
