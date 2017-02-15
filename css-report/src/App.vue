@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1>CSS Usage Report</h1>
-      <page v-for="data in datam" :dataObj="data"></page>
+      <h1>CSS Report</h1>
+      <page v-for="data in datam" :data="data"></page>
     </div>
   </div>
 </template>

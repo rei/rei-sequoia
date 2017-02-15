@@ -1,7 +1,8 @@
 <template lang="html">
-  <div class="col-md-2">
+  <div class="col-md-2 vertical-push-md">
     <div :style="styleObj"></div>
-    <p>{{color}} <span v-if="uses">({{uses}})</span></p>
+    <span>{{color}}</span>
+    <p v-if="uses">({{uses}})</p>
   </div>
 </template>
 
