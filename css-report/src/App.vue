@@ -10,7 +10,7 @@
 <script>
 import Page from './components/Page';
 
-import data from '../data/data.json';
+import data from 'assets/data.json';
 
 export default {
     name: 'app',
