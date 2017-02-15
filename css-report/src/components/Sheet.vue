@@ -5,7 +5,7 @@
       <sheet-stats :sheetStats="sheetTotals"></sheet-stats>
       <button type="button" class="btn btn-primary btn-sm" @click="collapsed = !collapsed">{{collapsed ? 'View File Details': 'Hide File Details'}}</button>
     </div>
-    <div class="card-block" v-if="!collapsed">
+    <div class="card-block" v-show="!collapsed">
       <div class="row row-flex">
         <stat-header :count="sheetTotals.color.unique" :name="'Unique'" :plural="'Colors'" :singular="'Color'"></stat-header>
         <detail-colors v-for="uses,color in sheetStats.color.uniques" :color="color" :uses="uses"></detail-colors>

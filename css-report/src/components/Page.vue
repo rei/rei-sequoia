@@ -6,7 +6,7 @@
         <page-stats :pageStats="pageTotals"></page-stats>
         <button type="button" class="btn btn-primary btn-sm" @click="collapsed = !collapsed">{{collapsed ? 'View Page Details': 'Hide Page Details'}}</button>
     </div>
-    <div class="card-block" v-if="!collapsed">
+    <div class="card-block" v-show="!collapsed">
         <div class="row row-flex">
             <stat-header :count="pageTotals.color" :name="''" :plural="'Colors'" :singular="'Color'"></stat-header>
             <detail-colors v-for="uses,color in uniques.color" :color="color" :uses="uses"></detail-colors>

@@ -2,7 +2,7 @@
 <div id="app" class="loaded">
     <div class="container">
         <h1>CSS Report</h1>
-        <page v-for="data in datam" :data="data"></page>
+        <page v-for="page in pages" :data="page"></page>
     </div>
 </div>
 </template>
@@ -10,13 +10,13 @@
 <script>
 import Page from './components/Page';
 
-import data from 'assets/data.json';
+import pages from 'assets/data.json';
 
 export default {
     name: 'app',
     data() {
         return {
-            datam: data
+            pages: pages,
         };
     },
     components: {
