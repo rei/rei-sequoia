@@ -1,5 +1,5 @@
 <template>
-<div id="app">
+<div id="app" class="loaded">
     <div class="container">
         <h1>CSS Report</h1>
         <page v-for="data in datam" :data="data"></page>
@@ -17,10 +17,10 @@ export default {
     data() {
         return {
             datam: data
-        }
+        };
     },
     components: {
         Page
     }
-}
+};
 </script>
