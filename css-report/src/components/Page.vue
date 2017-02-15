@@ -66,9 +66,9 @@ export default {
         let metrics = [ 'size', 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the page-stats area
         // set up overview object
         this.pageTotals = {};
-        metrics.forEach((metric) => {
-            this.pageTotals[metric] = 0;
-        });
+        metrics.forEach( ( metric ) => {
+            this.pageTotals[ metric ] = 0;
+        } );
 
         // Get CSSStats
         this.statsArr = [];
@@ -81,26 +81,26 @@ export default {
 
         // Get unique stats and build overview data from stats
         this.allStats = [];
+        this.uniques = {};
         this.statsArr.forEach( ( statObj ) => {
-            this.allStats.push(this.getUniques( statObj, uniqueProperties ));
-            this.pageTotals = this.getTotals(statObj.stats, this.pageTotals);
+            let tempUniques = this.getUniques( statObj, uniqueProperties )
+            this.allStats.push( tempUniques );
+
+            // Parse the unique stats
+            uniqueProperties.forEach( ( prop ) => {
+                this.uniques[ prop ] = _.mergeWith( this.uniques[ prop ], tempUniques[ prop ].counts, ( objVal, srcVal ) => {
+                    if ( !objVal ) {
+                        objVal = 0;
+                    }
+                    return objVal + srcVal;
+                } );
+                this.pageTotals[ prop ] = _.keys( this.uniques[ prop ] ).length;
+            } );
+
+            this.pageTotals = this.getTotals( statObj.stats, this.pageTotals );
         } );
 
-        // Parse the unique stats
-        this.uniques = {};
-        this.allStats.forEach((statObj)=>{
-            uniqueProperties.forEach((prop)=>{
-                this.uniques[prop] = _.mergeWith(this.uniques[prop], statObj[prop].counts, (objVal, srcVal)=>{
-                    if(!objVal) { objVal = 0; }
-                    return objVal + srcVal;
-                });
-            });
-        });
-
         // Page Overview Stats
-        uniqueProperties.forEach((prop)=>{
-            this.pageTotals[prop] = _.keys(this.uniques[prop]).length;
-        });
         this.pageTotals.styleSheetsCount = this.links.length;
         this.pageTotals.styleTagsCount = this.tags.length;
 
@@ -116,7 +116,7 @@ export default {
         },
         getUniques: function ( statObj, properties ) {
             let returnObj = {};
-            returnObj.id = randomID(10);
+            returnObj.id = randomID( 10 );
             returnObj.name = statObj.name;
             returnObj.stats = statObj.stats;
             // returnObj.css = statObj.css;
@@ -124,17 +124,17 @@ export default {
             properties.forEach( ( prop ) => {
                 returnObj[ prop ] = {};
                 if ( prop === 'fontSize' ) {
-                    // returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontSizes();
-                    returnObj[ prop ].counts = _.countBy( statObj.stats.declarations.getAllFontSizes(), _.identity );
+                    returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontSizes();
+                    returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
                 } else if ( prop === 'fontFamily' ) {
-                    // returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontFamilies();
-                    returnObj[ prop ].counts = _.countBy( statObj.stats.declarations.getAllFontFamilies(), _.identity );
+                    returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontFamilies();
+                    returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
                 } else if ( prop === 'mediaQueries' ) {
-                    // returnObj[ prop ].allValues = statObj.stats.mediaQueries.values;
-                    returnObj[ prop ].counts = _.countBy( statObj.stats.mediaQueries.values, _.identity );
+                    returnObj[ prop ].allValues = statObj.stats.mediaQueries.values;
+                    returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
                 } else {
-                    // returnObj[ prop ].allValues = statObj.stats.declarations.properties[ _.kebabCase( prop ) ];
-                    returnObj[ prop ].counts = _.countBy( statObj.stats.declarations.properties[ _.kebabCase( prop ) ], _.identity );
+                    returnObj[ prop ].allValues = statObj.stats.declarations.properties[ _.kebabCase( prop ) ];
+                    returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
                 }
             } );
 

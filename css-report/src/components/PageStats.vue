@@ -38,8 +38,8 @@
 
 <script>
 export default {
-  name: 'page-stats',
-  props:['pageStats']
+    name: 'page-stats',
+    props: [ 'pageStats' ]
 }
 </script>
 

@@ -44,9 +44,9 @@
 
 <script>
 export default {
-  name: 'sheet-stats',
-  props: ['sheetStats']
-}
+    name: 'sheet-stats',
+    props: [ 'sheetStats' ]
+};
 </script>
 
 <style lang="css">

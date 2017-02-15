@@ -8,15 +8,15 @@
 
 <script>
 export default {
-  name: 'detail-bg-colors',
-  props: ['color', 'uses'],
-  data() {
-    return {
-      styleObj: {
-        backgroundColor: this.color,
-        paddingBottom: '50%'
-      }
-    };
-  }
+    name: 'detail-bg-colors',
+    props: [ 'color', 'uses' ],
+    data() {
+        return {
+            styleObj: {
+                backgroundColor: this.color,
+                paddingBottom: '50%'
+            }
+        };
+    }
 };
 </script>

@@ -8,15 +8,15 @@
 
 <script>
 export default {
-  name: 'detail-colors',
-  props: ['color', 'uses'],
-  data() {
-    return {
-      styleObj: {
-        color: this.color,
-        fontSize: '26px'
-      }
+    name: 'detail-colors',
+    props: [ 'color', 'uses' ],
+    data() {
+        return {
+            styleObj: {
+                color: this.color,
+                fontSize: '26px'
+            }
+        };
     }
-  }
-}
+};
 </script>

@@ -58,14 +58,14 @@ export default {
     data() {
         return {
             collapsed: true,
-        }
+        };
     },
     created() {
         // These are also defined in Page.vue in case we want different things for Page vs Stylesheet
         let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
         let metrics = [ 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the sheet-stats area
         // Get sheet overview metric data
-        this.sheetTotals = this.getTotals(this.sheetStats, metrics);
+        this.sheetTotals = this.getTotals( this.sheetStats, metrics );
 
         // Remove current sheet data from all data for comparison later
         let othersArr = _.reject( this.allStats, {
@@ -73,7 +73,7 @@ export default {
         } );
         // Get true unique values for the sheet and sheet overview data
         let compareObj = {};
-        uniqueProperties.forEach((prop)=>{
+        uniqueProperties.forEach( ( prop ) => {
             compareObj[ prop ] = [];
             othersArr.forEach( ( o ) => {
                 let otherVals = _.keys( o[ prop ].counts );
@@ -83,26 +83,26 @@ export default {
             let styleVals = _.keys( this.sheetStats[ prop ].counts );
             let diffArr = _.difference( styleVals, compareObj[ prop ] );
 
-            this.sheetStats[prop].uniques = {};
-            diffArr.forEach((val)=>{
-                this.sheetStats[prop].uniques[val] = this.sheetStats[prop].counts[val];
-            });
+            this.sheetStats[ prop ].uniques = {};
+            diffArr.forEach( ( val ) => {
+                this.sheetStats[ prop ].uniques[ val ] = this.sheetStats[ prop ].counts[ val ];
+            } );
 
             // Overview data
-            this.sheetTotals[prop] = {};
-            this.sheetTotals[prop].total = _.keys(this.sheetStats[prop].counts).length;
-            this.sheetTotals[prop].unique = _.keys(this.sheetStats[prop].uniques).length;
-        });
+            this.sheetTotals[ prop ] = {};
+            this.sheetTotals[ prop ].total = _.keys( this.sheetStats[ prop ].counts ).length;
+            this.sheetTotals[ prop ].unique = _.keys( this.sheetStats[ prop ].uniques ).length;
+        } );
     },
     methods: {
-        getTotals:function (statObj, metrics) {
+        getTotals: function ( statObj, metrics ) {
             let returnObj = {};
-            metrics.forEach((metric)=>{
-                returnObj[metric] = statObj.stats[metric].total;
-            });
+            metrics.forEach( ( metric ) => {
+                returnObj[ metric ] = statObj.stats[ metric ].total;
+            } );
 
             return returnObj;
         }
     }
-}
+};
 </script>

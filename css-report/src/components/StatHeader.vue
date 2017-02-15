@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'stat-header',
-  props: ['count', 'name', 'plural', 'singular']
+    name: 'stat-header',
+    props: [ 'count', 'name', 'plural', 'singular' ]
 }
 </script>
