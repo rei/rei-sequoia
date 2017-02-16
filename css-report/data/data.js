@@ -117,7 +117,7 @@ function getData( pages ) {
     Promise.all( promises ).then( function ( r ) {
         var json = JSON.stringify( pageData );
 
-        fs.outputFile( './src/assets/data.json', json, function ( err ) {
+        fs.outputFile( './data/data.json', json, function ( err ) {
             if ( err ) {
                 console.error( err );
             }

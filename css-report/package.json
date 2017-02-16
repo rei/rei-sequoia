@@ -5,8 +5,9 @@
   "author": "Lance Harper <lancetharper@gmail.com>",
   "private": true,
   "scripts": {
-    "report": "npm run scrape && npm run dev",
+    "report": "npm run scrape && npm run process && npm run dev",
     "scrape": "node data/data.js",
+    "process": "node data/parse.js",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },

@@ -61,7 +61,7 @@ export default {
         };
     },
     created() {
-        // These are also defined in Page.vue in case we want different things for Page vs Stylesheet
+        // These are also defined in data/parse.js in case we want different things for Page vs Stylesheet
         let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
         let metrics = [ 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the sheet-stats area
         // Get sheet overview metric data
