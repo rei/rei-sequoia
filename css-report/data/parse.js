@@ -57,17 +57,13 @@ function getStats( style, isStyle ) {
 }
 
 function parseData( page, links, tags ) {
-    let returnObj = {};
-    returnObj.page = page;
-
-
     // These are also defined in Sheet.vue in case we want different things for Page vs Stylesheet
     let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
     let metrics = [ 'size', 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the page-stats area
     // set up overview object
-    let pageTotals = {};
+    let overview = {};
     metrics.forEach( ( metric ) => {
-        pageTotals[ metric ] = 0;
+        overview[ metric ] = 0;
     } );
 
     // Get CSSStats
@@ -83,7 +79,7 @@ function parseData( page, links, tags ) {
     let allStats = [];
     let uniques = {};
     statsArr.forEach( ( statObj ) => {
-        let tempUniques = getUniques( statObj, uniqueProperties )
+        let tempUniques = getUniques( statObj, uniqueProperties );
         allStats.push( tempUniques );
 
         // Parse the unique stats
@@ -94,17 +90,20 @@ function parseData( page, links, tags ) {
                 }
                 return objVal + srcVal;
             } );
-            pageTotals[ prop ] = _.keys( uniques[ prop ] ).length;
+            overview[ prop ] = _.keys( uniques[ prop ] ).length;
         } );
 
-        pageTotals = getTotals( statObj.stats, pageTotals );
+        overview = getTotals( statObj.stats, overview );
     } );
 
     // Page Overview Stats
-    pageTotals.styleSheetsCount = links.length;
-    pageTotals.styleTagsCount = tags.length;
+    overview.styleSheetsCount = links.length;
+    overview.styleTagsCount = tags.length;
 
-    returnObj.overview = pageTotals;
+    // bind to returnObj
+    let returnObj = {};
+    returnObj.page = page;
+    returnObj.overview = overview;
     returnObj.allStats = allStats;
     returnObj.uniques = uniques;
 
@@ -112,7 +111,6 @@ function parseData( page, links, tags ) {
 }
 
 function main( data ) {
-    let finalObj = {};
     let finalArr = [];
     data.forEach( ( d ) => {
         let pageObj = parseData( d.page, d.links, d.styles );
@@ -127,7 +125,7 @@ function main( data ) {
             console.error( err );
         }
         console.log( 'Data Processed!' );
-    } )
+    } );
 }
 
 main( data );
