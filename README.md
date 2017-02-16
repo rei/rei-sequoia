@@ -14,4 +14,4 @@ Tooling to help support REI digital design systems
 1. Clone or download repo
 2. ``cd css-report``
 3. ``npm install``
-4. ``npm run report`` (this runs ``npm run scrape`` which gets the data AND ``npm run dev`` which loads the webpack server and opens the results)
+4. ``npm run report`` (this runs ``npm run scrape`` which gets the data and saves the raw values to a file, ``npm run process`` which reads that file and generates statistics for the pages then saves them to a file the app uses, and  ``npm run dev`` which loads the webpack server and opens the results)
