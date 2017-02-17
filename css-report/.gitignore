@@ -1,6 +1,3 @@
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
-data/data.json
-src/assets/data.json
