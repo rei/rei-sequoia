@@ -65,7 +65,7 @@ export default {
             .split( '&' )[ 0 ]
             .split( '=' )[ 1 ];
 
-        if ( mylocation === this.page.url ) {
+        if ( mylocation === this.page.id.toString() ) {
             this.toggle();
         } else {
             this.close();
@@ -74,7 +74,7 @@ export default {
     methods: {
         toggle: function () {
             if ( this.collapsed ) {
-                location.hash = `reportPage=${this.page.url}`;
+                location.hash = `reportPage=${this.page.id}`;
                 vueScroll.scrollTo(this.$el, 500, {easing: vueScroll.easing['ease-in']});
             } else {
                 let scrollV = document.body.scrollTop;
