@@ -7,6 +7,7 @@ module.exports = {
         index: path.resolve( __dirname, '../dist/index.html' ),
         assetsRoot: path.resolve( __dirname, '../dist' ),
         assetsSubDirectory: 'static',
+        // NOTE: assetsPublicPath is '/' by default but changed to '' to work with gh-pages for REI-sequoia
         assetsPublicPath: '',
         productionSourceMap: true,
         // Gzip off by default as many popular static hosts such as

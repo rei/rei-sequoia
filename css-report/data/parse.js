@@ -112,7 +112,10 @@ function parseData( page, links, tags ) {
 
 function main( data ) {
     let finalArr = [];
-    data.forEach( ( d ) => {
+    let sorted = _.sortBy(data, (d)=>{
+        return d.page.id;
+    });
+    sorted.forEach( ( d ) => {
         let pageObj = parseData( d.page, d.links, d.styles );
         finalArr.push( pageObj );
     } );
