@@ -61,7 +61,7 @@ export default {
     props: [ 'data' ],
     mounted() {
         let lochash = location.hash.substr( 1 ),
-            mylocation = lochash.substr( lochash.indexOf( 'page=' ) )
+            mylocation = lochash.substr( lochash.indexOf( 'reportPage=' ) )
             .split( '&' )[ 0 ]
             .split( '=' )[ 1 ];
 
@@ -74,7 +74,7 @@ export default {
     methods: {
         toggle: function () {
             if ( this.collapsed ) {
-                location.hash = `page=${this.page.url}`;
+                location.hash = `reportPage=${this.page.url}`;
                 vueScroll.scrollTo(this.$el, 500, {easing: vueScroll.easing['ease-in']});
             } else {
                 let scrollV = document.body.scrollTop;
