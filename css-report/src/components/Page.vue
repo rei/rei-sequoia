@@ -4,7 +4,7 @@
         <h2 class="h3">{{page.description}}</h2>
         <p><a :href="page.url" target="_blank">{{page.url}}</a></p>
         <page-stats :pageStats="pageTotals"></page-stats>
-        <button type="button" class="btn btn-primary btn-sm" @click="collapsed = !collapsed">{{collapsed ? 'View Page Details': 'Hide Page Details'}}</button>
+        <button type="button" class="btn btn-primary btn-sm" @click="toggle()">{{collapsed ? 'View Page Details': 'Hide Page Details'}}</button>
     </div>
     <div class="card-block" v-show="!collapsed">
         <div class="row row-flex">
@@ -37,6 +37,8 @@ import DetailBgColors from './DetailBgColors';
 import DetailText from './DetailText';
 import Sheet from './Sheet';
 
+let vueScroll = require('vue-scrollTo');
+
 export default {
     name: 'page',
     data() {
@@ -56,6 +58,35 @@ export default {
         DetailText,
         Sheet
     },
-    props: [ 'data' ]
+    props: [ 'data' ],
+    mounted() {
+        let lochash = location.hash.substr( 1 ),
+            mylocation = lochash.substr( lochash.indexOf( 'page=' ) )
+            .split( '&' )[ 0 ]
+            .split( '=' )[ 1 ];
+
+        if ( mylocation === this.page.url ) {
+            this.toggle();
+        } else {
+            this.close();
+        }
+    },
+    methods: {
+        toggle: function () {
+            if ( this.collapsed ) {
+                location.hash = `page=${this.page.url}`;
+                vueScroll.scrollTo(this.$el, 500, {easing: vueScroll.easing['ease-in']});
+            } else {
+                let scrollV = document.body.scrollTop;
+                location.hash = ``;
+                document.body.scrollTop = scrollV;
+            }
+            this.collapsed = !this.collapsed;
+
+        },
+        close: function() {
+            this.collapsed = true;
+        }
+    }
 };
 </script>
