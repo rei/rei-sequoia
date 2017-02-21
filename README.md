@@ -16,6 +16,7 @@ View the most recently run report [here](https://rei.github.io/rei-sequoia/css-r
 **OR**
 
 If you'd like to run it locally, follow these instructions:
+
 1. Clone or download repo
 2. ``cd css-report``
 3. ``npm install``
