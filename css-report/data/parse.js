@@ -2,6 +2,7 @@ let _ = require( 'lodash' );
 let randomID = require( 'random-id' );
 let cssstats = require( 'cssstats' );
 let fs = require( 'fs-extra' );
+let moment = require( 'moment' );
 
 let data = require( './data.json' );
 
@@ -112,16 +113,20 @@ function parseData( page, links, tags ) {
 
 function main( data ) {
     let finalArr = [];
-    let sorted = _.sortBy(data, (d)=>{
+    let sorted = _.sortBy( data, ( d ) => {
         return d.page.id;
-    });
+    } );
     sorted.forEach( ( d ) => {
         let pageObj = parseData( d.page, d.links, d.styles );
         finalArr.push( pageObj );
     } );
 
     // console.log( finalArr );
-    var json = JSON.stringify( finalArr );
+    let finalObj = {};
+    finalObj.updated = moment().format( 'MMMM Do YYYY, h:mm:ss a' );
+    console.log( finalObj.updated );
+    finalObj.data = finalArr;
+    let json = JSON.stringify( finalObj );
 
     fs.outputFile( './src/assets/data.json', json, function ( err ) {
         if ( err ) {
