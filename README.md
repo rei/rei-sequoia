@@ -12,7 +12,9 @@ Tooling to help support REI digital design systems
 
 ## CSS Report
 View the most recently run report [here](https://rei.github.io/rei-sequoia/css-report/dist/index.html)
+
 **OR**
+
 If you'd like to run it locally, follow these instructions:
 1. Clone or download repo
 2. ``cd css-report``
