@@ -1,7 +1,8 @@
-var getCss = require( 'get-css' ),
-    fs = require( 'fs-extra' );
+let getCss = require( 'get-css' ),
+    fs = require( 'fs-extra' ),
+    request = require( 'request' );
 
-var pageArr = [ {
+let pageArr = [ {
         id: 1,
         description: 'Empty Page (header/footer)',
         url: 'https://www.rei.com/test'
@@ -103,21 +104,21 @@ var pageArr = [ {
     }
 ];
 
-var getCssOptions = {
+let getCssOptions = {
     timeout: 10000,
     verbose: true
 };
 
 function getData( pages ) {
-    var pageData = [];
-    var promises = [];
+    let pageData = [];
+    let promises = [];
 
     // Loop through all pages and scrape data
-    for ( var i = 0, l = pages.length; i < l; i++ ) {
+    for ( let i = 0, l = pages.length; i < l; i++ ) {
         ( function ( page ) {
-            var promise = getCss( page.url, getCssOptions )
+            let promise = getCss( page.url, getCssOptions )
                 .then( function ( res ) {
-                    var pageObj = {};
+                    let pageObj = {};
                     pageObj.page = page;
                     pageObj.id = page.id;
                     pageObj.title = res.pageTitle;
@@ -135,16 +136,24 @@ function getData( pages ) {
     }
 
     // send all data to build the page once promises are resolved and we have data
-    Promise.all( promises ).then( function ( r ) {
-        var json = JSON.stringify( pageData );
+    Promise.all( promises ).then( ( r ) => {
+        let obj = {};
+        request.get( 'https://raw.githubusercontent.com/rei/rei-cedar/master/dist/rei-cedar.min.css', ( err, resp, body ) => {
+            if ( !err && resp.statusCode === 200 ) {
+                obj.cedar = body;
+                obj.data = pageData;
+                let json = JSON.stringify( obj );
 
-
-        fs.outputFile( './data/data.json', json, function ( err ) {
-            if ( err ) {
+                fs.outputFile( './data/data.json', json, function ( err ) {
+                    if ( err ) {
+                        console.error( err );
+                    }
+                    console.log( 'Data Gathered!' );
+                } );
+            } else {
                 console.error( err );
             }
-            console.log( 'Data Gathered!' );
-        } )
+        } );
     } );
 }
 

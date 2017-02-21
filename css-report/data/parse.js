@@ -6,6 +6,10 @@ let moment = require( 'moment' );
 
 let data = require( './data.json' );
 
+// These are also defined in Sheet.vue in case we want different things for Page vs Stylesheet
+let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
+let metrics = [ 'size', 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the page-stats area
+
 function getTotals( stats, totalObj ) {
     totalObj.size += stats.gzipSize;
     totalObj.rules += stats.rules.total;
@@ -57,10 +61,7 @@ function getStats( style, isStyle ) {
     return styleObj;
 }
 
-function parseData( page, links, tags ) {
-    // These are also defined in Sheet.vue in case we want different things for Page vs Stylesheet
-    let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
-    let metrics = [ 'size', 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the page-stats area
+function parseData( page, links, tags, cedar ) {
     // set up overview object
     let overview = {};
     metrics.forEach( ( metric ) => {
@@ -79,6 +80,7 @@ function parseData( page, links, tags ) {
     // Get unique stats and build overview data from stats
     let allStats = [];
     let uniques = {};
+    let cedarDiff = {};
     statsArr.forEach( ( statObj ) => {
         let tempUniques = getUniques( statObj, uniqueProperties );
         allStats.push( tempUniques );
@@ -91,6 +93,11 @@ function parseData( page, links, tags ) {
                 }
                 return objVal + srcVal;
             } );
+
+            cedarDiff[ prop ] = {};
+            cedarDiff[ prop ].data = _.difference( _.keys( uniques[ prop ] ), _.keys( cedar[ prop ].counts ) );
+            cedarDiff[ prop ].total = _.keys( cedarDiff[ prop ].data ).length;
+
             overview[ prop ] = _.keys( uniques[ prop ] ).length;
         } );
 
@@ -107,24 +114,32 @@ function parseData( page, links, tags ) {
     returnObj.overview = overview;
     returnObj.allStats = allStats;
     returnObj.uniques = uniques;
+    returnObj.cedarDiff = cedarDiff;
+    returnObj.cedarUniques = cedar;
 
     return returnObj;
 }
 
-function main( data ) {
+function main( data, cedarCss ) {
+    // Run current cedar css through to get stats for comparison later
+    let cedar = {};
+    cedar.link = 'Cedar';
+    cedar.css = cedarCss;
+    let cedarStats = getStats( cedar );
+    let cedarUniques = getUniques( cedarStats, uniqueProperties );
+
     let finalArr = [];
     let sorted = _.sortBy( data, ( d ) => {
         return d.page.id;
     } );
     sorted.forEach( ( d ) => {
-        let pageObj = parseData( d.page, d.links, d.styles );
+        let pageObj = parseData( d.page, d.links, d.styles, cedarUniques );
         finalArr.push( pageObj );
     } );
 
     // console.log( finalArr );
     let finalObj = {};
     finalObj.updated = moment().format( 'MMMM Do YYYY, h:mm:ss a' );
-    console.log( finalObj.updated );
     finalObj.data = finalArr;
     let json = JSON.stringify( finalObj );
 
@@ -136,4 +151,4 @@ function main( data ) {
     } );
 }
 
-main( data );
+main( data.data, data.cedar );
