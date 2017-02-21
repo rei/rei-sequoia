@@ -17,7 +17,6 @@ import data from 'assets/data.json';
 export default {
     name: 'app',
     data() {
-        console.log(data.updated);
         return {
             data: data.data,
             updated: data.updated
