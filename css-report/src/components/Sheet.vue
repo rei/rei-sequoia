@@ -34,8 +34,13 @@
           <!--Media Queries-->
           <stat-header v-if="sheetTotals.mediaQueries.unique > 0" :count="sheetTotals.mediaQueries.unique" :name="'Unique Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
           <detail-text v-if="sheetTotals.mediaQueries.unique > 0" v-for="uses,text in sheetStats.mediaQueries.uniques" :value="text" :uses="uses"></detail-text>
-          <stat-header v-if="cedarDiff.mediaQueries.total > 0" :count="cedarDiff.mediaQueries.unique" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
-          <detail-text v-if="cedarDiff.mediaQueries.total > 0" v-for="text in cedarDiff.mediaQueries.uniques" :value="text" :uses="null"></detail-text>
+          <stat-header v-if="cedarDiff.mediaQueries.total > 0" :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
+          <detail-text v-if="cedarDiff.mediaQueries.total > 0" v-for="text in cedarDiff.mediaQueries.data" :value="text" :uses="null"></detail-text>
+
+          <div class="col-xs-12" v-if="sheetStats.specificityGraph">
+              <h4 class="label-classification">Specificity Graph</h4>
+            <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
+          </div>
       </div>
     </div>
   </section>
@@ -47,8 +52,9 @@
     import DetailColors from './DetailColors';
     import DetailBgColors from './DetailBgColors';
     import DetailText from './DetailText';
+    import Chart from './Chart';
 
-    let _ = require( 'lodash' );
+    import _ from 'lodash';
 
     export default {
         name: 'sheet',
@@ -58,7 +64,8 @@
             StatHeader,
             DetailColors,
             DetailBgColors,
-            DetailText
+            DetailText,
+            Chart
         },
         data() {
             return {

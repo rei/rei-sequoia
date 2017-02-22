@@ -44,7 +44,7 @@
             <detail-text v-for="value in cedarDiff.mediaQueries.data" :value="value" :uses="null"></detail-text>
         </div>
 
-        <sheet v-for="data in allStats" :sheetStats="data" :allStats="allStats" :cedar="cedarUniques"></sheet>
+        <sheet v-if="!collapsed" v-for="data in allStats" :sheetStats="data" :allStats="allStats" :cedar="cedarUniques"></sheet>
     </div>
 </section>
 </template>
@@ -57,7 +57,7 @@
     import DetailText from './DetailText';
     import Sheet from './Sheet';
 
-    let vueScroll = require( 'vue-scrollTo' );
+    import vueScroll from 'vue-scrollTo';
 
     export default {
         name: 'page',
