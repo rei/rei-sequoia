@@ -109,6 +109,7 @@
                 // Overview data
                 this.sheetTotals[ prop ] = {};
                 this.sheetTotals[ prop ].total = _.keys( this.sheetStats[ prop ].counts ).length;
+                this.sheetTotals[ prop ].diff = this.cedarDiff[ prop ].total;
                 this.sheetTotals[ prop ].unique = _.keys( this.sheetStats[ prop ].uniques ).length;
 
                 if ( !this.hasData && ( this.sheetTotals[ prop ].total > 0 || this.cedarDiff[ prop ].total > 0 ) ) {
