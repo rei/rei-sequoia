@@ -9,35 +9,35 @@
     <div class="card-block" v-show="!collapsed">
         <div class="row row-flex">
             <!--Color-->
-            <stat-header :count="pageTotals.color" :name="''" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+            <stat-header :count="pageTotals.color.total" :name="''" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
             <detail-colors v-for="uses,color in uniques.color" :color="color" :uses="uses"></detail-colors>
 
             <stat-header :count="cedarDiff.color.total" :name="''" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
             <detail-colors v-for="color in cedarDiff.color.data" :color="color" :uses="null"></detail-colors>
             
             <!--Background Color-->
-            <stat-header :count="pageTotals.backgroundColor" :name="'Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+            <stat-header :count="pageTotals.backgroundColor.total" :name="'Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
             <detail-bg-colors v-for="uses,color in uniques.backgroundColor" :color="color" :uses="uses"></detail-bg-colors>
             
             <stat-header :count="cedarDiff.backgroundColor.total" :name="'Background'" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
             <detail-bg-colors v-for="color in cedarDiff.backgroundColor.data" :color="color" :uses="null"></detail-bg-colors>
             
             <!--Font Size-->
-            <stat-header :count="pageTotals.fontSize" :name="'Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
+            <stat-header :count="pageTotals.fontSize.total" :name="'Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
             <detail-text v-for="uses,value in uniques.fontSize" :value="value" :uses="uses"></detail-text>
 
             <stat-header :count="cedarDiff.fontSize.total" :name="'Font'" :after="'not in current cedar'" :plural="'Sizes'" :singular="'Size'"></stat-header>
             <detail-text v-for="value in cedarDiff.fontSize.data" :value="value" :uses="null"></detail-text>
             
             <!--Font Family-->
-            <stat-header :count="pageTotals.fontFamily" :name="'Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
+            <stat-header :count="pageTotals.fontFamily.total" :name="'Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
             <detail-text v-for="uses,value in uniques.fontFamily" :value="value" :uses="uses"></detail-text>
 
             <stat-header :count="cedarDiff.fontFamily.total" :name="'Font'" :after="'not in current cedar'" :plural="'Families'" :singular="'Family'"></stat-header>
             <detail-text v-for="value in cedarDiff.fontFamily.data" :value="value" :uses="null"></detail-text>
             
             <!--Media Queries-->
-            <stat-header :count="pageTotals.mediaQueries" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
+            <stat-header :count="pageTotals.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
             <detail-text v-for="uses,value in uniques.mediaQueries" :value="value" :uses="uses"></detail-text>
 
             <stat-header :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
