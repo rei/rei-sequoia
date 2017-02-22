@@ -4,10 +4,10 @@
       <p><b>Total Size (Gzip): </b>{{pageStats.size/1000}}kb</p>
     </div>
     <div class="col-md-4">
-      <p><b>Stylesheets: </b>{{pageStats.styleSheetsCount}}</p>
+      <p><b>External Stylesheets: </b>{{pageStats.styleSheetsCount}}</p>
     </div>
     <div class="col-md-4">
-      <p><b>Style Tags: </b>{{pageStats.styleTagsCount}}</p>
+      <p><b>Internal Stylesheets: </b>{{pageStats.styleTagsCount}}</p>
     </div>
     <div class="col-md-4">
       <p><b>Total Rules: </b>{{pageStats.rules}}</p>
@@ -37,10 +37,10 @@
 </template>
 
 <script>
-export default {
-    name: 'page-stats',
-    props: [ 'pageStats' ]
-}
+    export default {
+        name: 'page-stats',
+        props: [ 'pageStats' ]
+    }
 </script>
 
 <style lang="css">

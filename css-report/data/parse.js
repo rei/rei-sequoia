@@ -50,7 +50,7 @@ function getStats( style, isStyle ) {
     let styleObj = {};
     let css;
     if ( isStyle ) {
-        styleObj.name = '<style> tag';
+        styleObj.name = 'Internal Stylesheet <style>';
         css = style;
     } else {
         styleObj.name = style.link;
