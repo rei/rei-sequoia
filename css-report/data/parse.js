@@ -99,7 +99,9 @@ function parseData( page, links, tags, cedar ) {
             cedarDiff[ prop ].data = _.difference( _.keys( uniques[ prop ] ), _.keys( cedar[ prop ].counts ) );
             cedarDiff[ prop ].total = _.keys( cedarDiff[ prop ].data ).length;
 
-            overview[ prop ] = _.keys( uniques[ prop ] ).length;
+            overview[ prop ] = {};
+            overview[ prop ].total = _.keys( uniques[ prop ] ).length;
+            overview[ prop ].diff = cedarDiff[ prop ].total;
         } );
 
         overview = getTotals( statObj.stats, overview );
