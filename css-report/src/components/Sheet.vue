@@ -16,8 +16,8 @@
                         </a>
                     </h4>
                 </div>
-                <div v-show="showColor" class="container">
-                    <div class="row row-flex" :id="computedId('sheetColorCollapse')" :aria-labelledby="computedId('sheetColorHeading')">
+                <div v-show="showColor" class="container" :id="computedId('sheetColorCollapse')" :aria-labelledby="computedId('sheetColorHeading')">
+                    <div class="row row-flex">
                         <stat-header v-if="sheetTotals.color.unique > 0" :count="sheetTotals.color.unique" :name="'Unique'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-colors v-if="sheetTotals.color.unique > 0" v-for="uses,color in sheetStats.color.uniques" :color="color" :uses="uses"></detail-colors>
                         <stat-header v-if="cedarDiff.color.total > 0" :count="cedarDiff.color.total" :name="''" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
@@ -35,8 +35,8 @@
                         </a>
                     </h4>
                 </div>
-                <div v-show="showBgColor" class="container">
-                    <div class="row row-flex" :id="computedId('sheetBgColorCollapse')" :aria-labelledby="computedId('sheetBgColorHeading')">
+                <div v-show="showBgColor" class="container" :id="computedId('sheetBgColorCollapse')" :aria-labelledby="computedId('sheetBgColorHeading')">
+                    <div class="row row-flex">
                         <stat-header v-if="sheetTotals.backgroundColor.unique" :count="sheetTotals.backgroundColor.unique" :name="'Unique Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-bg-colors v-if="sheetTotals.backgroundColor.unique" v-for="uses,color in sheetStats.backgroundColor.uniques" :color="color" :uses="uses"></detail-bg-colors>
                         <stat-header v-if="cedarDiff.backgroundColor.total > 0" :count="cedarDiff.backgroundColor.total" :name="'Background'" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
@@ -54,8 +54,8 @@
                         </a>
                     </h4>
                 </div>
-                <div v-show="showFontSize" class="container">
-                    <div class="row row-flex" :id="computedId('sheetFontSizeCollapse')" :aria-labelledby="computedId('sheetFontSizeHeading')">
+                <div v-show="showFontSize" class="container" :id="computedId('sheetFontSizeCollapse')" :aria-labelledby="computedId('sheetFontSizeHeading')">
+                    <div class="row row-flex">
                         <stat-header v-if="sheetTotals.fontSize.unique > 0" :count="sheetTotals.fontSize.unique" :name="'Unique Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
                         <detail-text v-if="sheetTotals.fontSize.unique > 0" v-for="uses,text in sheetStats.fontSize.uniques" :value="text" :uses="uses"></detail-text>
                         <stat-header v-if="cedarDiff.fontSize.total > 0" :count="cedarDiff.fontSize.total" :name="'Font'" :after="'not in current cedar'" :plural="'Sizes'" :singular="'Size'"></stat-header>
@@ -73,8 +73,8 @@
                         </a>
                     </h4>
                 </div>
-                <div v-show="showFontFamily" class="container">
-                    <div class="row row-flex" :id="computedId('sheetFontFamilyCollapse')" :aria-labelledby="computedId('sheetFontFamilyHeading')">
+                <div v-show="showFontFamily" class="container" :id="computedId('sheetFontFamilyCollapse')" :aria-labelledby="computedId('sheetFontFamilyHeading')">
+                    <div class="row row-flex">
                         <stat-header v-if="sheetTotals.fontFamily.unique > 0" :count="sheetTotals.fontFamily.unique" :name="'Unique Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
                         <detail-text v-if="sheetTotals.fontFamily.unique > 0" v-for="uses,text in sheetStats.fontFamily.uniques" :value="text" :uses="uses"></detail-text>
                         <stat-header v-if="cedarDiff.fontFamily.total > 0" :count="cedarDiff.fontFamily.total" :name="'Font'" :after="'not in current cedar'" :plural="'Families'" :singular="'Family'"></stat-header>
@@ -92,8 +92,8 @@
                         </a>
                     </h4>
                 </div>
-                <div v-show="showMediaQuery" class="container">
-                    <div class="row row-flex" :id="computedId('sheetMediaQueryCollapse')" :aria-labelledby="computedId('sheetMediaQueryHeading')">
+                <div v-show="showMediaQuery" class="container" :id="computedId('sheetMediaQueryCollapse')" :aria-labelledby="computedId('sheetMediaQueryHeading')">
+                    <div class="row row-flex">
                         <stat-header v-if="sheetTotals.mediaQueries.unique > 0" :count="sheetTotals.mediaQueries.unique" :name="'Unique Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
                         <detail-text v-if="sheetTotals.mediaQueries.unique > 0" v-for="uses,text in sheetStats.mediaQueries.uniques" :value="text" :uses="uses"></detail-text>
                         <stat-header v-if="cedarDiff.mediaQueries.total > 0" :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
@@ -101,12 +101,26 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="col-xs-12" v-if="sheetStats.specificityGraph">
-            <h4 class="label-classification">Specificity Graph</h4>
-            <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
-        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetSpecificityCollapse')" data-toggle="showSpecificity" :id="computedId('sheetSpecificityHeading')" :aria-expanded="showSpecificity" @click="toggleCollapse" :aria-controls="computedId('sheetSpecificityCollapse')">
+                            Specificity (Max: {{sheetStats.specificity.max}}, Average: {{round(sheetStats.specificity.average, 3)}})
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showSpecificity" class="panel-body" :id="computedId('sheetSpecificityCollapse')" :aria-labelledby="computedId('sheetSpecificityHeading')">
+                    <div v-if="sheetStats.specificityGraph">
+                        <h5 class="label-classification">Specificity Graph</h5>
+                        <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
+                    </div>
+                    <h5 class="label-classification vertical-pull-lg">Top Ten</h5>
+                    <ol>
+                        <li v-for="s in specificTen">({{s.specificity}}) {{s.selector}}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>        
     </div>
 </section>
 </template>
@@ -140,6 +154,7 @@
                 showFontSize: false,
                 showFontFamily: false,
                 showMediaQuery: false,
+                showSpecificity: false,
                 hasData: false
             };
         },
@@ -149,6 +164,8 @@
             let metrics = [ 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the sheet-stats area
             // Get sheet overview metric data
             this.sheetTotals = this.getTotals( this.sheetStats, metrics );
+
+            this.specificTen = _.slice( this.sheetStats.specificityArr, 0, 10 );
 
             // Remove current sheet data from all data for comparison later
             let othersArr = _.reject( this.allStats, {
@@ -203,6 +220,24 @@
             },
             computedId: function ( str ) {
                 return `${str}${this.index}`;
+            },
+            round: function ( value, exp ) {
+                if ( typeof exp === 'undefined' || +exp === 0 )
+                    return Math.round( value );
+
+                value = +value;
+                exp = +exp;
+
+                if ( isNaN( value ) || !( typeof exp === 'number' && exp % 1 === 0 ) )
+                    return NaN;
+
+                // Shift
+                value = value.toString().split( 'e' );
+                value = Math.round( +( value[ 0 ] + 'e' + ( value[ 1 ] ? ( +value[ 1 ] + exp ) : exp ) ) );
+
+                // Shift back
+                value = value.toString().split( 'e' );
+                return +( value[ 0 ] + 'e' + ( value[ 1 ] ? ( +value[ 1 ] - exp ) : -exp ) );
             }
         }
     };

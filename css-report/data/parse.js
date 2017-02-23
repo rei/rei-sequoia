@@ -84,6 +84,8 @@ function parseData( page, links, tags, cedar ) {
     statsArr.forEach( ( statObj ) => {
         let tempUniques = getUniques( statObj, uniqueProperties );
         tempUniques.specificityGraph = statObj.stats.selectors.getSpecificityGraph();
+        tempUniques.specificityArr = statObj.stats.selectors.getSortedSpecificity();
+        tempUniques.specificity = statObj.stats.selectors.specificity;
         allStats.push( tempUniques );
 
         // Parse the unique stats
