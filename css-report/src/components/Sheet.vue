@@ -114,7 +114,7 @@
                         <h5 class="label-classification">Specificity Graph</h5>
                         <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
                     </div>
-                    <h5 class="label-classification vertical-pull-lg">Top Ten</h5>
+                    <h5 class="label-classification vertical-pull-lg">Top Ten Selectors</h5>
                     <ol>
                         <li v-for="s in specificTen">({{s.specificity}}) {{s.selector}}</li>
                     </ol>

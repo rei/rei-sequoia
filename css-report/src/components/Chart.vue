@@ -23,7 +23,7 @@
                         data: this.chartData,
                         backgroundColor: '#000',
                         borderColor: '#000',
-                        borderWidth: 1
+                        borderWidth: 0.3
                     } ],
                 },
                 options: {
