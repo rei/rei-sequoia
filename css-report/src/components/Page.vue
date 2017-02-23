@@ -109,7 +109,7 @@
             </div>
         </div>
 
-        <sheet v-if="!collapsed" v-for="data in allStats" :sheetStats="data" :allStats="allStats" :cedar="cedarUniques"></sheet>
+        <sheet v-if="!collapsed" v-for="(data, i) in allStats" :index="computedIndex(index, i)" :sheetStats="data" :allStats="allStats" :cedar="cedarUniques"></sheet>
     </div>
 </section>
 </template>
@@ -188,6 +188,9 @@
             },
             computedId: function ( str ) {
                 return `${str}${this.index}`;
+            },
+            computedIndex: function ( i1, i2 ) {
+                return `${i1}${i2}`;
             }
         }
     };

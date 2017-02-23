@@ -6,43 +6,106 @@
         <button v-if="hasData" type="button" class="btn btn-primary btn-sm" @click="collapsed = !collapsed">{{collapsed ? 'View File Details': 'Hide File Details'}}</button>
     </div>
     <div class="card-block" v-show="!collapsed">
-        <div class="row row-flex">
-            <div class="panel-group col-xs-12" role="tablist" aria-multiselectable="true">
-                <!--Color-->
-                <stat-header v-if="sheetTotals.color.unique > 0" :count="sheetTotals.color.unique" :name="'Unique'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
-                <detail-colors v-if="sheetTotals.color.unique > 0" v-for="uses,color in sheetStats.color.uniques" :color="color" :uses="uses"></detail-colors>
-                <stat-header v-if="cedarDiff.color.total > 0" :count="cedarDiff.color.total" :name="''" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
-                <detail-colors v-if="cedarDiff.color.total > 0" v-for="color in cedarDiff.color.data" :color="color" :uses="null"></detail-colors>
+        <div class="panel-group" role="tablist" aria-multiselectable="true">
+            <!--Color-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetColorCollapse')" data-toggle="showColor" :id="computedId('sheetColorHeading')" :aria-expanded="showColor" @click="toggleCollapse" :aria-controls="computedId('sheetColorCollapse')">
+                            Colors ({{sheetTotals.color.unique}} unique, {{cedarDiff.color.total}} not in Cedar)
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showColor" class="container">
+                    <div class="row row-flex" :id="computedId('sheetColorCollapse')" :aria-labelledby="computedId('sheetColorHeading')">
+                        <stat-header v-if="sheetTotals.color.unique > 0" :count="sheetTotals.color.unique" :name="'Unique'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-colors v-if="sheetTotals.color.unique > 0" v-for="uses,color in sheetStats.color.uniques" :color="color" :uses="uses"></detail-colors>
+                        <stat-header v-if="cedarDiff.color.total > 0" :count="cedarDiff.color.total" :name="''" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-colors v-if="cedarDiff.color.total > 0" v-for="color in cedarDiff.color.data" :color="color" :uses="null"></detail-colors>
+                    </div>
+                </div>
+            </div>
 
-                <!--Background Color-->
-                <stat-header v-if="sheetTotals.backgroundColor.unique" :count="sheetTotals.backgroundColor.unique" :name="'Unique Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
-                <detail-bg-colors v-if="sheetTotals.backgroundColor.unique" v-for="uses,color in sheetStats.backgroundColor.uniques" :color="color" :uses="uses"></detail-bg-colors>
-                <stat-header v-if="cedarDiff.backgroundColor.total > 0" :count="cedarDiff.backgroundColor.total" :name="'Background'" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
-                <detail-bg-colors v-if="cedarDiff.backgroundColor.total > 0" v-for="color in cedarDiff.backgroundColor.data" :color="color" :uses="null"></detail-bg-colors>
-        
-                <!--Font Size-->
-                <stat-header v-if="sheetTotals.fontSize.unique > 0" :count="sheetTotals.fontSize.unique" :name="'Unique Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
-                <detail-text v-if="sheetTotals.fontSize.unique > 0" v-for="uses,text in sheetStats.fontSize.uniques" :value="text" :uses="uses"></detail-text>
-                <stat-header v-if="cedarDiff.fontSize.total > 0" :count="cedarDiff.fontSize.total" :name="'Font'" :after="'not in current cedar'" :plural="'Sizes'" :singular="'Size'"></stat-header>
-                <detail-text v-if="cedarDiff.fontSize.total > 0" v-for="text in cedarDiff.fontSize.data" :value="text" :uses="null"></detail-text>
-        
-                <!--Font Family-->
-                <stat-header v-if="sheetTotals.fontFamily.unique > 0" :count="sheetTotals.fontFamily.unique" :name="'Unique Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
-                <detail-text v-if="sheetTotals.fontFamily.unique > 0" v-for="uses,text in sheetStats.fontFamily.uniques" :value="text" :uses="uses"></detail-text>
-                <stat-header v-if="cedarDiff.fontFamily.total > 0" :count="cedarDiff.fontFamily.total" :name="'Font'" :after="'not in current cedar'" :plural="'Families'" :singular="'Family'"></stat-header>
-                <detail-text v-if="cedarDiff.fontFamily.total > 0" v-for="text in cedarDiff.fontFamily.data" :value="text" :uses="null"></detail-text>
-        
-                <!--Media Queries-->
-                <stat-header v-if="sheetTotals.mediaQueries.unique > 0" :count="sheetTotals.mediaQueries.unique" :name="'Unique Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
-                <detail-text v-if="sheetTotals.mediaQueries.unique > 0" v-for="uses,text in sheetStats.mediaQueries.uniques" :value="text" :uses="uses"></detail-text>
-                <stat-header v-if="cedarDiff.mediaQueries.total > 0" :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
-                <detail-text v-if="cedarDiff.mediaQueries.total > 0" v-for="text in cedarDiff.mediaQueries.data" :value="text" :uses="null"></detail-text>
+            <!--Background Color-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetBgColorCollapse')" data-toggle="showBgColor" :id="computedId('sheetBgColorHeading')" :aria-expanded="showBgColor" @click="toggleCollapse" :aria-controls="computedId('sheetBgColorCollapse')">
+                            Background Colors ({{sheetTotals.backgroundColor.unique}} unique, {{cedarDiff.backgroundColor.total}} not in Cedar)
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showBgColor" class="container">
+                    <div class="row row-flex" :id="computedId('sheetBgColorCollapse')" :aria-labelledby="computedId('sheetBgColorHeading')">
+                        <stat-header v-if="sheetTotals.backgroundColor.unique" :count="sheetTotals.backgroundColor.unique" :name="'Unique Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-bg-colors v-if="sheetTotals.backgroundColor.unique" v-for="uses,color in sheetStats.backgroundColor.uniques" :color="color" :uses="uses"></detail-bg-colors>
+                        <stat-header v-if="cedarDiff.backgroundColor.total > 0" :count="cedarDiff.backgroundColor.total" :name="'Background'" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-bg-colors v-if="cedarDiff.backgroundColor.total > 0" v-for="color in cedarDiff.backgroundColor.data" :color="color" :uses="null"></detail-bg-colors>
+                    </div>
+                </div>
             </div>
-          
-            <div class="col-xs-12" v-if="sheetStats.specificityGraph">
-                <h4 class="label-classification">Specificity Graph</h4>
-                <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
+    
+            <!--Font Size-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetFontSizeCollapse')" data-toggle="showFontSize" :id="computedId('sheetFontSizeHeading')" :aria-expanded="showFontSize" @click="toggleCollapse" :aria-controls="computedId('sheetFontSizeCollapse')">
+                            Font Sizes ({{sheetTotals.fontSize.unique}} unique, {{cedarDiff.fontSize.total}} not in Cedar)
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showFontSize" class="container">
+                    <div class="row row-flex" :id="computedId('sheetFontSizeCollapse')" :aria-labelledby="computedId('sheetFontSizeHeading')">
+                        <stat-header v-if="sheetTotals.fontSize.unique > 0" :count="sheetTotals.fontSize.unique" :name="'Unique Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
+                        <detail-text v-if="sheetTotals.fontSize.unique > 0" v-for="uses,text in sheetStats.fontSize.uniques" :value="text" :uses="uses"></detail-text>
+                        <stat-header v-if="cedarDiff.fontSize.total > 0" :count="cedarDiff.fontSize.total" :name="'Font'" :after="'not in current cedar'" :plural="'Sizes'" :singular="'Size'"></stat-header>
+                        <detail-text v-if="cedarDiff.fontSize.total > 0" v-for="text in cedarDiff.fontSize.data" :value="text" :uses="null"></detail-text>
+                    </div>
+                </div>
             </div>
+    
+            <!--Font Family-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetFontFamilyCollapse')" data-toggle="showFontFamily" :id="computedId('sheetFontFamilyHeading')" :aria-expanded="showFontFamily" @click="toggleCollapse" :aria-controls="computedId('sheetFontFamilyCollapse')">
+                            Font Families ({{sheetTotals.fontFamily.unique}} unique, {{cedarDiff.fontFamily.total}} not in Cedar)
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showFontFamily" class="container">
+                    <div class="row row-flex" :id="computedId('sheetFontFamilyCollapse')" :aria-labelledby="computedId('sheetFontFamilyHeading')">
+                        <stat-header v-if="sheetTotals.fontFamily.unique > 0" :count="sheetTotals.fontFamily.unique" :name="'Unique Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
+                        <detail-text v-if="sheetTotals.fontFamily.unique > 0" v-for="uses,text in sheetStats.fontFamily.uniques" :value="text" :uses="uses"></detail-text>
+                        <stat-header v-if="cedarDiff.fontFamily.total > 0" :count="cedarDiff.fontFamily.total" :name="'Font'" :after="'not in current cedar'" :plural="'Families'" :singular="'Family'"></stat-header>
+                        <detail-text v-if="cedarDiff.fontFamily.total > 0" v-for="text in cedarDiff.fontFamily.data" :value="text" :uses="null"></detail-text>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Media Queries-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a :href="computedId('#sheetMediaQueryCollapse')" data-toggle="showMediaQuery" :id="computedId('sheetMediaQueryHeading')" :aria-expanded="showMediaQuery" @click="toggleCollapse" :aria-controls="computedId('sheetMediaQueryCollapse')">
+                            Media Queries ({{sheetTotals.mediaQueries.unique}} unique, {{cedarDiff.mediaQueries.total}} not in Cedar)
+                        </a>
+                    </h4>
+                </div>
+                <div v-show="showMediaQuery" class="container">
+                    <div class="row row-flex" :id="computedId('sheetMediaQueryCollapse')" :aria-labelledby="computedId('sheetMediaQueryHeading')">
+                        <stat-header v-if="sheetTotals.mediaQueries.unique > 0" :count="sheetTotals.mediaQueries.unique" :name="'Unique Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
+                        <detail-text v-if="sheetTotals.mediaQueries.unique > 0" v-for="uses,text in sheetStats.mediaQueries.uniques" :value="text" :uses="uses"></detail-text>
+                        <stat-header v-if="cedarDiff.mediaQueries.total > 0" :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
+                        <detail-text v-if="cedarDiff.mediaQueries.total > 0" v-for="text in cedarDiff.mediaQueries.data" :value="text" :uses="null"></detail-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-12" v-if="sheetStats.specificityGraph">
+            <h4 class="label-classification">Specificity Graph</h4>
+            <chart :data="sheetStats.specificityGraph" :height="500" :width="1000"></chart>
         </div>
     </div>
 </section>
@@ -60,7 +123,7 @@
 
     export default {
         name: 'sheet',
-        props: [ 'sheetStats', 'allStats', 'cedar' ],
+        props: [ 'sheetStats', 'allStats', 'cedar', 'index' ],
         components: {
             SheetStats,
             StatHeader,
@@ -72,6 +135,11 @@
         data() {
             return {
                 collapsed: true,
+                showColor: false,
+                showBgColor: false,
+                showFontSize: false,
+                showFontFamily: false,
+                showMediaQuery: false,
                 hasData: false
             };
         },
@@ -127,6 +195,14 @@
                 } );
 
                 return returnObj;
+            },
+            toggleCollapse: function ( e ) {
+                e.preventDefault();
+                let toggleVar = e.target.getAttribute( 'data-toggle' );
+                this[ toggleVar ] = !this[ toggleVar ];
+            },
+            computedId: function ( str ) {
+                return `${str}${this.index}`;
             }
         }
     };
