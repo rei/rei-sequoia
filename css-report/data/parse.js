@@ -9,45 +9,23 @@ let data = require( './data.json' );
 // These are also defined in Sheet.vue in case we want different things for Page vs Stylesheet
 let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
 
-function addTotals( totalObj, stats ) {
-    totalObj.size += stats.gzipSize;
-
-    totalObj.rules.total += stats.rules.total;
-
-    totalObj.selectors.total += stats.selectors.total;
-    totalObj.selectors.type += stats.selectors.type;
-    totalObj.selectors.class += stats.selectors.class;
-    totalObj.selectors.id += stats.selectors.id;
-    totalObj.selectors.pseudoClass += stats.selectors.pseudoClass;
-    totalObj.selectors.pseudoElement += stats.selectors.pseudoElement;
-
-    totalObj.declarations.total += stats.declarations.total;
-
-    return totalObj;
-}
-
 function getUniques( statObj, properties ) {
     let returnObj = {};
-    returnObj.id = randomID( 10 );
-    returnObj.name = statObj.name;
-    returnObj.stats = statObj.stats;
-    // returnObj.css = statObj.css;
 
     properties.forEach( ( prop ) => {
         returnObj[ prop ] = {};
         if ( prop === 'fontSize' ) {
             returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontSizes();
-            returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
         } else if ( prop === 'fontFamily' ) {
             returnObj[ prop ].allValues = statObj.stats.declarations.getAllFontFamilies();
-            returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
         } else if ( prop === 'mediaQueries' ) {
             returnObj[ prop ].allValues = statObj.stats.mediaQueries.values;
-            returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
         } else {
             returnObj[ prop ].allValues = statObj.stats.declarations.properties[ _.kebabCase( prop ) ];
-            returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
         }
+
+        returnObj[ prop ].counts = _.countBy( returnObj[ prop ].allValues, _.identity );
+        returnObj[ prop ].total = _.keys( returnObj[ prop ].counts ).length;
     } );
 
     return returnObj;
@@ -68,26 +46,19 @@ function getStats( style, isStyle ) {
     return styleObj;
 }
 
-function parseData( page, links, tags, cedar ) {
-    // set up overview object with things we want a total count of for the page-stats area
-    let overview = {};
-    overview.size = 0;
-    overview.rules = {
-        total: 0
-    };
-    overview.selectors = {
-        total: 0,
-        type: 0,
-        class: 0,
-        id: 0,
-        pseudoClass: 0,
-        pseudoElement: 0
-    };
-    overview.declarations = {
-        total: 0
-    };
+function parseData( data, cedar ) {
+    let page = data.page,
+        links = data.links,
+        tags = data.styles,
+        allCss = data.css;
 
-    // Get CSSStats
+    let overview = {};
+    overview.stats = cssstats( allCss );
+    overview.uniques = getUniques( overview, uniqueProperties );
+    overview.styleSheetsCount = links.length;
+    overview.styleTagsCount = tags.length;
+
+    // Get CSSStats for stylesheets
     let statsArr = [];
     links.forEach( ( link ) => {
         statsArr.push( getStats( link, false ) );
@@ -96,47 +67,52 @@ function parseData( page, links, tags, cedar ) {
         statsArr.push( getStats( tag, true ) );
     } );
 
-    // Get unique stats and build overview data from stats
+    // Get unique properties per stylesheet and build page overview data from stats
     let allStats = [];
     let uniques = {};
     let cedarDiff = {};
     statsArr.forEach( ( statObj ) => {
-        let tempUniques = getUniques( statObj, uniqueProperties );
+
+        let tempUniques = {};
+        tempUniques.stats = statObj;
+        tempUniques.id = randomID( 10 );
+        tempUniques.name = statObj.name;
+        tempUniques.uniques = getUniques( statObj, uniqueProperties );
         tempUniques.specificityGraph = statObj.stats.selectors.getSpecificityGraph();
-        tempUniques.specificityArr = statObj.stats.selectors.getSortedSpecificity();
-        tempUniques.specificity = statObj.stats.selectors.specificity;
-        allStats.push( tempUniques );
+        tempUniques.specificityArr = _.slice( statObj.stats.selectors.getSortedSpecificity(), 0, 10 );
+        tempUniques.cedar = {};
 
         // Parse the unique stats
         uniqueProperties.forEach( ( prop ) => {
-            uniques[ prop ] = _.mergeWith( uniques[ prop ], tempUniques[ prop ].counts, ( objVal, srcVal ) => {
+            uniques[ prop ] = _.mergeWith( uniques[ prop ], tempUniques.uniques[ prop ].counts, ( objVal, srcVal ) => {
                 if ( !objVal ) {
                     objVal = 0;
                 }
                 return objVal + srcVal;
             } );
 
+            // individual sheet diff with Cedar
+            tempUniques.cedar[ prop ] = {};
+            tempUniques.cedar[ prop ].data = _.difference( _.keys( tempUniques.uniques[ prop ].counts ), _.keys( cedar[ prop ].counts ) );
+            tempUniques.cedar[ prop ].total = _.keys( tempUniques.cedar[ prop ].data ).length;
+
+            // total diff with Cedar
             cedarDiff[ prop ] = {};
             cedarDiff[ prop ].data = _.difference( _.keys( uniques[ prop ] ), _.keys( cedar[ prop ].counts ) );
             cedarDiff[ prop ].total = _.keys( cedarDiff[ prop ].data ).length;
 
-            overview[ prop ] = {};
-            overview[ prop ].total = _.keys( uniques[ prop ] ).length;
-            overview[ prop ].diff = cedarDiff[ prop ].total;
+            overview.uniques[ prop ].total = _.keys( uniques[ prop ] ).length;
+            overview.uniques[ prop ].diff = cedarDiff[ prop ].total;
         } );
 
-        overview = addTotals( overview, statObj.stats );
+        allStats.push( tempUniques );
     } );
-
-    overview.styleSheetsCount = links.length;
-    overview.styleTagsCount = tags.length;
 
     // bind to returnObj
     let returnObj = {};
     returnObj.page = page;
     returnObj.overview = overview;
     returnObj.allStats = allStats;
-    returnObj.uniques = uniques;
     returnObj.cedarDiff = cedarDiff;
     returnObj.cedarUniques = cedar;
 
@@ -155,8 +131,9 @@ function main( data, cedarCss ) {
     let sorted = _.sortBy( data, ( d ) => {
         return d.page.id;
     } );
+
     sorted.forEach( ( d ) => {
-        let pageObj = parseData( d.page, d.links, d.styles, cedarUniques );
+        let pageObj = parseData( d, cedarUniques );
         finalArr.push( pageObj );
     } );
 

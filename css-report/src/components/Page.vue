@@ -13,14 +13,14 @@
                 <div class="panel-heading" role="tab">
                     <h3 class="panel-title">
                         <a :href="computedId('#pageColorCollapse')" data-toggle="showColor" :id="computedId('pageColorHeading')" :aria-expanded="showColor" @click="toggleCollapse" :aria-controls="computedId('pageColorCollapse')">
-                            Colors ({{pageTotals.color.total}} Total, {{cedarDiff.color.total}} not in Cedar)
+                            Colors ({{pageTotals.uniques.color.total}} Total, {{cedarDiff.color.total}} not in Cedar)
                         </a>
                     </h3>
                 </div>
                 <div v-show="showColor" class="container" :id="computedId('pageColorCollapse')" :aria-labelledby="computedId('pageColorHeading')">
                     <div class="row row-flex">
-                        <stat-header :count="pageTotals.color.total" :name="''" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
-                        <detail-colors v-for="uses,color in uniques.color" :color="color" :uses="uses"></detail-colors>
+                        <stat-header :count="pageTotals.uniques.color.total" :name="''" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-colors v-for="uses,color in pageTotals.uniques.color.counts" :color="color" :uses="uses"></detail-colors>
 
                         <stat-header :count="cedarDiff.color.total" :name="''" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-colors v-for="color in cedarDiff.color.data" :color="color" :uses="null"></detail-colors>
@@ -33,14 +33,14 @@
                 <div class="panel-heading" role="tab">
                     <h3 class="panel-title">
                         <a :href="computedId('#pageBgColorCollapse')" data-toggle="showBgColor" :id="computedId('pageBgColorHeading')" :aria-expanded="showBgColor" @click="toggleCollapse" :aria-controls="computedId('pageBgColorCollapse')">
-                            Background Colors ({{pageTotals.backgroundColor.total}} Total, {{cedarDiff.backgroundColor.total}} not in Cedar)
+                            Background Colors ({{pageTotals.uniques.backgroundColor.total}} Total, {{cedarDiff.backgroundColor.total}} not in Cedar)
                         </a>
                     </h3>
                 </div>
                 <div v-show="showBgColor" class="container" :id="computedId('pageBgColorCollapse')" :aria-labelledby="computedId('pageBgColorHeading')">
                     <div class="row row-flex">
-                        <stat-header :count="pageTotals.backgroundColor.total" :name="'Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
-                        <detail-bg-colors v-for="uses,color in uniques.backgroundColor" :color="color" :uses="uses"></detail-bg-colors>
+                        <stat-header :count="pageTotals.uniques.backgroundColor.total" :name="'Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
+                        <detail-bg-colors v-for="uses,color in pageTotals.uniques.backgroundColor.counts" :color="color" :uses="uses"></detail-bg-colors>
                         
                         <stat-header :count="cedarDiff.backgroundColor.total" :name="'Background'" :after="'not in current cedar'" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-bg-colors v-for="color in cedarDiff.backgroundColor.data" :color="color" :uses="null"></detail-bg-colors>
@@ -53,14 +53,14 @@
                 <div class="panel-heading" role="tab">
                     <h3 class="panel-title">
                         <a :href="computedId('#pageFontSizeCollapse')" data-toggle="showFontSize" :id="computedId('pageFontSizeHeading')" :aria-expanded="showFontSize" @click="toggleCollapse" :aria-controls="computedId('pageFontSizeCollapse')">
-                            Font Sizes ({{pageTotals.fontSize.total}} Total, {{cedarDiff.fontSize.total}} not in Cedar)
+                            Font Sizes ({{pageTotals.uniques.fontSize.total}} Total, {{cedarDiff.fontSize.total}} not in Cedar)
                         </a>
                     </h3>
                 </div>
                 <div v-show="showFontSize" class="container" :id="computedId('pageFontSizeCollapse')" :aria-labelledby="computedId('pageFontSizeHeading')">
                     <div class="row row-flex">
-                        <stat-header :count="pageTotals.fontSize.total" :name="'Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
-                        <detail-text v-for="uses,value in uniques.fontSize" :value="value" :uses="uses"></detail-text>
+                        <stat-header :count="pageTotals.uniques.fontSize.total" :name="'Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
+                        <detail-text v-for="uses,value in pageTotals.uniques.fontSize.counts" :value="value" :uses="uses"></detail-text>
 
                         <stat-header :count="cedarDiff.fontSize.total" :name="'Font'" :after="'not in current cedar'" :plural="'Sizes'" :singular="'Size'"></stat-header>
                         <detail-text v-for="value in cedarDiff.fontSize.data" :value="value" :uses="null"></detail-text>
@@ -73,14 +73,14 @@
                 <div class="panel-heading" role="tab">
                     <h3 class="panel-title">
                         <a :href="computedId('#pageFontFamilyCollapse')" data-toggle="showFontFamily" :id="computedId('pageFontFamilyHeading')" :aria-expanded="showFontFamily" @click="toggleCollapse" :aria-controls="computedId('pageFontFamilyCollapse')">
-                            Font Families ({{pageTotals.fontFamily.total}} Total, {{cedarDiff.fontFamily.total}} not in Cedar)
+                            Font Families ({{pageTotals.uniques.fontFamily.total}} Total, {{cedarDiff.fontFamily.total}} not in Cedar)
                         </a>
                     </h3>
                 </div>
                 <div v-show="showFontFamily" class="container" :id="computedId('pageFontFamilyCollapse')" :aria-labelledby="computedId('pageFontFamilyHeading')">
                     <div class="row row-flex">
-                        <stat-header :count="pageTotals.fontFamily.total" :name="'Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
-                        <detail-text v-for="uses,value in uniques.fontFamily" :value="value" :uses="uses"></detail-text>
+                        <stat-header :count="pageTotals.uniques.fontFamily.total" :name="'Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
+                        <detail-text v-for="uses,value in pageTotals.uniques.fontFamily.counts" :value="value" :uses="uses"></detail-text>
 
                         <stat-header :count="cedarDiff.fontFamily.total" :name="'Font'" :after="'not in current cedar'" :plural="'Families'" :singular="'Family'"></stat-header>
                         <detail-text v-for="value in cedarDiff.fontFamily.data" :value="value" :uses="null"></detail-text>
@@ -93,14 +93,14 @@
                 <div class="panel-heading" role="tab">
                     <h3 class="panel-title">
                         <a :href="computedId('#pageMediaQueries')" data-toggle="showMediaQuery" :id="computedId('pageMediaQueryHeading')" :aria-expanded="showMediaQuery" @click="toggleCollapse" :aria-controls="computedId('pageMediaQueries')">
-                            Media Queries ({{pageTotals.mediaQueries.total}} Total, {{cedarDiff.mediaQueries.total}} not in Cedar)
+                            Media Queries ({{pageTotals.uniques.mediaQueries.total}} Total, {{cedarDiff.mediaQueries.total}} not in Cedar)
                         </a>
                     </h3>
                 </div>
                 <div v-show="showMediaQuery" class="container" :id="computedId('pageMediaQueries')" :aria-labelledby="computedId('pageMediaQueryHeading')">
                     <div class="row row-flex">
-                        <stat-header :count="pageTotals.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
-                        <detail-text v-for="uses,value in uniques.mediaQueries" :value="value" :uses="uses"></detail-text>
+                        <stat-header :count="pageTotals.uniques.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
+                        <detail-text v-for="uses,value in pageTotals.uniques.mediaQueries.counts" :value="value" :uses="uses"></detail-text>
 
                         <stat-header :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
                         <detail-text v-for="value in cedarDiff.mediaQueries.data" :value="value" :uses="null"></detail-text>
@@ -118,19 +118,19 @@
                     </h3>
                 </div>
                 <div v-show="showSelectorStats" class="panel-body" :id="computedId('pageSelectorStats')" :aria-labelledby="computedId('pageSelectorStatsHeading')">
-                    <p>{{pageTotals.selectors.total}} total selectors consisting of:</p>
+                    <p>{{pageTotals.stats.selectors.total}} total selectors consisting of:</p>
                     <ul>
-                        <li>{{pageTotals.selectors.id}} ID Selector{{pageTotals.selectors.id > 1 ? 's' : ''}}</li>
-                        <li>{{pageTotals.selectors.type}} Type(Element) Selector{{pageTotals.selectors.type > 1 ? 's' : ''}}</li>
-                        <li>{{pageTotals.selectors.class}} Class Selector{{pageTotals.selectors.class > 1 ? 's' : ''}}</li>
-                        <li>{{pageTotals.selectors.pseudoClass}} Pseudo Class Selector{{pageTotals.selectors.pseudoClass > 1 ? 's' : ''}}</li>
-                        <li>{{pageTotals.selectors.pseudoElement}} Pseudo Element Selector{{pageTotals.selectors.pseudoElement > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.stats.selectors.id}} ID Selector{{pageTotals.stats.selectors.id > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.stats.selectors.type}} Type(Element) Selector{{pageTotals.stats.selectors.type > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.stats.selectors.class}} Class Selector{{pageTotals.stats.selectors.class > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.stats.selectors.pseudoClass}} Pseudo Class Selector{{pageTotals.stats.selectors.pseudoClass > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.stats.selectors.pseudoElement}} Pseudo Element Selector{{pageTotals.stats.selectors.pseudoElement > 1 ? 's' : ''}}</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <sheet v-if="!collapsed" v-for="(data, i) in allStats" :index="computedIndex(index, i)" :sheetStats="data" :allStats="allStats" :cedar="cedarUniques"></sheet>
+        <sheet v-if="!collapsed" v-for="(data, i) in allStats" :index="computedIndex(index, i)" :sheetStats="data" :allStats="allStats"></sheet>
     </div>
 </section>
 </template>
