@@ -8,13 +8,20 @@ let data = require( './data.json' );
 
 // These are also defined in Sheet.vue in case we want different things for Page vs Stylesheet
 let uniqueProperties = [ 'color', 'backgroundColor', 'fontSize', 'fontFamily', 'mediaQueries' ]; // Unique properties we want to get details about
-let metrics = [ 'size', 'rules', 'selectors', 'declarations' ]; // Things we want a total count of for the page-stats area
 
-function getTotals( stats, totalObj ) {
+function addTotals( totalObj, stats ) {
     totalObj.size += stats.gzipSize;
-    totalObj.rules += stats.rules.total;
-    totalObj.selectors += stats.selectors.total;
-    totalObj.declarations += stats.declarations.total;
+
+    totalObj.rules.total += stats.rules.total;
+
+    totalObj.selectors.total += stats.selectors.total;
+    totalObj.selectors.type += stats.selectors.type;
+    totalObj.selectors.class += stats.selectors.class;
+    totalObj.selectors.id += stats.selectors.id;
+    totalObj.selectors.pseudoClass += stats.selectors.pseudoClass;
+    totalObj.selectors.pseudoElement += stats.selectors.pseudoElement;
+
+    totalObj.declarations.total += stats.declarations.total;
 
     return totalObj;
 }
@@ -62,11 +69,23 @@ function getStats( style, isStyle ) {
 }
 
 function parseData( page, links, tags, cedar ) {
-    // set up overview object
+    // set up overview object with things we want a total count of for the page-stats area
     let overview = {};
-    metrics.forEach( ( metric ) => {
-        overview[ metric ] = 0;
-    } );
+    overview.size = 0;
+    overview.rules = {
+        total: 0
+    };
+    overview.selectors = {
+        total: 0,
+        type: 0,
+        class: 0,
+        id: 0,
+        pseudoClass: 0,
+        pseudoElement: 0
+    };
+    overview.declarations = {
+        total: 0
+    };
 
     // Get CSSStats
     let statsArr = [];
@@ -106,10 +125,9 @@ function parseData( page, links, tags, cedar ) {
             overview[ prop ].diff = cedarDiff[ prop ].total;
         } );
 
-        overview = getTotals( statObj.stats, overview );
+        overview = addTotals( overview, statObj.stats );
     } );
 
-    // Page Overview Stats
     overview.styleSheetsCount = links.length;
     overview.styleTagsCount = tags.length;
 

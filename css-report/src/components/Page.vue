@@ -17,8 +17,8 @@
                         </a>
                     </h3>
                 </div>
-                <div v-show="showColor" class="container">
-                    <div class="row row-flex" :id="computedId('pageColorCollapse')" :aria-labelledby="computedId('pageColorHeading')">
+                <div v-show="showColor" class="container" :id="computedId('pageColorCollapse')" :aria-labelledby="computedId('pageColorHeading')">
+                    <div class="row row-flex">
                         <stat-header :count="pageTotals.color.total" :name="''" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-colors v-for="uses,color in uniques.color" :color="color" :uses="uses"></detail-colors>
 
@@ -37,8 +37,8 @@
                         </a>
                     </h3>
                 </div>
-                <div v-show="showBgColor" class="container">
-                    <div class="row row-flex" :id="computedId('pageBgColorCollapse')" :aria-labelledby="computedId('pageBgColorHeading')">
+                <div v-show="showBgColor" class="container" :id="computedId('pageBgColorCollapse')" :aria-labelledby="computedId('pageBgColorHeading')">
+                    <div class="row row-flex">
                         <stat-header :count="pageTotals.backgroundColor.total" :name="'Background'" :after="''" :plural="'Colors'" :singular="'Color'"></stat-header>
                         <detail-bg-colors v-for="uses,color in uniques.backgroundColor" :color="color" :uses="uses"></detail-bg-colors>
                         
@@ -57,8 +57,8 @@
                         </a>
                     </h3>
                 </div>
-                <div v-show="showFontSize" class="container">
-                    <div class="row row-flex" :id="computedId('pageFontSizeCollapse')" :aria-labelledby="computedId('pageFontSizeHeading')">
+                <div v-show="showFontSize" class="container" :id="computedId('pageFontSizeCollapse')" :aria-labelledby="computedId('pageFontSizeHeading')">
+                    <div class="row row-flex">
                         <stat-header :count="pageTotals.fontSize.total" :name="'Font'" :after="''" :plural="'Sizes'" :singular="'Size'"></stat-header>
                         <detail-text v-for="uses,value in uniques.fontSize" :value="value" :uses="uses"></detail-text>
 
@@ -77,8 +77,8 @@
                         </a>
                     </h3>
                 </div>
-                <div v-show="showFontFamily" class="container">
-                    <div class="row row-flex" :id="computedId('pageFontFamilyCollapse')" :aria-labelledby="computedId('pageFontFamilyHeading')">
+                <div v-show="showFontFamily" class="container" :id="computedId('pageFontFamilyCollapse')" :aria-labelledby="computedId('pageFontFamilyHeading')">
+                    <div class="row row-flex">
                         <stat-header :count="pageTotals.fontFamily.total" :name="'Font'" :after="''" :plural="'Families'" :singular="'Family'"></stat-header>
                         <detail-text v-for="uses,value in uniques.fontFamily" :value="value" :uses="uses"></detail-text>
 
@@ -97,14 +97,35 @@
                         </a>
                     </h3>
                 </div>
-                <div v-show="showMediaQuery" class="container">
-                    <div class="row row-flex" :id="computedId('pageMediaQueries')" :aria-labelledby="computedId('pageMediaQueryHeading')">
+                <div v-show="showMediaQuery" class="container" :id="computedId('pageMediaQueries')" :aria-labelledby="computedId('pageMediaQueryHeading')">
+                    <div class="row row-flex">
                         <stat-header :count="pageTotals.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
                         <detail-text v-for="uses,value in uniques.mediaQueries" :value="value" :uses="uses"></detail-text>
 
-                        <stat-header :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="''" :plural="'Queries'" :singular="'Query'"></stat-header>
+                        <stat-header :count="cedarDiff.mediaQueries.total" :name="'Media'" :after="'not in current cedar'" :plural="'Queries'" :singular="'Query'"></stat-header>
                         <detail-text v-for="value in cedarDiff.mediaQueries.data" :value="value" :uses="null"></detail-text>
                     </div>
+                </div>
+            </div>
+            
+            <!--Selector Stats-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h3 class="panel-title">
+                        <a :href="computedId('#pageSelectorStats')" data-toggle="showSelectorStats" :id="computedId('pageSelectorStatsHeading')" :aria-expanded="showSelectorStats" @click="toggleCollapse" :aria-controls="computedId('pageSelectorStats')">
+                            Selector Stats
+                        </a>
+                    </h3>
+                </div>
+                <div v-show="showSelectorStats" class="panel-body" :id="computedId('pageSelectorStats')" :aria-labelledby="computedId('pageSelectorStatsHeading')">
+                    <p>{{pageTotals.selectors.total}} total selectors consisting of:</p>
+                    <ul>
+                        <li>{{pageTotals.selectors.id}} ID Selector{{pageTotals.selectors.id > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.selectors.type}} Type(Element) Selector{{pageTotals.selectors.type > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.selectors.class}} Class Selector{{pageTotals.selectors.class > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.selectors.pseudoClass}} Pseudo Class Selector{{pageTotals.selectors.pseudoClass > 1 ? 's' : ''}}</li>
+                        <li>{{pageTotals.selectors.pseudoElement}} Pseudo Element Selector{{pageTotals.selectors.pseudoElement > 1 ? 's' : ''}}</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -140,6 +161,7 @@
                 showFontSize: false,
                 showFontFamily: false,
                 showMediaQuery: false,
+                showSelectorStats: false,
             };
         },
         components: {
