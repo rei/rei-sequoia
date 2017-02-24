@@ -120,6 +120,11 @@
                         <li>{{stats.selectors.pseudoClass}} Pseudo Class Selector{{stats.selectors.pseudoClass > 1 ? 's' : ''}}</li>
                         <li>{{stats.selectors.pseudoElement}} Pseudo Element Selector{{stats.selectors.pseudoElement > 1 ? 's' : ''}}</li>
                     </ul>
+
+                    <!--<p>Repeated selectors:</p>
+                    <ul>
+                        <li v-for="r in sheetStats.repeatSelectors">{{r}}</li>
+                    </ul>-->
                 </div>
             </div>
 

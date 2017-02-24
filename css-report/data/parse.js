@@ -72,19 +72,20 @@ function parseData( data, cedar ) {
     let uniques = {};
     let cedarDiff = {};
     statsArr.forEach( ( statObj ) => {
-
-        let tempUniques = {};
-        tempUniques.stats = statObj;
-        tempUniques.id = randomID( 10 );
-        tempUniques.name = statObj.name;
-        tempUniques.uniques = getUniques( statObj, uniqueProperties );
-        tempUniques.specificityGraph = statObj.stats.selectors.getSpecificityGraph();
-        tempUniques.specificityArr = _.slice( statObj.stats.selectors.getSortedSpecificity(), 0, 10 );
-        tempUniques.cedar = {};
+        // Stylesheet data
+        let sheetData = {};
+        sheetData.stats = statObj;
+        sheetData.id = randomID( 10 );
+        sheetData.name = statObj.name;
+        sheetData.uniques = getUniques( statObj, uniqueProperties );
+        sheetData.specificityGraph = statObj.stats.selectors.getSpecificityGraph();
+        sheetData.specificityArr = _.slice( statObj.stats.selectors.getSortedSpecificity(), 0, 10 );
+        sheetData.repeatSelectors = statObj.stats.selectors.getRepeatedValues();
+        sheetData.cedar = {};
 
         // Parse the unique stats
         uniqueProperties.forEach( ( prop ) => {
-            uniques[ prop ] = _.mergeWith( uniques[ prop ], tempUniques.uniques[ prop ].counts, ( objVal, srcVal ) => {
+            uniques[ prop ] = _.mergeWith( uniques[ prop ], sheetData.uniques[ prop ].counts, ( objVal, srcVal ) => {
                 if ( !objVal ) {
                     objVal = 0;
                 }
@@ -92,9 +93,9 @@ function parseData( data, cedar ) {
             } );
 
             // individual sheet diff with Cedar
-            tempUniques.cedar[ prop ] = {};
-            tempUniques.cedar[ prop ].data = _.difference( _.keys( tempUniques.uniques[ prop ].counts ), _.keys( cedar[ prop ].counts ) );
-            tempUniques.cedar[ prop ].total = _.keys( tempUniques.cedar[ prop ].data ).length;
+            sheetData.cedar[ prop ] = {};
+            sheetData.cedar[ prop ].data = _.difference( _.keys( sheetData.uniques[ prop ].counts ), _.keys( cedar[ prop ].counts ) );
+            sheetData.cedar[ prop ].total = _.keys( sheetData.cedar[ prop ].data ).length;
 
             // total diff with Cedar
             cedarDiff[ prop ] = {};
@@ -105,7 +106,7 @@ function parseData( data, cedar ) {
             overview.uniques[ prop ].diff = cedarDiff[ prop ].total;
         } );
 
-        allStats.push( tempUniques );
+        allStats.push( sheetData );
     } );
 
     // bind to returnObj
