@@ -2,106 +2,112 @@ let getCss = require( 'get-css' ),
     fs = require( 'fs-extra' ),
     request = require( 'request' );
 
-let pageArr = [ {
-        id: 1,
-        description: 'Empty Page (header/footer)',
-        url: 'https://www.rei.com/test'
-    },
-    {
-        id: 2,
-        description: 'Home Page',
-        url: 'https://www.rei.com/'
-    },
-    {
-        id: 3,
-        description: 'Hub Page',
-        url: 'https://www.rei.com/h/camping-and-hiking'
-    },
-    {
-        id: 4,
-        description: 'Search Results',
-        url: 'https://www.rei.com/search.html?q=buff&ir=q%3Abuff&page=1'
-    },
-    {
-        id: 5,
-        description: 'Product Page',
-        url: 'https://www.rei.com/product/691367/buff-original-buff'
-    },
-    {
-        id: 6,
-        description: 'Empty Cart Page',
-        url: 'https://www.rei.com/ShoppingCart'
-    },
-    {
-        id: 7,
-        description: 'Opt-Outside Home Page',
-        url: 'https://www.rei.com/opt-outside'
-    },
-    {
-        id: 8,
-        description: 'Brand Page',
-        url: 'https://www.rei.com/b/rei'
-    },
-    {
-        id: 9,
-        description: 'Garage Home Page',
-        url: 'https://www.rei.com/rei-garage'
-    },
-    {
-        id: 10,
-        description: 'Adventures Home Page',
-        url: 'https://www.rei.com/adventures'
-    },
-    {
-        id: 11,
-        description: 'Expert Advice Landing Page',
-        url: 'https://www.rei.com/learn/expert-advice.html'
-    },
-    {
-        id: 12,
-        description: 'Expert Advice Article Page',
-        url: 'https://www.rei.com/learn/expert-advice/appalachian-gear-list.html'
-    },
-    {
-        id: 13,
-        description: 'Blog Home Page',
-        url: 'http://blog.rei.com/'
-    },
-    {
-        id: 14,
-        description: 'Membership Landing Page',
-        url: 'https://www.rei.com/membership/benefits'
-    },
-    {
-        id: 15,
-        description: 'Learn Landing Page',
-        url: 'https://www.rei.com/learn.html'
-    },
-    {
-        id: 16,
-        description: 'Stewardship Landing Page',
-        url: 'https://www.rei.com/stewardship.html'
-    },
-    {
-        id: 17,
-        description: 'Find a Store Landing Page',
-        url: 'https://www.rei.com/map/store'
-    },
-    {
-        id: 18,
-        description: 'Store Landing Page',
-        url: 'https://www.rei.com/stores/seattle.html'
-    },
-    {
-        id: 19,
-        description: 'Terms of Use',
-        url: 'https://www.rei.com/help/terms-of-use.html'
-    },
-    {
-        id: 20,
-        description: 'Mobile Apps',
-        url: 'https://www.rei.com/mobile.html'
-    }
+let pageArr = [
+  {
+    id: 1,
+    description: "Empty Page (header/footer)",
+    url: "https://www.rei.com/test"
+  },
+  {
+    id: 2,
+    description: "Home Page",
+    url: "https://www.rei.com/"
+  },
+  {
+    id: 3,
+    description: "Hub Page",
+    url: "https://www.rei.com/h/camping-and-hiking"
+  },
+  {
+    id: 4,
+    description: "Search Results",
+    url: "https://www.rei.com/search.html?q=buff&ir=q%3Abuff&page=1"
+  },
+  {
+    id: 5,
+    description: "Product Page -  bikes",
+    url: "https://www.rei.com/product/106331/co-op-cycles-drt-11-bike"
+  },
+  {
+    id: 6,
+    description: "Product Page",
+    url: "https://www.rei.com/product/119945/vuori-performance-jogger-pants-womens"
+  },
+  {
+    id: 7,
+    description: "Empty Cart Page",
+    url: "https://www.rei.com/ShoppingCart"
+  },
+  {
+    id: 8,
+    description: "Opt-Outside Home Page",
+    url: "https://www.rei.com/opt-outside"
+  },
+  {
+    id: 9,
+    description: "Brand Page",
+    url: "https://www.rei.com/b/rei"
+  },
+  {
+    id: 10,
+    description: "Garage Home Page",
+    url: "https://www.rei.com/rei-garage"
+  },
+  {
+    id: 11,
+    description: "Adventures Home Page",
+    url: "https://www.rei.com/adventures"
+  },
+  {
+    id: 12,
+    description: "Expert Advice Landing Page",
+    url: "https://www.rei.com/learn/expert-advice.html"
+  },
+  {
+    id: 13,
+    description: "Expert Advice Article Page",
+    url: "https://www.rei.com/learn/expert-advice/appalachian-gear-list.html"
+  },
+  {
+    id: 14,
+    description: "Blog Home Page",
+    url: "http://blog.rei.com/"
+  },
+  {
+    id: 15,
+    description: "Membership Landing Page",
+    url: "https://www.rei.com/membership/benefits"
+  },
+  {
+    id: 16,
+    description: "Learn Landing Page",
+    url: "https://www.rei.com/learn.html"
+  },
+  {
+    id: 17,
+    description: "Stewardship Landing Page",
+    url: "https://www.rei.com/stewardship.html"
+  },
+  {
+    id: 18,
+    description: "Find a Store Landing Page",
+    url: "https://www.rei.com/map/store"
+  },
+  {
+    id: 19,
+    description: "Store Landing Page",
+    url: "https://www.rei.com/stores/seattle.html"
+  },
+  {
+    id: 20,
+    description: "Terms of Use",
+    url: "https://www.rei.com/help/terms-of-use.html"
+  },
+  {
+    id: 21,
+    description: "Mobile Apps",
+    url: "https://www.rei.com/mobile.html"
+  }
 ];
 
 let getCssOptions = {
