@@ -2,6 +2,10 @@
 
 Created to help with testing font face updates to get an idea of the impact a font change will have.
 
+## Setup
+
+cd to the directory and `npm install`
+
 ## 1. Defining pages to test
 
 Add the `url` and a `label` to the `scenarioConfigs` array defined in `backstop.js`. Each of these will then be constructed in to scenarios for backstopjs to take screenshots of. Viewport sizes can also be defined here.
