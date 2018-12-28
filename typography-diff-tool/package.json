@@ -1,0 +1,18 @@
+{
+  "name": "font-impact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reference": "backstop reference --configPath=backstop.js",
+    "compare": "NODE_ENV=test backstop test --configPath=backstop.js",
+    "approve": "backstop approve --configPath=backstop.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "^3.8.5",
+    "lodash": "^4.17.11"
+  }
+}

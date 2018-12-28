@@ -38,3 +38,8 @@ jspm_packages
 
 .DS_Store
 *.DS_Store
+
+# typography-diff-tool specific
+typography-diff-tool/backstop_data/bitmaps_reference
+typography-diff-tool/backstop_data/bitmaps_test
+typography-diff-tool/backstop_data/html_report
