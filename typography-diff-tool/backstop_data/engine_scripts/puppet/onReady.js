@@ -28,6 +28,10 @@ module.exports = async (page, scenario, vp) => {
 @font-face {
   font-family: "Roboto Condensed";
   src: local(GraphikCond-Regular);
+}
+@font-face {
+  font-family: "Plak Black";
+  src: local(REIStuardBETA-Bold)
 }`
     })
   }
